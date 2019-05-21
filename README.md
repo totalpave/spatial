@@ -1,3 +1,7 @@
+# Spatial
+
+Spatial is a forked copy of TurfJS. Intended to address issues. It will be updated infrequently.
+
 ![turf](https://raw.githubusercontent.com/Turfjs/turf/9a1d5e8d99564d4080f1e2bf1517ed41d18012fa/logo.png)
 ======
 
