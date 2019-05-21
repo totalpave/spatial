@@ -1,0 +1,55 @@
+{
+  "name": "@spatial/flatten",
+  "version": "5.1.5",
+  "description": "turf flatten module",
+  "main": "main.js",
+  "module": "main.es.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "main.js",
+    "main.es.js"
+  ],
+  "scripts": {
+    "pretest": "rollup -c ../../rollup.config.js",
+    "test": "node -r esm test.js",
+    "posttest": "node -r esm ../../scripts/validate-es5-dependencies.js",
+    "bench": "node -r esm bench.js",
+    "docs": "node ../../scripts/generate-readmes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Turfjs/turf.git"
+  },
+  "keywords": [
+    "turf",
+    "geojson",
+    "geography",
+    "gis",
+    "featurecollection"
+  ],
+  "author": "Turf Authors",
+  "contributors": [
+    "Tom MacWright <@tmcw>",
+    "Denis Carriere <@DenisCarriere>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turfjs/turf/issues"
+  },
+  "homepage": "https://github.com/Turfjs/turf",
+  "dependencies": {
+    "@spatial/helpers": "file:../turf-helpers",
+    "@spatial/meta": "file:../turf-meta"
+  },
+  "esm": {
+    "cjs": true
+  },
+  "devDependencies": {
+    "rollup": "*",
+    "tape": "*",
+    "esm": "*",
+    "benchmark": "*"
+  }
+}
