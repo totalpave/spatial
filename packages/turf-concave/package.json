@@ -1,6 +1,6 @@
 {
   "name": "@spatial/concave",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "turf concave module",
   "main": "main.js",
   "module": "main.es.js",
@@ -50,12 +50,12 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/clone": "^1.0.2",
-    "@spatial/distance": "^1.0.2",
-    "@spatial/helpers": "^1.0.2",
-    "@spatial/invariant": "^1.0.2",
-    "@spatial/meta": "^1.0.2",
-    "@spatial/tin": "^1.0.2",
+    "@spatial/clone": "^1.0.3",
+    "@spatial/distance": "^1.0.3",
+    "@spatial/helpers": "^1.0.3",
+    "@spatial/invariant": "^1.0.3",
+    "@spatial/meta": "^1.0.3",
+    "@spatial/tin": "^1.0.3",
     "topojson-client": "3.x",
     "topojson-server": "3.x"
   },

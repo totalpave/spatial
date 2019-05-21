@@ -1,6 +1,6 @@
 {
   "name": "@spatial/voronoi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "turf voronoi module",
   "main": "main.js",
   "module": "main.es.js",
@@ -45,8 +45,8 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/helpers": "^1.0.2",
-    "@spatial/invariant": "^1.0.2",
+    "@spatial/helpers": "^1.0.3",
+    "@spatial/invariant": "^1.0.3",
     "d3-voronoi": "1.1.2"
   },
   "esm": {

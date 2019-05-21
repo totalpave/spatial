@@ -1,6 +1,6 @@
 {
   "name": "@spatial/flip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "turf flip module",
   "main": "main.js",
   "module": "main.es.js",
@@ -38,9 +38,9 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/clone": "^1.0.2",
-    "@spatial/helpers": "^1.0.2",
-    "@spatial/meta": "^1.0.2"
+    "@spatial/clone": "^1.0.3",
+    "@spatial/helpers": "^1.0.3",
+    "@spatial/meta": "^1.0.3"
   },
   "esm": {
     "cjs": true

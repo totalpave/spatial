@@ -1,6 +1,6 @@
 {
   "name": "@spatial/bearing",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "turf bearing module",
   "main": "main.js",
   "module": "main.es.js",
@@ -36,15 +36,15 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/destination": "^1.0.2",
+    "@spatial/destination": "^1.0.3",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/helpers": "^1.0.2",
-    "@spatial/invariant": "^1.0.2"
+    "@spatial/helpers": "^1.0.3",
+    "@spatial/invariant": "^1.0.3"
   },
   "esm": {
     "cjs": true

@@ -1,6 +1,6 @@
 {
   "name": "@spatial/line-arc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "turf line-arc module",
   "main": "main.js",
   "module": "main.es.js",
@@ -36,16 +36,16 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.2",
+    "@spatial/truncate": "^1.0.3",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/circle": "^1.0.2",
-    "@spatial/destination": "^1.0.2",
-    "@spatial/helpers": "^1.0.2"
+    "@spatial/circle": "^1.0.3",
+    "@spatial/destination": "^1.0.3",
+    "@spatial/helpers": "^1.0.3"
   },
   "esm": {
     "cjs": true

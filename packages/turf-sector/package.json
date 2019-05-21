@@ -1,6 +1,6 @@
 {
   "name": "@spatial/sector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "turf sector module",
   "main": "main.js",
   "module": "main.es.js",
@@ -36,18 +36,18 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.2",
+    "@spatial/truncate": "^1.0.3",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/circle": "^1.0.2",
-    "@spatial/helpers": "^1.0.2",
-    "@spatial/invariant": "^1.0.2",
-    "@spatial/line-arc": "^1.0.2",
-    "@spatial/meta": "^1.0.2"
+    "@spatial/circle": "^1.0.3",
+    "@spatial/helpers": "^1.0.3",
+    "@spatial/invariant": "^1.0.3",
+    "@spatial/line-arc": "^1.0.3",
+    "@spatial/meta": "^1.0.3"
   },
   "esm": {
     "cjs": true

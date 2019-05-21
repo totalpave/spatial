@@ -1,6 +1,6 @@
 {
   "name": "@spatial/polygon-smooth",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "turf polygon smooth module",
   "main": "main.js",
   "module": "main.es.js",

@@ -1,6 +1,6 @@
 {
   "name": "@spatial/line-split",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "turf line-split module",
   "main": "main.js",
   "module": "main.es.js",
@@ -42,15 +42,15 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bbox": "^1.0.2",
-    "@spatial/helpers": "^1.0.2",
-    "@spatial/invariant": "^1.0.2",
-    "@spatial/line-intersect": "^1.0.2",
-    "@spatial/line-segment": "^1.0.2",
-    "@spatial/meta": "^1.0.2",
-    "@spatial/nearest-point-on-line": "^1.0.2",
-    "@spatial/square": "^1.0.2",
-    "@spatial/truncate": "^1.0.2",
+    "@spatial/bbox": "^1.0.3",
+    "@spatial/helpers": "^1.0.3",
+    "@spatial/invariant": "^1.0.3",
+    "@spatial/line-intersect": "^1.0.3",
+    "@spatial/line-segment": "^1.0.3",
+    "@spatial/meta": "^1.0.3",
+    "@spatial/nearest-point-on-line": "^1.0.3",
+    "@spatial/square": "^1.0.3",
+    "@spatial/truncate": "^1.0.3",
     "geojson-rbush": "2.1.0"
   },
   "esm": {
