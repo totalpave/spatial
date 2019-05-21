@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-equal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf boolean-equal module",
   "main": "main.js",
   "module": "main.es.js",

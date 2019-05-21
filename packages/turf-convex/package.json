@@ -1,6 +1,6 @@
 {
   "name": "@spatial/convex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf convex module",
   "main": "main.js",
   "module": "main.es.js",

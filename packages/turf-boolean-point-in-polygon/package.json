@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-point-in-polygon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf boolean-point-in-polygon module",
   "main": "main.js",
   "module": "main.es.js",

@@ -1,6 +1,6 @@
 {
   "name": "@spatial/centroid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf centroid module",
   "main": "main.js",
   "module": "main.es.js",

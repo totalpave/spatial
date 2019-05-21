@@ -1,6 +1,6 @@
 {
   "name": "@spatial/midpoint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf midpoint module",
   "main": "main.js",
   "module": "main.es.js",

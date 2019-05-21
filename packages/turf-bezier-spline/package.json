@@ -1,6 +1,6 @@
 {
   "name": "@spatial/bezier-spline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf bezier-spline module",
   "main": "main.js",
   "module": "main.es.js",

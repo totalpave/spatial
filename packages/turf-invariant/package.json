@@ -1,6 +1,6 @@
 {
   "name": "@spatial/invariant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf invariant module",
   "main": "main.js",
   "module": "main.es.js",

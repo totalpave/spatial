@@ -1,6 +1,6 @@
 {
   "name": "@spatial/rhumb-bearing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf rhumb-bearing module",
   "main": "main.js",
   "module": "main.es.js",

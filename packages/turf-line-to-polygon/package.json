@@ -1,6 +1,6 @@
 {
   "name": "@spatial/line-to-polygon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf line-to-polygon module",
   "main": "main.js",
   "module": "main.es.js",

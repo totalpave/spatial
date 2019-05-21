@@ -1,6 +1,6 @@
 {
   "name": "@spatial/clusters-dbscan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf clusters-dbscan module",
   "main": "main.js",
   "module": "main.es.js",
@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/clusters": "^1.0.0",
+    "@spatial/clusters": "^1.0.1",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",

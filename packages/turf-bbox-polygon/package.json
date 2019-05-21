@@ -1,6 +1,6 @@
 {
   "name": "@spatial/bbox-polygon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf bbox-polygon module",
   "main": "main.js",
   "module": "main.es.js",

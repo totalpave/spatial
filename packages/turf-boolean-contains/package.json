@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-contains",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf boolean-contains module",
   "main": "main.js",
   "module": "main.es.js",

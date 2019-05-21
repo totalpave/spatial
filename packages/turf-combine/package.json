@@ -1,6 +1,6 @@
 {
   "name": "@spatial/combine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf combine module",
   "main": "main.js",
   "module": "main.es.js",

@@ -1,6 +1,6 @@
 {
   "name": "@spatial/isobands",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turf isobands module",
   "main": "main.js",
   "module": "main.es.js",
@@ -42,10 +42,10 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/point-grid": "^1.0.0",
-    "@spatial/random": "^1.0.0",
-    "@spatial/rhumb-destination": "^1.0.0",
-    "@spatial/truncate": "^1.0.0",
+    "@spatial/point-grid": "^1.0.1",
+    "@spatial/random": "^1.0.1",
+    "@spatial/rhumb-destination": "^1.0.1",
+    "@spatial/truncate": "^1.0.1",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
