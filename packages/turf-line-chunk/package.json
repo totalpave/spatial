@@ -1,6 +1,6 @@
 {
   "name": "@spatial/line-chunk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "turf line-chunk module",
   "main": "main.js",
   "module": "main.es.js",
@@ -45,17 +45,17 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.3",
+    "@spatial/truncate": "^1.0.4",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/helpers": "^1.0.3",
-    "@spatial/length": "^1.0.3",
-    "@spatial/line-slice-along": "^1.0.3",
-    "@spatial/meta": "^1.0.3"
+    "@spatial/helpers": "^1.0.4",
+    "@spatial/length": "^1.0.4",
+    "@spatial/line-slice-along": "^1.0.4",
+    "@spatial/meta": "^1.0.4"
   },
   "esm": {
     "cjs": true

@@ -1,6 +1,6 @@
 {
   "name": "@spatial/transform-translate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "turf transform-translate module",
   "main": "main.js",
   "module": "main.es.js",
@@ -44,18 +44,18 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.3",
+    "@spatial/truncate": "^1.0.4",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/clone": "^1.0.3",
-    "@spatial/helpers": "^1.0.3",
-    "@spatial/invariant": "^1.0.3",
-    "@spatial/meta": "^1.0.3",
-    "@spatial/rhumb-destination": "^1.0.3"
+    "@spatial/clone": "^1.0.4",
+    "@spatial/helpers": "^1.0.4",
+    "@spatial/invariant": "^1.0.4",
+    "@spatial/meta": "^1.0.4",
+    "@spatial/rhumb-destination": "^1.0.4"
   },
   "esm": {
     "cjs": true

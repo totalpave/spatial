@@ -1,6 +1,6 @@
 {
   "name": "@spatial/buffer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "turf buffer module",
   "main": "main.js",
   "module": "main.es.js",
@@ -46,18 +46,18 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.3",
+    "@spatial/truncate": "^1.0.4",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/bbox": "^1.0.3",
-    "@spatial/center": "^1.0.3",
-    "@spatial/helpers": "^1.0.3",
-    "@spatial/meta": "^1.0.3",
-    "@spatial/projection": "^1.0.3",
+    "@spatial/bbox": "^1.0.4",
+    "@spatial/center": "^1.0.4",
+    "@spatial/helpers": "^1.0.4",
+    "@spatial/meta": "^1.0.4",
+    "@spatial/projection": "^1.0.4",
     "d3-geo": "1.7.1",
     "turf-jsts": "*"
   },

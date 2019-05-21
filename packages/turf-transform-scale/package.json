@@ -1,6 +1,6 @@
 {
   "name": "@spatial/transform-scale",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "turf transform-scale module",
   "main": "main.js",
   "module": "main.es.js",
@@ -46,25 +46,25 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.3",
-    "@spatial/hex-grid": "*",
-    "@spatial/bbox-polygon": "*",
+    "@spatial/bbox-polygon": "^1.0.4",
+    "@spatial/hex-grid": "^1.0.4",
+    "@spatial/truncate": "^1.0.4",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/bbox": "^1.0.3",
-    "@spatial/center": "^1.0.3",
-    "@spatial/centroid": "^1.0.3",
-    "@spatial/clone": "^1.0.3",
-    "@spatial/helpers": "^1.0.3",
-    "@spatial/invariant": "^1.0.3",
-    "@spatial/meta": "^1.0.3",
-    "@spatial/rhumb-bearing": "^1.0.3",
-    "@spatial/rhumb-destination": "^1.0.3",
-    "@spatial/rhumb-distance": "^1.0.3"
+    "@spatial/bbox": "^1.0.4",
+    "@spatial/center": "^1.0.4",
+    "@spatial/centroid": "^1.0.4",
+    "@spatial/clone": "^1.0.4",
+    "@spatial/helpers": "^1.0.4",
+    "@spatial/invariant": "^1.0.4",
+    "@spatial/meta": "^1.0.4",
+    "@spatial/rhumb-bearing": "^1.0.4",
+    "@spatial/rhumb-destination": "^1.0.4",
+    "@spatial/rhumb-distance": "^1.0.4"
   },
   "esm": {
     "cjs": true

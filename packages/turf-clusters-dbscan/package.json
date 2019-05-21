@@ -1,6 +1,6 @@
 {
   "name": "@spatial/clusters-dbscan",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "turf clusters-dbscan module",
   "main": "main.js",
   "module": "main.es.js",
@@ -46,19 +46,19 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/centroid": "*",
-    "@spatial/clusters": "^1.0.3",
+    "@spatial/centroid": "^1.0.4",
+    "@spatial/clusters": "^1.0.4",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/clone": "^1.0.3",
-    "@spatial/distance": "^1.0.3",
-    "@spatial/helpers": "^1.0.3",
-    "@spatial/invariant": "^1.0.3",
-    "@spatial/meta": "^1.0.3",
+    "@spatial/clone": "^1.0.4",
+    "@spatial/distance": "^1.0.4",
+    "@spatial/helpers": "^1.0.4",
+    "@spatial/invariant": "^1.0.4",
+    "@spatial/meta": "^1.0.4",
     "density-clustering": "1.3.0"
   },
   "esm": {

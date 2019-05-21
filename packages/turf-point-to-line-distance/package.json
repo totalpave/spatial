@@ -1,6 +1,6 @@
 {
   "name": "@spatial/point-to-line-distance",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "turf point-to-line-distance module",
   "main": "main.js",
   "module": "main.es.js",
@@ -40,20 +40,20 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bearing": "^1.0.3",
-    "@spatial/distance": "^1.0.3",
-    "@spatial/helpers": "^1.0.3",
-    "@spatial/invariant": "^1.0.3",
-    "@spatial/meta": "^1.0.3",
-    "@spatial/projection": "^1.0.3",
-    "@spatial/rhumb-bearing": "^1.0.3",
-    "@spatial/rhumb-distance": "^1.0.3"
+    "@spatial/bearing": "^1.0.4",
+    "@spatial/distance": "^1.0.4",
+    "@spatial/helpers": "^1.0.4",
+    "@spatial/invariant": "^1.0.4",
+    "@spatial/meta": "^1.0.4",
+    "@spatial/projection": "^1.0.4",
+    "@spatial/rhumb-bearing": "^1.0.4",
+    "@spatial/rhumb-distance": "^1.0.4"
   },
   "esm": {
     "cjs": true
   },
   "devDependencies": {
-    "@spatial/circle": "*",
+    "@spatial/circle": "^1.0.4",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",

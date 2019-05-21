@@ -1,6 +1,6 @@
 {
   "name": "@spatial/combine",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "turf combine module",
   "main": "main.js",
   "module": "main.es.js",
@@ -39,8 +39,8 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/helpers": "^1.0.3",
-    "@spatial/meta": "^1.0.3"
+    "@spatial/helpers": "^1.0.4",
+    "@spatial/meta": "^1.0.4"
   },
   "esm": {
     "cjs": true
