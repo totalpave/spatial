@@ -1,6 +1,6 @@
 {
   "name": "@spatial/polygon-smooth",
-  "version": "5.0.1",
+  "version": "1.0.0",
   "description": "turf polygon smooth module",
   "main": "main.js",
   "module": "main.es.js",
@@ -37,8 +37,8 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "esm": "*",
     "benchmark": "*",
+    "esm": "*",
     "glob": "*",
     "load-json-file": "*",
     "rollup": "*",

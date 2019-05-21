@@ -1,6 +1,6 @@
 {
   "name": "@spatial/line-slice",
-  "version": "5.1.5",
+  "version": "1.0.0",
   "description": "turf line-slice module",
   "main": "main.js",
   "module": "main.es.js",
@@ -38,11 +38,11 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "*",
-    "rollup": "*",
-    "tape": "*",
+    "@spatial/truncate": "^1.0.0",
+    "benchmark": "*",
     "esm": "*",
-    "benchmark": "*"
+    "rollup": "*",
+    "tape": "*"
   },
   "dependencies": {
     "@spatial/helpers": "file:../turf-helpers",

@@ -1,6 +1,6 @@
 {
   "name": "@spatial/dissolve",
-  "version": "5.1.5",
+  "version": "1.0.0",
   "description": "turf dissolve module",
   "main": "main.js",
   "module": "main.es.js",
@@ -51,9 +51,9 @@
     "cjs": true
   },
   "devDependencies": {
-    "rollup": "*",
-    "tape": "*",
+    "benchmark": "*",
     "esm": "*",
-    "benchmark": "*"
+    "rollup": "*",
+    "tape": "*"
   }
 }
