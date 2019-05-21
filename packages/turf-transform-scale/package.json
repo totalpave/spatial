@@ -47,6 +47,8 @@
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
     "@spatial/truncate": "^1.0.3",
+    "@spatial/hex-grid": "*",
+    "@spatial/bbox-polygon": "*",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",

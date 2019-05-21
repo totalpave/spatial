@@ -48,6 +48,7 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
+    "@spatial/bbox-polygon": "*",
     "@spatial/truncate": "^1.0.3",
     "benchmark": "*",
     "esm": "*",

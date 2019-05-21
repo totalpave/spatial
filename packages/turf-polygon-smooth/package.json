@@ -49,8 +49,8 @@
     "write-json-file": "*"
   },
   "dependencies": {
-    "@totalpave/helpers": "5.x",
-    "@totalpave/meta": "5.x"
+    "@spatial/helpers": "1.x",
+    "@spatial/meta": "1.x"
   },
   "esm": {
     "cjs": true

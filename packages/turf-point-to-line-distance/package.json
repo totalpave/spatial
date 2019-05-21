@@ -53,6 +53,7 @@
     "cjs": true
   },
   "devDependencies": {
+    "@spatial/circle": "*",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",

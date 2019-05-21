@@ -50,6 +50,7 @@
     "cjs": true
   },
   "devDependencies": {
+    "@spatial/kinks": "*",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",

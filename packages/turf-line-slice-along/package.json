@@ -46,6 +46,7 @@
     "cjs": true
   },
   "devDependencies": {
+    "@spatial/along": "*",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",

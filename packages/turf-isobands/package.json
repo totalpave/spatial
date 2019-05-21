@@ -49,6 +49,7 @@
     "@spatial/random": "^1.0.3",
     "@spatial/rhumb-destination": "^1.0.3",
     "@spatial/truncate": "^1.0.3",
+    "@spatial/envelope": "*",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",

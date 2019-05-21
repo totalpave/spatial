@@ -45,6 +45,7 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
+    "@spatial/centroid": "*",
     "@spatial/clusters": "^1.0.3",
     "@spatial/random": "^1.0.3",
     "benchmark": "*",

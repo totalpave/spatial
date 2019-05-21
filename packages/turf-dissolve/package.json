@@ -47,7 +47,7 @@
     "@spatial/line-intersect": "^1.0.3",
     "@spatial/meta": "^1.0.3",
     "@spatial/union": "^1.0.3",
-    "geojson-rbush": "2.1.0",
+    "geojson-rbush":"3.1.2",
     "get-closest": "*"
   },
   "esm": {

@@ -51,7 +51,7 @@
     "@spatial/nearest-point-on-line": "^1.0.3",
     "@spatial/square": "^1.0.3",
     "@spatial/truncate": "^1.0.3",
-    "geojson-rbush": "2.1.0"
+    "geojson-rbush":"3.1.2"
   },
   "esm": {
     "cjs": true

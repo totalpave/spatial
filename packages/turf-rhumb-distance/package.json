@@ -53,6 +53,7 @@
     "cjs": true
   },
   "devDependencies": {
+    "@spatial/distance": "*",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",

@@ -32,6 +32,8 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
+    "@spatial/along": "*",
+    "@spatial/length": "*",
     "@spatial/truncate": "^1.0.3",
     "benchmark": "*",
     "esm": "*",
