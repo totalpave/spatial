@@ -12,6 +12,9 @@
     "lib",
     "main.es.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "pretest": "rollup -c ../../rollup.config.js",
     "test": "node -r esm test.js",
@@ -49,5 +52,5 @@
     "rollup": "*",
     "tape": "*"
   },
-  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
+  "gitHead": "0c1f7d6afe18d73d607e0f7633da0262bb90c8e8"
 }
