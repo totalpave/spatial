@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-within",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turf boolean-within module",
   "main": "main.js",
   "module": "main.es.js",
@@ -40,11 +40,11 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bbox": "file:../turf-bbox",
-    "@spatial/boolean-point-in-polygon": "file:../turf-boolean-point-in-polygon",
-    "@spatial/boolean-point-on-line": "file:../turf-boolean-point-on-line",
-    "@spatial/helpers": "file:../turf-helpers",
-    "@spatial/invariant": "file:../turf-invariant"
+    "@spatial/bbox": "^1.0.2",
+    "@spatial/boolean-point-in-polygon": "^1.0.2",
+    "@spatial/boolean-point-on-line": "^1.0.2",
+    "@spatial/helpers": "^1.0.2",
+    "@spatial/invariant": "^1.0.2"
   },
   "esm": {
     "cjs": true
@@ -54,5 +54,6 @@
     "esm": "*",
     "rollup": "*",
     "tape": "*"
-  }
+  },
+  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
 }

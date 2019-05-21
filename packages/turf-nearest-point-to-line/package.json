@@ -1,6 +1,6 @@
 {
   "name": "@spatial/nearest-point-to-line",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turf nearest-point-to-line module",
   "main": "main.js",
   "module": "main.es.js",
@@ -39,19 +39,20 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.1",
+    "@spatial/truncate": "^1.0.2",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/helpers": "file:../turf-helpers",
-    "@spatial/invariant": "file:../turf-invariant",
-    "@spatial/meta": "file:../turf-meta",
-    "@spatial/point-to-line-distance": "file:../turf-point-to-line-distance"
+    "@spatial/helpers": "^1.0.2",
+    "@spatial/invariant": "^1.0.2",
+    "@spatial/meta": "^1.0.2",
+    "@spatial/point-to-line-distance": "^1.0.2"
   },
   "esm": {
     "cjs": true
-  }
+  },
+  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
 }

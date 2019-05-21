@@ -1,6 +1,6 @@
 {
   "name": "@spatial/standard-deviational-ellipse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turf standard-deviational-ellipse module",
   "main": "main.js",
   "module": "main.es.js",
@@ -38,21 +38,22 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.1",
+    "@spatial/truncate": "^1.0.2",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/center-mean": "file:../turf-center-mean",
-    "@spatial/ellipse": "file:../turf-ellipse",
-    "@spatial/helpers": "file:../turf-helpers",
-    "@spatial/invariant": "file:../turf-invariant",
-    "@spatial/meta": "file:../turf-meta",
-    "@spatial/points-within-polygon": "file:../turf-points-within-polygon"
+    "@spatial/center-mean": "^1.0.2",
+    "@spatial/ellipse": "^1.0.2",
+    "@spatial/helpers": "^1.0.2",
+    "@spatial/invariant": "^1.0.2",
+    "@spatial/meta": "^1.0.2",
+    "@spatial/points-within-polygon": "^1.0.2"
   },
   "esm": {
     "cjs": true
-  }
+  },
+  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
 }

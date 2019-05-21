@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-equal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turf boolean-equal module",
   "main": "main.js",
   "module": "main.es.js",
@@ -42,9 +42,9 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/clean-coords": "file:../turf-clean-coords",
-    "@spatial/helpers": "file:../turf-helpers",
-    "@spatial/invariant": "file:../turf-invariant",
+    "@spatial/clean-coords": "^1.0.2",
+    "@spatial/helpers": "^1.0.2",
+    "@spatial/invariant": "^1.0.2",
     "geojson-equality": "0.1.6"
   },
   "esm": {
@@ -55,5 +55,6 @@
     "esm": "*",
     "rollup": "*",
     "tape": "*"
-  }
+  },
+  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
 }

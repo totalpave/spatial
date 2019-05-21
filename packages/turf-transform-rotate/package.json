@@ -1,6 +1,6 @@
 {
   "name": "@spatial/transform-rotate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turf transform-rotate module",
   "main": "main.js",
   "module": "main.es.js",
@@ -39,23 +39,24 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.1",
+    "@spatial/truncate": "^1.0.2",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/centroid": "file:../turf-centroid",
-    "@spatial/clone": "file:../turf-clone",
-    "@spatial/helpers": "file:../turf-helpers",
-    "@spatial/invariant": "file:../turf-invariant",
-    "@spatial/meta": "file:../turf-meta",
-    "@spatial/rhumb-bearing": "file:../turf-rhumb-bearing",
-    "@spatial/rhumb-destination": "file:../turf-rhumb-destination",
-    "@spatial/rhumb-distance": "file:../turf-rhumb-distance"
+    "@spatial/centroid": "^1.0.2",
+    "@spatial/clone": "^1.0.2",
+    "@spatial/helpers": "^1.0.2",
+    "@spatial/invariant": "^1.0.2",
+    "@spatial/meta": "^1.0.2",
+    "@spatial/rhumb-bearing": "^1.0.2",
+    "@spatial/rhumb-destination": "^1.0.2",
+    "@spatial/rhumb-distance": "^1.0.2"
   },
   "esm": {
     "cjs": true
-  }
+  },
+  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
 }

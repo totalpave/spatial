@@ -1,6 +1,6 @@
 {
   "name": "@spatial/random",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turf random module",
   "main": "main.js",
   "module": "main.es.js",
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/helpers": "file:../turf-helpers"
+    "@spatial/helpers": "^1.0.2"
   },
   "esm": {
     "cjs": true
@@ -43,5 +43,6 @@
     "esm": "*",
     "rollup": "*",
     "tape": "*"
-  }
+  },
+  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
 }

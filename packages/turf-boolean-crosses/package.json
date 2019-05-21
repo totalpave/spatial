@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-crosses",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turf boolean-crosses module",
   "main": "main.js",
   "module": "main.es.js",
@@ -39,11 +39,11 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/boolean-point-in-polygon": "file:../turf-boolean-point-in-polygon",
-    "@spatial/helpers": "file:../turf-helpers",
-    "@spatial/invariant": "file:../turf-invariant",
-    "@spatial/line-intersect": "file:../turf-line-intersect",
-    "@spatial/polygon-to-line": "file:../turf-polygon-to-line"
+    "@spatial/boolean-point-in-polygon": "^1.0.2",
+    "@spatial/helpers": "^1.0.2",
+    "@spatial/invariant": "^1.0.2",
+    "@spatial/line-intersect": "^1.0.2",
+    "@spatial/polygon-to-line": "^1.0.2"
   },
   "esm": {
     "cjs": true
@@ -53,5 +53,6 @@
     "esm": "*",
     "rollup": "*",
     "tape": "*"
-  }
+  },
+  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
 }

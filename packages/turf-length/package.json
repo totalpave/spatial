@@ -1,6 +1,6 @@
 {
   "name": "@spatial/length",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turf length module",
   "main": "main.js",
   "module": "main.es.js",
@@ -41,9 +41,9 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/distance": "file:../turf-distance",
-    "@spatial/helpers": "file:../turf-helpers",
-    "@spatial/meta": "file:../turf-meta"
+    "@spatial/distance": "^1.0.2",
+    "@spatial/helpers": "^1.0.2",
+    "@spatial/meta": "^1.0.2"
   },
   "esm": {
     "cjs": true
@@ -53,5 +53,6 @@
     "esm": "*",
     "rollup": "*",
     "tape": "*"
-  }
+  },
+  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
 }

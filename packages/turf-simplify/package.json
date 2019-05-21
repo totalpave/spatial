@@ -1,6 +1,6 @@
 {
   "name": "@spatial/simplify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turf simplify module",
   "main": "main.js",
   "module": "main.es.js",
@@ -42,19 +42,20 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.1",
+    "@spatial/truncate": "^1.0.2",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/clean-coords": "file:../turf-clean-coords",
-    "@spatial/clone": "file:../turf-clone",
-    "@spatial/helpers": "file:../turf-helpers",
-    "@spatial/meta": "file:../turf-meta"
+    "@spatial/clean-coords": "^1.0.2",
+    "@spatial/clone": "^1.0.2",
+    "@spatial/helpers": "^1.0.2",
+    "@spatial/meta": "^1.0.2"
   },
   "esm": {
     "cjs": true
-  }
+  },
+  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
 }

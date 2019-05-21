@@ -1,6 +1,6 @@
 {
   "name": "@spatial/line-overlap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turf line-overlap module",
   "main": "main.js",
   "module": "main.es.js",
@@ -40,12 +40,12 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/boolean-point-on-line": "file:../turf-boolean-point-on-line",
-    "@spatial/helpers": "file:../turf-helpers",
-    "@spatial/invariant": "file:../turf-invariant",
-    "@spatial/line-segment": "file:../turf-line-segment",
-    "@spatial/meta": "file:../turf-meta",
-    "@spatial/nearest-point-on-line": "file:../turf-nearest-point-on-line",
+    "@spatial/boolean-point-on-line": "^1.0.2",
+    "@spatial/helpers": "^1.0.2",
+    "@spatial/invariant": "^1.0.2",
+    "@spatial/line-segment": "^1.0.2",
+    "@spatial/meta": "^1.0.2",
+    "@spatial/nearest-point-on-line": "^1.0.2",
     "geojson-rbush": "2.1.0"
   },
   "esm": {
@@ -56,5 +56,6 @@
     "esm": "*",
     "rollup": "*",
     "tape": "*"
-  }
+  },
+  "gitHead": "0c5532b9d9147f9c4acd638b51dca2d15b958d7c"
 }
