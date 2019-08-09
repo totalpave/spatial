@@ -1,6 +1,6 @@
 {
   "name": "@spatial/line-intersect",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf line-intersect module",
   "main": "main.js",
   "module": "main.es.js",
@@ -43,17 +43,17 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.4",
+    "@spatial/truncate": "^1.0.5",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/helpers": "^1.0.4",
-    "@spatial/invariant": "^1.0.4",
-    "@spatial/line-segment": "^1.0.4",
-    "@spatial/meta": "^1.0.4",
+    "@spatial/helpers": "^1.0.5",
+    "@spatial/invariant": "^1.0.5",
+    "@spatial/line-segment": "^1.0.5",
+    "@spatial/meta": "^1.0.5",
     "geojson-rbush": "3.1.2"
   },
   "esm": {

@@ -1,6 +1,6 @@
 {
   "name": "@spatial/ellipse",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf ellipse module",
   "main": "main.js",
   "module": "main.es.js",
@@ -39,19 +39,19 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/bbox-polygon": "^1.0.4",
-    "@spatial/circle": "^1.0.4",
-    "@spatial/truncate": "^1.0.4",
+    "@spatial/bbox-polygon": "^1.0.5",
+    "@spatial/circle": "^1.0.5",
+    "@spatial/truncate": "^1.0.5",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/helpers": "^1.0.4",
-    "@spatial/invariant": "^1.0.4",
-    "@spatial/rhumb-destination": "^1.0.4",
-    "@spatial/transform-rotate": "^1.0.4"
+    "@spatial/helpers": "^1.0.5",
+    "@spatial/invariant": "^1.0.5",
+    "@spatial/rhumb-destination": "^1.0.5",
+    "@spatial/transform-rotate": "^1.0.5"
   },
   "esm": {
     "cjs": true

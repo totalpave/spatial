@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-disjoint",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf boolean-disjoint module",
   "main": "main.js",
   "module": "main.es.js",
@@ -42,11 +42,11 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/boolean-point-in-polygon": "^1.0.4",
-    "@spatial/helpers": "^1.0.4",
-    "@spatial/line-intersect": "^1.0.4",
-    "@spatial/meta": "^1.0.4",
-    "@spatial/polygon-to-line": "^1.0.4"
+    "@spatial/boolean-point-in-polygon": "^1.0.5",
+    "@spatial/helpers": "^1.0.5",
+    "@spatial/line-intersect": "^1.0.5",
+    "@spatial/meta": "^1.0.5",
+    "@spatial/polygon-to-line": "^1.0.5"
   },
   "esm": {
     "cjs": true

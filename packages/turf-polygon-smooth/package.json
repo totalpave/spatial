@@ -1,6 +1,6 @@
 {
   "name": "@spatial/polygon-smooth",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf polygon smooth module",
   "main": "main.js",
   "module": "main.es.js",
@@ -49,8 +49,8 @@
     "write-json-file": "*"
   },
   "dependencies": {
-    "@spatial/helpers": "^1.0.4",
-    "@spatial/meta": "^1.0.4"
+    "@spatial/helpers": "^1.0.5",
+    "@spatial/meta": "^1.0.5"
   },
   "esm": {
     "cjs": true

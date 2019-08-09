@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-contains",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf boolean-contains module",
   "main": "main.js",
   "module": "main.es.js",
@@ -42,11 +42,11 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bbox": "^1.0.4",
-    "@spatial/boolean-point-in-polygon": "^1.0.4",
-    "@spatial/boolean-point-on-line": "^1.0.4",
-    "@spatial/helpers": "^1.0.4",
-    "@spatial/invariant": "^1.0.4"
+    "@spatial/bbox": "^1.0.5",
+    "@spatial/boolean-point-in-polygon": "^1.0.5",
+    "@spatial/boolean-point-on-line": "^1.0.5",
+    "@spatial/helpers": "^1.0.5",
+    "@spatial/invariant": "^1.0.5"
   },
   "esm": {
     "cjs": true

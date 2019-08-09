@@ -1,6 +1,6 @@
 {
   "name": "@spatial/unkink-polygon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf unkink-polygon module",
   "main": "main.js",
   "module": "main.es.js",
@@ -40,17 +40,17 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/area": "^1.0.4",
-    "@spatial/boolean-point-in-polygon": "^1.0.4",
-    "@spatial/helpers": "^1.0.4",
-    "@spatial/meta": "^1.0.4",
+    "@spatial/area": "^1.0.5",
+    "@spatial/boolean-point-in-polygon": "^1.0.5",
+    "@spatial/helpers": "^1.0.5",
+    "@spatial/meta": "^1.0.5",
     "rbush": "^2.0.1"
   },
   "esm": {
     "cjs": true
   },
   "devDependencies": {
-    "@spatial/kinks": "^1.0.4",
+    "@spatial/kinks": "^1.0.5",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",

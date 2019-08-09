@@ -1,6 +1,6 @@
 {
   "name": "@spatial/flatten",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf flatten module",
   "main": "main.js",
   "module": "main.es.js",
@@ -43,8 +43,8 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/helpers": "^1.0.4",
-    "@spatial/meta": "^1.0.4"
+    "@spatial/helpers": "^1.0.5",
+    "@spatial/meta": "^1.0.5"
   },
   "esm": {
     "cjs": true

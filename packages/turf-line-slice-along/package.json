@@ -1,6 +1,6 @@
 {
   "name": "@spatial/line-slice-along",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf line-slice-along module",
   "main": "main.js",
   "module": "main.es.js",
@@ -37,16 +37,16 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bearing": "^1.0.4",
-    "@spatial/destination": "^1.0.4",
-    "@spatial/distance": "^1.0.4",
-    "@spatial/helpers": "^1.0.4"
+    "@spatial/bearing": "^1.0.5",
+    "@spatial/destination": "^1.0.5",
+    "@spatial/distance": "^1.0.5",
+    "@spatial/helpers": "^1.0.5"
   },
   "esm": {
     "cjs": true
   },
   "devDependencies": {
-    "@spatial/along": "^1.0.4",
+    "@spatial/along": "^1.0.5",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",

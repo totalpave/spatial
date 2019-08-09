@@ -1,6 +1,6 @@
 {
   "name": "@spatial/center-median",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf center-median module",
   "main": "main.js",
   "module": "main.es.js",
@@ -39,21 +39,21 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/center": "^1.0.4",
-    "@spatial/center-of-mass": "^1.0.4",
-    "@spatial/random": "^1.0.4",
-    "@spatial/truncate": "^1.0.4",
+    "@spatial/center": "^1.0.5",
+    "@spatial/center-of-mass": "^1.0.5",
+    "@spatial/random": "^1.0.5",
+    "@spatial/truncate": "^1.0.5",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/center-mean": "^1.0.4",
-    "@spatial/centroid": "^1.0.4",
-    "@spatial/distance": "^1.0.4",
-    "@spatial/helpers": "^1.0.4",
-    "@spatial/meta": "^1.0.4"
+    "@spatial/center-mean": "^1.0.5",
+    "@spatial/centroid": "^1.0.5",
+    "@spatial/distance": "^1.0.5",
+    "@spatial/helpers": "^1.0.5",
+    "@spatial/meta": "^1.0.5"
   },
   "esm": {
     "cjs": true

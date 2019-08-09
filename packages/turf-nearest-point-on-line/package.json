@@ -1,6 +1,6 @@
 {
   "name": "@spatial/nearest-point-on-line",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf nearest-point-on-line module",
   "main": "main.js",
   "module": "main.es.js",
@@ -32,22 +32,22 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/along": "^1.0.4",
-    "@spatial/length": "^1.0.4",
-    "@spatial/truncate": "^1.0.4",
+    "@spatial/along": "^1.0.5",
+    "@spatial/length": "^1.0.5",
+    "@spatial/truncate": "^1.0.5",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/bearing": "^1.0.4",
-    "@spatial/destination": "^1.0.4",
-    "@spatial/distance": "^1.0.4",
-    "@spatial/helpers": "^1.0.4",
-    "@spatial/invariant": "^1.0.4",
-    "@spatial/line-intersect": "^1.0.4",
-    "@spatial/meta": "^1.0.4"
+    "@spatial/bearing": "^1.0.5",
+    "@spatial/destination": "^1.0.5",
+    "@spatial/distance": "^1.0.5",
+    "@spatial/helpers": "^1.0.5",
+    "@spatial/invariant": "^1.0.5",
+    "@spatial/line-intersect": "^1.0.5",
+    "@spatial/meta": "^1.0.5"
   },
   "esm": {
     "cjs": true

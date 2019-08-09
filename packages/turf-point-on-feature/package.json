@@ -1,6 +1,6 @@
 {
   "name": "@spatial/point-on-feature",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "turf point-on-feature module",
   "main": "main.js",
   "module": "main.es.js",
@@ -40,20 +40,20 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/meta": "^1.0.4",
-    "@spatial/transform-scale": "^1.0.4",
-    "@spatial/truncate": "^1.0.4",
+    "@spatial/meta": "^1.0.5",
+    "@spatial/transform-scale": "^1.0.5",
+    "@spatial/truncate": "^1.0.5",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/boolean-point-in-polygon": "^1.0.4",
-    "@spatial/center": "^1.0.4",
-    "@spatial/explode": "^1.0.4",
-    "@spatial/helpers": "^1.0.4",
-    "@spatial/nearest-point": "^1.0.4"
+    "@spatial/boolean-point-in-polygon": "^1.0.5",
+    "@spatial/center": "^1.0.5",
+    "@spatial/explode": "^1.0.5",
+    "@spatial/helpers": "^1.0.5",
+    "@spatial/nearest-point": "^1.0.5"
   },
   "esm": {
     "cjs": true
