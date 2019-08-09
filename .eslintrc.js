@@ -15,6 +15,7 @@ module.exports = {
     }],
     'prefer-spread': [0],
     'prefer-const': [0],
-    'no-var': [0]
+    'no-var': [0],
+    'no-prototype-builtins': [0]
   }
 };
