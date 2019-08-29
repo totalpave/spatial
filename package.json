@@ -66,7 +66,7 @@
     "d3-queue": "3.0.7",
     "decamelize": "3.2.0",
     "documentation": "11.0.1",
-    "eslint": "6.0.1",
+    "eslint": "6.2.2",
     "eslint-config-mourner": "3.0.0",
     "esm": "^3.2.25",
     "fs-extra": "8.1.0",
@@ -86,7 +86,7 @@
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-terser": "^4.0.4",
     "tape": "4.11.0",
-    "typescript": "3.5.2",
+    "typescript": "3.6.2",
     "write-json-file": "4.1.1",
     "yamljs": "0.3.0"
   },
