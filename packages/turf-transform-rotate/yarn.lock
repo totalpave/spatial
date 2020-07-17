@@ -2,6 +2,72 @@
 # yarn lockfile v1
 
 
+"@spatial/centroid@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/centroid/-/centroid-1.0.5.tgz#cb54133eb0ab0347dee32814ea02211683bc51e8"
+  integrity sha512-cwzNfTs7aFVii86sSuwTsNFLew6y/yi9SeyXwekmGg1/FiQej6S32GHNbDZLo8B1xFiIkUhU0/86zu4XIiVvYA==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/meta" "^1.0.5"
+
+"@spatial/clone@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/clone/-/clone-1.0.5.tgz#5c7de0cee83ced43c2ae9acd8d5411f8f8e48ff4"
+  integrity sha512-FssB4esvBmxL/JGZqLzRCX5GGRT156xBty4/Q7irB8uoLo2HDear6+1hnJIPve3XhNwrOp8L1WLM7La70F0uwA==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/helpers@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/helpers/-/helpers-1.0.5.tgz#b141f2c5ad66b5557e7ee57659caf1766bf7fb32"
+  integrity sha512-As4wwxRS4+kemQNYMH/ClSH+xBKnJUBZIq7XQbi2gEnqa0kCsoqlA13YRvgIdZcRvHBkbvw3uwneq6XLCA4C5Q==
+
+"@spatial/invariant@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/invariant/-/invariant-1.0.5.tgz#a7022d71289f3a8b58f5bfba0b75934116b6455c"
+  integrity sha512-8DLwewc4phdXGAATGePXzo1p1g0KjGgud2jbnwBVbNxSDN8QiqRI+gFKXV6J2rzGJs5wFw1m6yvqlrzEmUMTMA==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/meta@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/meta/-/meta-1.0.5.tgz#b632bc7ecdd739cebc94a2a54ffb04e2f0d2dfe0"
+  integrity sha512-ydrAGdgNnTSIbBcYPKTkRPt7FiPXSxOmd5o2IwaTgEryxwF+h3iERQMYqgDHBkaCc5o+dGtzer+qckzY9rK/ZQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/rhumb-bearing@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/rhumb-bearing/-/rhumb-bearing-1.0.5.tgz#2fa454171f19f8d0fc93d6ae5bdd9566e1661448"
+  integrity sha512-pkDCL6btIj/72zxlj7QrexMhZI3nvF8exm2zeZYLRc7jbSH+yQnhwUSQfil+X07LNdWwinsKfLqiimSKMQs77w==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+
+"@spatial/rhumb-destination@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/rhumb-destination/-/rhumb-destination-1.0.5.tgz#b00f3c0c37a7b47cd9e4ab51525cbe8d6a5d2f7e"
+  integrity sha512-xMCO0eDZpL2MOcR+oeZ9Wsib84KDuhB+qAb2oiyHcHAE3N/mJh4VDCain/yt8XxHCKUGXn+vpo5kZaWvVVBg7w==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+
+"@spatial/rhumb-distance@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/rhumb-distance/-/rhumb-distance-1.0.5.tgz#684425f7e5b2bd0bdac2fd665a47e9949d6a41ba"
+  integrity sha512-C4A1ONkGKYsViygqz9puvf3J0/8DaFzxvwTEq7KNNeNJYBmx+tyXxE4pU9E+GEiGrSBSCrNJ5tPa46JV+J6EHA==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+
+"@spatial/truncate@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/truncate/-/truncate-1.0.5.tgz#9fdc28975efd43939260f44e07fbc8855201223a"
+  integrity sha512-CFs6ySGL0EmG63LyuBbXk8jZNP90QYLgauCeyifVi4sXW5vS1wYWLOXDpj7ccaSMSro1E/zmvhwyQNC8NGMbpw==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/meta" "^1.0.5"
+
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
@@ -165,9 +231,9 @@ is-symbol@^1.0.2:
     has-symbols "^1.0.0"
 
 lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 minimatch@^3.0.4:
   version "3.0.4"

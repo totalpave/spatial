@@ -2,6 +2,106 @@
 # yarn lockfile v1
 
 
+"@spatial/bbox@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/bbox/-/bbox-1.0.5.tgz#d7f8847e0610a3cb78eeeb502bc569b45d16c846"
+  integrity sha512-oKd+cYQQKJGmXhzSWHbGzyHqvBSd+Ozj+eJ9adzJMadTGb6/ZnX/DcJMLbkrHXdwmNxooHiGrbi5rf9mUa75wQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/meta" "^1.0.5"
+
+"@spatial/bearing@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/bearing/-/bearing-1.0.5.tgz#7783e06642237a4645d1acf20688da5498691455"
+  integrity sha512-37X7sQmxyjQj4KNvcOUAlxdlhiggmGBZ0KRwd/fbz7dwUROnDb9IqTvOYEY1HbErAwcq/gJE9X6CdbGYSyAjNw==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+
+"@spatial/destination@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/destination/-/destination-1.0.5.tgz#e7027ba92139205a614f1fa63678fc87ad7b8275"
+  integrity sha512-g4VC9ertx+qt91Ai3YGMq07Mrh+bfD+vr4aEezvwzaBaJiwADnV2YxyRP5l8BwMaFoqYUFOdyWI7jJnXOMe2bQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+
+"@spatial/distance@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/distance/-/distance-1.0.5.tgz#48f0b4529cddceb95491be7463407a225f400b7a"
+  integrity sha512-kgqr+Cfh5w430+pMeR84fb9/JqSW/Y9KjyD3goCFJm2F2TI4xOcYb5SKMyjdx3U8Hl78h0fGsRNNyZ48Ska2GQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+
+"@spatial/helpers@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/helpers/-/helpers-1.0.5.tgz#b141f2c5ad66b5557e7ee57659caf1766bf7fb32"
+  integrity sha512-As4wwxRS4+kemQNYMH/ClSH+xBKnJUBZIq7XQbi2gEnqa0kCsoqlA13YRvgIdZcRvHBkbvw3uwneq6XLCA4C5Q==
+
+"@spatial/invariant@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/invariant/-/invariant-1.0.5.tgz#a7022d71289f3a8b58f5bfba0b75934116b6455c"
+  integrity sha512-8DLwewc4phdXGAATGePXzo1p1g0KjGgud2jbnwBVbNxSDN8QiqRI+gFKXV6J2rzGJs5wFw1m6yvqlrzEmUMTMA==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/line-intersect@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/line-intersect/-/line-intersect-1.0.5.tgz#d4adb03fd83238bfbe54cedf7bf61d50e6b0e7f4"
+  integrity sha512-fRPFProjpNa2HJ3Ax3ViVPMvWO4AqWnHg+9e66JfEZVgGH7t866tBeTzX+vqpEL+YxNW+mDk72mUpIaj5sg4yQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+    "@spatial/line-segment" "^1.0.5"
+    "@spatial/meta" "^1.0.5"
+    geojson-rbush "3.1.2"
+
+"@spatial/line-segment@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/line-segment/-/line-segment-1.0.5.tgz#ec9f00acfafa13efc607fc5d892553f4647df784"
+  integrity sha512-8pkLuDql3E6AIwBC5lSXbXomxeERy7HpRFaebNpdeO1AowcdA7+bvEXzUpLtH70nm5hsavUy2Tz1o0Tlb+S0iQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+    "@spatial/meta" "^1.0.5"
+
+"@spatial/meta@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/meta/-/meta-1.0.5.tgz#b632bc7ecdd739cebc94a2a54ffb04e2f0d2dfe0"
+  integrity sha512-ydrAGdgNnTSIbBcYPKTkRPt7FiPXSxOmd5o2IwaTgEryxwF+h3iERQMYqgDHBkaCc5o+dGtzer+qckzY9rK/ZQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/nearest-point-on-line@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/nearest-point-on-line/-/nearest-point-on-line-1.0.5.tgz#5f13947f73a06d5b7405d6b7f2d88990e99baa78"
+  integrity sha512-4DhX6KojKeRNMNu+oIgLDP+OgMYcF0vL1ktYRd3msDIs3eisPOftkUYhMjOC03RyMV1C7CLJkNm90hTA/iBJeg==
+  dependencies:
+    "@spatial/bearing" "^1.0.5"
+    "@spatial/destination" "^1.0.5"
+    "@spatial/distance" "^1.0.5"
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+    "@spatial/line-intersect" "^1.0.5"
+    "@spatial/meta" "^1.0.5"
+
+"@spatial/square@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/square/-/square-1.0.5.tgz#2ae97b85453869a7cf997f287f028cb57120f06b"
+  integrity sha512-9hgaSM7V2WuKD1Est6BIGxT74ZHOJ8sHC3Sm67g4+VFFLkxhgFOl+6E2XbEAnBibsfCiRKM1n6JshEIRw7qMjQ==
+  dependencies:
+    "@spatial/distance" "^1.0.5"
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/truncate@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/truncate/-/truncate-1.0.5.tgz#9fdc28975efd43939260f44e07fbc8855201223a"
+  integrity sha512-CFs6ySGL0EmG63LyuBbXk8jZNP90QYLgauCeyifVi4sXW5vS1wYWLOXDpj7ccaSMSro1E/zmvhwyQNC8NGMbpw==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/meta" "^1.0.5"
+
 "@turf/bbox@*":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@turf/bbox/-/bbox-6.0.1.tgz#b966075771475940ee1c16be2a12cf389e6e923a"
@@ -195,9 +295,9 @@ is-symbol@^1.0.2:
     has-symbols "^1.0.0"
 
 lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 minimatch@^3.0.4:
   version "3.0.4"

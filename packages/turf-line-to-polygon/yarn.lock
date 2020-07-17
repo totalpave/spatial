@@ -2,6 +2,33 @@
 # yarn lockfile v1
 
 
+"@spatial/bbox@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/bbox/-/bbox-1.0.5.tgz#d7f8847e0610a3cb78eeeb502bc569b45d16c846"
+  integrity sha512-oKd+cYQQKJGmXhzSWHbGzyHqvBSd+Ozj+eJ9adzJMadTGb6/ZnX/DcJMLbkrHXdwmNxooHiGrbi5rf9mUa75wQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/meta" "^1.0.5"
+
+"@spatial/helpers@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/helpers/-/helpers-1.0.5.tgz#b141f2c5ad66b5557e7ee57659caf1766bf7fb32"
+  integrity sha512-As4wwxRS4+kemQNYMH/ClSH+xBKnJUBZIq7XQbi2gEnqa0kCsoqlA13YRvgIdZcRvHBkbvw3uwneq6XLCA4C5Q==
+
+"@spatial/invariant@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/invariant/-/invariant-1.0.5.tgz#a7022d71289f3a8b58f5bfba0b75934116b6455c"
+  integrity sha512-8DLwewc4phdXGAATGePXzo1p1g0KjGgud2jbnwBVbNxSDN8QiqRI+gFKXV6J2rzGJs5wFw1m6yvqlrzEmUMTMA==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/meta@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/meta/-/meta-1.0.5.tgz#b632bc7ecdd739cebc94a2a54ffb04e2f0d2dfe0"
+  integrity sha512-ydrAGdgNnTSIbBcYPKTkRPt7FiPXSxOmd5o2IwaTgEryxwF+h3iERQMYqgDHBkaCc5o+dGtzer+qckzY9rK/ZQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
@@ -165,9 +192,9 @@ is-symbol@^1.0.2:
     has-symbols "^1.0.0"
 
 lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 minimatch@^3.0.4:
   version "3.0.4"

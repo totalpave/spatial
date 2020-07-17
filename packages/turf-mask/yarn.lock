@@ -2,6 +2,34 @@
 # yarn lockfile v1
 
 
+"@spatial/bbox@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/bbox/-/bbox-1.0.5.tgz#d7f8847e0610a3cb78eeeb502bc569b45d16c846"
+  integrity sha512-oKd+cYQQKJGmXhzSWHbGzyHqvBSd+Ozj+eJ9adzJMadTGb6/ZnX/DcJMLbkrHXdwmNxooHiGrbi5rf9mUa75wQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/meta" "^1.0.5"
+
+"@spatial/helpers@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/helpers/-/helpers-1.0.5.tgz#b141f2c5ad66b5557e7ee57659caf1766bf7fb32"
+  integrity sha512-As4wwxRS4+kemQNYMH/ClSH+xBKnJUBZIq7XQbi2gEnqa0kCsoqlA13YRvgIdZcRvHBkbvw3uwneq6XLCA4C5Q==
+
+"@spatial/meta@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/meta/-/meta-1.0.5.tgz#b632bc7ecdd739cebc94a2a54ffb04e2f0d2dfe0"
+  integrity sha512-ydrAGdgNnTSIbBcYPKTkRPt7FiPXSxOmd5o2IwaTgEryxwF+h3iERQMYqgDHBkaCc5o+dGtzer+qckzY9rK/ZQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/union@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/union/-/union-1.0.5.tgz#41ce4500006895b624808b41e9c1eb46a42141bf"
+  integrity sha512-8WNsY5Lv96cSvYL/lHeCLU7aouJWPxpdMABe4MvHy8vxuOAENE31jmI4+9oHzkOZhn+CgPytW4Huwe0H8DLiVg==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    turf-jsts "*"
+
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
@@ -165,9 +193,9 @@ is-symbol@^1.0.2:
     has-symbols "^1.0.0"
 
 lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -280,6 +308,11 @@ through@~2.3.4, through@~2.3.8:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+
+turf-jsts@*:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/turf-jsts/-/turf-jsts-1.2.3.tgz#59757f542afbff9a577bbf411f183b8f48d38aa4"
+  integrity sha512-Ja03QIJlPuHt4IQ2FfGex4F4JAr8m3jpaHbFbQrgwr7s7L6U8ocrHiF3J1+wf9jzhGKxvDeaCAnGDot8OjGFyA==
 
 wrappy@1:
   version "1.0.2"

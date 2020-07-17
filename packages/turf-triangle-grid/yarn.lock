@@ -2,6 +2,67 @@
 # yarn lockfile v1
 
 
+"@spatial/bbox-polygon@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/bbox-polygon/-/bbox-polygon-1.0.5.tgz#7a57646a4031e84075ef7b960ba32ad693df43b1"
+  integrity sha512-qlWjZpRz86r8OXM0c+qHk44X6YVQCxyr1iFf4X8VXk0qn5EXW8rXqLO2s7PFDQhf+IKZaUEMMMqKK+65UPCkwQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/clean-coords@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/clean-coords/-/clean-coords-1.0.5.tgz#c2cad7f4ac4e98df7a2507ac9841e9288d2edbb2"
+  integrity sha512-I3zzd5KKgiNLJdLsT8D2CxdOTK0OOfxxmuG9qd58ivqHbXUGM57YwPAOvpgwlSqhD40s3XhLgdGR+bQFWz9EvA==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+
+"@spatial/distance@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/distance/-/distance-1.0.5.tgz#48f0b4529cddceb95491be7463407a225f400b7a"
+  integrity sha512-kgqr+Cfh5w430+pMeR84fb9/JqSW/Y9KjyD3goCFJm2F2TI4xOcYb5SKMyjdx3U8Hl78h0fGsRNNyZ48Ska2GQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+
+"@spatial/helpers@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/helpers/-/helpers-1.0.5.tgz#b141f2c5ad66b5557e7ee57659caf1766bf7fb32"
+  integrity sha512-As4wwxRS4+kemQNYMH/ClSH+xBKnJUBZIq7XQbi2gEnqa0kCsoqlA13YRvgIdZcRvHBkbvw3uwneq6XLCA4C5Q==
+
+"@spatial/intersect@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/intersect/-/intersect-1.0.5.tgz#31c008f180faec3c1c7f54d54da64b7339c58abd"
+  integrity sha512-P85/x8bkEaHqzPc38qUVMP3HfsUSScV7X+3OmOYy96DdPtM5HRDm3GBMF/b0AUPpQxKyLwGhGML1m88bmqHIKQ==
+  dependencies:
+    "@spatial/clean-coords" "^1.0.5"
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/invariant" "^1.0.5"
+    "@spatial/truncate" "^1.0.5"
+    turf-jsts "*"
+
+"@spatial/invariant@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/invariant/-/invariant-1.0.5.tgz#a7022d71289f3a8b58f5bfba0b75934116b6455c"
+  integrity sha512-8DLwewc4phdXGAATGePXzo1p1g0KjGgud2jbnwBVbNxSDN8QiqRI+gFKXV6J2rzGJs5wFw1m6yvqlrzEmUMTMA==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/meta@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/meta/-/meta-1.0.5.tgz#b632bc7ecdd739cebc94a2a54ffb04e2f0d2dfe0"
+  integrity sha512-ydrAGdgNnTSIbBcYPKTkRPt7FiPXSxOmd5o2IwaTgEryxwF+h3iERQMYqgDHBkaCc5o+dGtzer+qckzY9rK/ZQ==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+
+"@spatial/truncate@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@spatial/truncate/-/truncate-1.0.5.tgz#9fdc28975efd43939260f44e07fbc8855201223a"
+  integrity sha512-CFs6ySGL0EmG63LyuBbXk8jZNP90QYLgauCeyifVi4sXW5vS1wYWLOXDpj7ccaSMSro1E/zmvhwyQNC8NGMbpw==
+  dependencies:
+    "@spatial/helpers" "^1.0.5"
+    "@spatial/meta" "^1.0.5"
+
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
@@ -165,9 +226,9 @@ is-symbol@^1.0.2:
     has-symbols "^1.0.0"
 
 lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -268,6 +329,11 @@ through@~2.3.4, through@~2.3.8:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+
+turf-jsts@*:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/turf-jsts/-/turf-jsts-1.2.3.tgz#59757f542afbff9a577bbf411f183b8f48d38aa4"
+  integrity sha512-Ja03QIJlPuHt4IQ2FfGex4F4JAr8m3jpaHbFbQrgwr7s7L6U8ocrHiF3J1+wf9jzhGKxvDeaCAnGDot8OjGFyA==
 
 wrappy@1:
   version "1.0.2"
