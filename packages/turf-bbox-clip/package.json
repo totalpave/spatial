@@ -1,6 +1,6 @@
 {
   "name": "@spatial/bbox-clip",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "turf bbox-clip module",
   "main": "main.js",
   "module": "main.es.js",
@@ -44,15 +44,15 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/bbox": "^2.0.0",
+    "@spatial/bbox": "^2.0.1",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/helpers": "^2.0.0",
-    "@spatial/invariant": "^2.0.0",
+    "@spatial/helpers": "^2.0.1",
+    "@spatial/invariant": "^2.0.1",
     "lineclip": "^1.1.5"
   },
   "esm": {

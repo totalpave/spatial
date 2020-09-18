@@ -1,6 +1,6 @@
 {
   "name": "@spatial/along",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "turf along module",
   "main": "main.js",
   "module": "main.es.js",
@@ -39,10 +39,10 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bearing": "^2.0.0",
-    "@spatial/destination": "^2.0.0",
-    "@spatial/distance": "^2.0.0",
-    "@spatial/helpers": "^2.0.0"
+    "@spatial/bearing": "^2.0.1",
+    "@spatial/destination": "^2.0.1",
+    "@spatial/distance": "^2.0.1",
+    "@spatial/helpers": "^2.0.1"
   },
   "esm": {
     "cjs": true

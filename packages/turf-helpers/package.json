@@ -1,6 +1,6 @@
 {
   "name": "@spatial/helpers",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "turf helpers module",
   "main": "main.js",
   "module": "main.es.js",

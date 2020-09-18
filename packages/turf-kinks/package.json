@@ -1,6 +1,6 @@
 {
   "name": "@spatial/kinks",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "turf kinks module",
   "main": "main.js",
   "module": "main.es.js",
@@ -37,14 +37,14 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/meta": "^2.0.0",
+    "@spatial/meta": "^2.0.1",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/helpers": "^2.0.0"
+    "@spatial/helpers": "^2.0.1"
   },
   "esm": {
     "cjs": true

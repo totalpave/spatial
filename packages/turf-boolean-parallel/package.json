@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-parallel",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "turf boolean-parallel module",
   "main": "main.js",
   "module": "main.es.js",
@@ -41,10 +41,10 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/clean-coords": "^2.0.0",
-    "@spatial/helpers": "^2.0.0",
-    "@spatial/line-segment": "^2.0.0",
-    "@spatial/rhumb-bearing": "^2.0.0"
+    "@spatial/clean-coords": "^2.0.1",
+    "@spatial/helpers": "^2.0.1",
+    "@spatial/line-segment": "^2.0.1",
+    "@spatial/rhumb-bearing": "^2.0.1"
   },
   "esm": {
     "cjs": true

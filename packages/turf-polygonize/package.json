@@ -1,6 +1,6 @@
 {
   "name": "@spatial/polygonize",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "turf polygonize module",
   "main": "main.js",
   "module": "main.es.js",
@@ -43,11 +43,11 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/boolean-point-in-polygon": "^2.0.0",
-    "@spatial/envelope": "^2.0.0",
-    "@spatial/helpers": "^2.0.0",
-    "@spatial/invariant": "^2.0.0",
-    "@spatial/meta": "^2.0.0"
+    "@spatial/boolean-point-in-polygon": "^2.0.1",
+    "@spatial/envelope": "^2.0.1",
+    "@spatial/helpers": "^2.0.1",
+    "@spatial/invariant": "^2.0.1",
+    "@spatial/meta": "^2.0.1"
   },
   "esm": {
     "cjs": true
