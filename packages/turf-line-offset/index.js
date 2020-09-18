@@ -39,7 +39,7 @@ function lineOffset(geojson, distance, options) {
         return lineOffsetFeature(geojson, distance, units);
     case 'MultiLineString':
         var coords = [];
-        flattenEach(geojson, (feature) => {
+        flattenEach(geojson, function (feature) {
             coords.push(lineOffsetFeature(feature, distance, units).geometry.coordinates);
         });
         return multiLineString(coords, properties);
@@ -62,7 +62,7 @@ function lineOffsetFeature(line, distance, units) {
     const offsetDegrees = lengthToDegrees(distance, units);
     const coords = getCoords(line);
     const finalCoords = [];
-    coords.forEach((currentCoords, index) => {
+    coords.forEach(function (currentCoords, index) {
         if (index !== coords.length - 1) {
             const segment = processSegment(currentCoords, coords[index + 1], offsetDegrees);
             segments.push(segment);

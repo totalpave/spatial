@@ -23,7 +23,7 @@ function flatten(geojson) {
     if (!geojson) throw new Error('geojson is required');
 
     const results = [];
-    flattenEach(geojson, (feature) => {
+    flattenEach(geojson, function (feature) {
         results.push(feature);
     });
     return featureCollection(results);

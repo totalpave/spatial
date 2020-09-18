@@ -44,8 +44,8 @@ function kinks(featureIn) {
         throw new Error('Input must be a LineString, MultiLineString, ' +
             'Polygon, or MultiPolygon Feature or Geometry');
     }
-    coordinates.forEach((line1) => {
-        coordinates.forEach((line2) => {
+    coordinates.forEach(function (line1) {
+        coordinates.forEach(function (line2) {
             for (let i = 0; i < line1.length - 1; i++) {
                 // start iteration at i, intersections for k < i have already been checked in previous outer loop iterations
                 for (let k = i; k < line2.length - 1; k++) {

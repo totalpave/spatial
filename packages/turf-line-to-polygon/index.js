@@ -41,7 +41,7 @@ function lineToPolygon(lines, options) {
     case 'GeometryCollection':
         var coords = [];
         var features = (lines.features) ? lines.features : lines.geometries;
-        features.forEach((line) => {
+        features.forEach(function (line) {
             coords.push(getCoords(lineStringToPolygon(line, {}, autoComplete, orderCoords)));
         });
         return multiPolygon(coords, properties);
@@ -74,7 +74,7 @@ function lineStringToPolygon(line, properties, autoComplete, orderCoords) {
         var multiCoords = [];
         var largestArea = 0;
 
-        coords.forEach((coord) => {
+        coords.forEach(function (coord) {
             if (autoComplete) coord = autoCompleteCoords(coord);
 
             // Largest LineString to be placed in the first position of the coordinates array

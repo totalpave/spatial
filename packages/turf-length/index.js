@@ -27,7 +27,7 @@ function length(geojson, options) {
     if (!geojson) throw new Error('geojson is required');
 
     // Calculate distance from 2-vertex line segements
-    return segmentReduce(geojson, (previousValue, segment) => {
+    return segmentReduce(geojson, function (previousValue, segment) {
         const coords = segment.geometry.coordinates;
         return previousValue + distance(coords[0], coords[1], options);
     }, 0);

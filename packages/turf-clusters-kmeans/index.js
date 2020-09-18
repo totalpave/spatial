@@ -56,12 +56,12 @@ function clustersKmeans(points, options) {
 
     // store centroids {clusterId: [number, number]}
     const centroids = {};
-    skmeansResult.centroids.forEach((coord, idx) => {
+    skmeansResult.centroids.forEach(function (coord, idx) {
         centroids[idx] = coord;
     });
 
     // add associated cluster number
-    featureEach(points, (point, index) => {
+    featureEach(points, function (point, index) {
         const clusterId = skmeansResult.idxs[index];
         point.properties.cluster = clusterId;
         point.properties.centroid = centroids[clusterId];

@@ -48,7 +48,7 @@ function nearestPointOnLine(lines, pt, options) {
     });
 
     let length = 0.0;
-    flattenEach(lines, (line) => {
+    flattenEach(lines, function (line) {
         const coords = getCoords(line);
 
         for (let i = 0; i < coords.length - 1; i++) {

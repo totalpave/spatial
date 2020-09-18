@@ -47,7 +47,7 @@ function truncate(geojson, options) {
     const factor = Math.pow(10, precision);
 
     // Truncate Coordinates
-    coordEach(geojson, (coords) => {
+    coordEach(geojson, function (coords) {
         truncateCoords(coords, factor, coordinates);
     });
     return geojson;

@@ -30,7 +30,7 @@ function flip(geojson, options) {
     // properties.
     if (mutate === false || mutate === undefined) geojson = clone(geojson);
 
-    coordEach(geojson, (coord) => {
+    coordEach(geojson, function (coord) {
         const x = coord[0];
         const y = coord[1];
         coord[0] = y;

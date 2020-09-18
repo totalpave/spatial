@@ -58,7 +58,7 @@ function simplify(geojson, options) {
     // Clone geojson to avoid side effects
     if (mutate !== true) geojson = clone(geojson);
 
-    geomEach(geojson, (geom) => {
+    geomEach(geojson, function (geom) {
         simplifyGeom(geom, tolerance, highQuality);
     });
     return geojson;
@@ -88,13 +88,13 @@ function simplifyGeom(geometry, tolerance, highQuality) {
         geometry['coordinates'] = simplifyLine(coordinates, tolerance, highQuality);
         break;
     case 'MultiLineString':
-        geometry['coordinates'] = coordinates.map(lines => simplifyLine(lines, tolerance, highQuality));
+        geometry['coordinates'] = coordinates.map(function (lines) { return simplifyLine(lines, tolerance, highQuality); });
         break;
     case 'Polygon':
         geometry['coordinates'] = simplifyPolygon(coordinates, tolerance, highQuality);
         break;
     case 'MultiPolygon':
-        geometry['coordinates'] = coordinates.map(rings => simplifyPolygon(rings, tolerance, highQuality));
+        geometry['coordinates'] = coordinates.map(function (rings) { return simplifyPolygon(rings, tolerance, highQuality); });
     }
     return geometry;
 }
@@ -110,7 +110,7 @@ function simplifyGeom(geometry, tolerance, highQuality) {
  * @returns {Array<Array<number>>} simplified coords
  */
 function simplifyLine(coordinates, tolerance, highQuality) {
-    return simplifyJS(coordinates.map(coord => ({x: coord[0], y: coord[1], z: coord[2]})), tolerance, highQuality).map(coords => (coords.z) ? [coords.x, coords.y, coords.z] : [coords.x, coords.y]);  // eslint-disable-line no-confusing-arrow
+    return simplifyJS(coordinates.map(function (coord) { return {x: coord[0], y: coord[1], z: coord[2]}; }), tolerance, highQuality).map(function (coords) { return (coords.z) ? [coords.x, coords.y, coords.z] : [coords.x, coords.y]; });
 }
 
 
@@ -124,16 +124,16 @@ function simplifyLine(coordinates, tolerance, highQuality) {
  * @returns {Array<Array<Array<number>>>} simplified coords
  */
 function simplifyPolygon(coordinates, tolerance, highQuality) {
-    return coordinates.map((ring) => {
-        const pts = ring.map(coord => ({x: coord[0], y: coord[1]}));
+    return coordinates.map(function (ring) {
+        const pts = ring.map(function (coord) { return {x: coord[0], y: coord[1]}; });
         if (pts.length < 4) {
             throw new Error('invalid polygon');
         }
-        let simpleRing = simplifyJS(pts, tolerance, highQuality).map(coords => [coords.x, coords.y]);
+        let simpleRing = simplifyJS(pts, tolerance, highQuality).map(function (coords) { return [coords.x, coords.y]; });
         //remove 1 percent of tolerance until enough points to make a triangle
         while (!checkValidity(simpleRing)) {
             tolerance -= tolerance * 0.01;
-            simpleRing = simplifyJS(pts, tolerance, highQuality).map(coords => [coords.x, coords.y]);
+            simpleRing = simplifyJS(pts, tolerance, highQuality).map(function (coords) { return [coords.x, coords.y]; });
         }
         if (
             (simpleRing[simpleRing.length - 1][0] !== simpleRing[0][0]) ||

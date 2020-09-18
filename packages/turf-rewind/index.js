@@ -40,13 +40,13 @@ function rewind(geojson, options) {
     const results = [];
     switch (geojson.type) {
     case 'GeometryCollection':
-        geomEach(geojson, (geometry) => {
+        geomEach(geojson, function (geometry) {
             rewindFeature(geometry, reverse);
         });
         return geojson;
     case 'FeatureCollection':
-        featureEach(geojson, (feature) => {
-            featureEach(rewindFeature(feature, reverse), (result) => {
+        featureEach(geojson, function (feature) {
+            featureEach(rewindFeature(feature, reverse), function (result) {
                 results.push(result);
             });
         });
@@ -70,7 +70,7 @@ function rewindFeature(geojson, reverse) {
     // Support all GeoJSON Geometry Objects
     switch (type) {
     case 'GeometryCollection':
-        geomEach(geojson, (geometry) => {
+        geomEach(geojson, function (geometry) {
             rewindFeature(geometry, reverse);
         });
         return geojson;
@@ -81,12 +81,12 @@ function rewindFeature(geojson, reverse) {
         rewindPolygon(getCoords(geojson), reverse);
         return geojson;
     case 'MultiLineString':
-        getCoords(geojson).forEach((lineCoords) => {
+        getCoords(geojson).forEach(function (lineCoords) {
             rewindLineString(lineCoords, reverse);
         });
         return geojson;
     case 'MultiPolygon':
-        getCoords(geojson).forEach((lineCoords) => {
+        getCoords(geojson).forEach(function (lineCoords) {
             rewindPolygon(lineCoords, reverse);
         });
         return geojson;

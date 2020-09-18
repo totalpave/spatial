@@ -69,7 +69,7 @@ function centerMedian(features, options) {
 
     // Calculate center of every feature:
     const centroids = featureCollection([]);
-    featureEach(features, (feature) => {
+    featureEach(features, function (feature) {
         centroids.features.push(centroid(feature, {weight: feature.properties[weightTerm]}));
     });
 
@@ -96,7 +96,7 @@ function findMedian(candidateMedian, previousCandidate, centroids, counter) {
     let candidateYsum = 0;
     let kSum = 0;
     let centroidCount = 0;
-    featureEach(centroids, (theCentroid) => {
+    featureEach(centroids, function (theCentroid) {
         const weightValue = theCentroid.properties.weight;
         let weight = (weightValue === undefined || weightValue === null) ? 1 : weightValue;
         weight = Number(weight);

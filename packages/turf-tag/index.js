@@ -41,9 +41,9 @@ function tag(points, polygons, field, outField) {
     // prevent mutations
     points = clone(points);
     polygons = clone(polygons);
-    featureEach(points, (pt) => {
+    featureEach(points, function (pt) {
         if (!pt.properties) pt.properties = {};
-        featureEach(polygons, (poly) => {
+        featureEach(polygons, function (poly) {
             if (pt.properties[outField] === undefined) {
                 if (booleanPointInPolygon(pt, poly)) pt.properties[outField] = poly.properties[field];
             }

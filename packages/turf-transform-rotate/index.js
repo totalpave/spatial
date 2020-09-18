@@ -48,7 +48,7 @@ function transformRotate(geojson, angle, options) {
     if (mutate === false || mutate === undefined) geojson = clone(geojson);
 
     // Rotate each coordinate
-    coordEach(geojson, (pointCoords) => {
+    coordEach(geojson, function (pointCoords) {
         const initialAngle = rhumbBearing(pivot, pointCoords);
         const finalAngle = initialAngle + angle;
         const distance = rhumbDistance(pivot, pointCoords);

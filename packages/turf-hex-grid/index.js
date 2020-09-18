@@ -115,7 +115,7 @@ function hexGrid(bbox, cellSide, options) {
                     cellHeight / 2,
                     properties,
                     cosines,
-                    sines).forEach((triangle) => {
+                    sines).forEach(function (triangle) {
                     if (mask) {
                         if (intersect(mask, triangle)) results.push(triangle);
                     } else {

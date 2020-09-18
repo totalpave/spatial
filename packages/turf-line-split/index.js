@@ -65,9 +65,9 @@ function splitLineWithPoints(line, splitter) {
     let results = [];
     const tree = rbush();
 
-    flattenEach(splitter, (point) => {
+    flattenEach(splitter, function (point) {
         // Add index/id to features (needed for filter)
-        results.forEach((feature, index) => {
+        results.forEach(function (feature, index) {
             feature.id = index;
         });
         // First Point - doesn't need to handle any previous line results
@@ -75,7 +75,7 @@ function splitLineWithPoints(line, splitter) {
             results = splitLineWithPoint(line, point).features;
 
             // Add Square BBox to each feature for GeoJSON-RBush
-            results.forEach((feature) => {
+            results.forEach(function (feature) {
                 if (!feature.bbox) feature.bbox = square(bbox(feature));
             });
             tree.load(featureCollection(results));
@@ -90,11 +90,11 @@ function splitLineWithPoints(line, splitter) {
 
                 // Remove closest line from results since this will be split into two lines
                 // This removes any duplicates inside the results & index
-                results = results.filter(feature => feature.id !== closestLine.id);
+                results = results.filter(function (feature) { return feature.id !== closestLine.id; });
                 tree.remove(closestLine);
 
                 // Append the two newly split lines into the results
-                featureEach(splitLineWithPoint(closestLine, point), (line) => {
+                featureEach(splitLineWithPoint(closestLine, point), function (line) {
                     results.push(line);
                     tree.insert(line);
                 });
@@ -137,7 +137,7 @@ function splitLineWithPoint(line, splitter) {
 
     // Initial value is the first point of the first segments (beginning of line)
     const initialValue = [startPoint];
-    const lastCoords = featureReduce(segments, (previous, current, index) => {
+    const lastCoords = featureReduce(segments, function (previous, current, index) {
         const currentCoords = getCoords(current)[1];
         const splitterCoords = getCoord(splitter);
 
@@ -178,7 +178,7 @@ function findClosestFeature(point, lines) {
 
     let closestFeature;
     let closestDistance = Infinity;
-    featureEach(lines, (segment) => {
+    featureEach(lines, function (segment) {
         const pt = nearestPointOnLine(segment, point);
         const dist = pt.properties.dist;
         if (dist < closestDistance) {

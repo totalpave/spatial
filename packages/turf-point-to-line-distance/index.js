@@ -54,7 +54,7 @@ function pointToLineDistance(pt, line, options) {
 
     let distance = Infinity;
     const p = pt.geometry.coordinates;
-    segmentEach(line, (segment) => {
+    segmentEach(line, function (segment) {
         const a = segment.geometry.coordinates[0];
         const b = segment.geometry.coordinates[1];
         const d = distanceToSegment(p, a, b, options);

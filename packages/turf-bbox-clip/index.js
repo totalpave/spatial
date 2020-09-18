@@ -29,7 +29,7 @@ function bboxClip(feature, bbox) {
     case 'MultiLineString':
         var lines = [];
         if (geom === 'LineString') coords = [coords];
-        coords.forEach((line) => {
+        coords.forEach(function (line) {
             lineclip(line, bbox, lines);
         });
         if (lines.length === 1) return lineString(lines[0], properties);
@@ -37,7 +37,7 @@ function bboxClip(feature, bbox) {
     case 'Polygon':
         return polygon(clipPolygon(coords, bbox), properties);
     case 'MultiPolygon':
-        return multiPolygon(coords.map(polygon => clipPolygon(polygon, bbox)), properties);
+        return multiPolygon(coords.map(function (polygon) { return clipPolygon(polygon, bbox); }), properties);
     default:
         throw new Error(`geometry ${  geom  } not supported`);
     }

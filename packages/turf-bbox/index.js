@@ -16,7 +16,7 @@ import { coordEach } from '@spatial/meta';
  */
 function bbox(geojson) {
     const BBox = [Infinity, Infinity, -Infinity, -Infinity];
-    coordEach(geojson, (coord) => {
+    coordEach(geojson, function (coord) {
         if (BBox[0] > coord[0]) BBox[0] = coord[0];
         if (BBox[1] > coord[1]) BBox[1] = coord[1];
         if (BBox[2] < coord[0]) BBox[2] = coord[0];

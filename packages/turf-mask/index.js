@@ -51,11 +51,11 @@ function buildMask(maskPolygon, polygonOuters, polygonInners) {
     const coordinates = [];
     coordinates.push(maskPolygon.geometry.coordinates[0]);
 
-    flattenEach(polygonOuters, (feature) => {
+    flattenEach(polygonOuters, function (feature) {
         coordinates.push(feature.geometry.coordinates[0]);
     });
 
-    flattenEach(polygonInners, (feature) => {
+    flattenEach(polygonInners, function (feature) {
         coordinates.push(feature.geometry.coordinates[0]);
     });
     return polygon(coordinates);
@@ -71,12 +71,12 @@ function buildMask(maskPolygon, polygonOuters, polygonInners) {
 function separatePolygons(poly) {
     const outers = [];
     const inners = [];
-    flattenEach(poly, (feature) => {
+    flattenEach(poly, function (feature) {
         const coordinates = feature.geometry.coordinates;
         const featureOuter = coordinates[0];
         const featureInner = coordinates.slice(1);
         outers.push(polygon([featureOuter]));
-        featureInner.forEach((inner) => {
+        featureInner.forEach(function (inner) {
             inners.push(polygon([inner]));
         });
     });
@@ -128,7 +128,7 @@ function unionPolygons(polygons) {
                 maxY: bbox[3]
             });
             if (search.length > 0) {
-                const polys = search.map((item) => {
+                const polys = search.map(function (item) {
                     removed[item.index] = true;
                     tree.remove({index: item.index}, filterByIndex);
                     return item.geojson;
@@ -167,7 +167,7 @@ function filterByIndex(a, b) {
 function createIndex(features) {
     const tree = rbush();
     const load = [];
-    flattenEach(features, (feature, index) => {
+    flattenEach(features, function (feature, index) {
         const bbox = turfBBox(feature);
         load.push({
             minX: bbox[0],

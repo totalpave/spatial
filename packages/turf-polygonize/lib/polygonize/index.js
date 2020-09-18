@@ -34,8 +34,8 @@ function polygonize(geoJson) {
         shells = [];
 
     graph.getEdgeRings()
-        .filter(edgeRing => edgeRing.isValid())
-        .forEach(edgeRing => {
+        .filter(function (edgeRing) { return edgeRing.isValid(); })
+        .forEach(function (edgeRing) {
             if (edgeRing.isHole())
                 holes.push(edgeRing);
             else
@@ -43,13 +43,13 @@ function polygonize(geoJson) {
         });
 
     // 4. Assign Holes to Shells
-    holes.forEach(hole => {
+    holes.forEach(function (hole) {
         if (EdgeRing.findEdgeRingContaining(hole, shells))
             shells.push(hole);
     });
 
     // 5. EdgeRings to Polygons
-    return featureCollection(shells.map(shell => shell.toPolygon()));
+    return featureCollection(shells.map(function (shell) { return shell.toPolygon(); }));
 }
 
 export default polygonize;

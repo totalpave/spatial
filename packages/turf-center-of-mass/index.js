@@ -25,7 +25,7 @@ function centerOfMass(geojson, properties) {
         return geojson;
     case 'Polygon':
         var coords = [];
-        coordEach(geojson, (coord) => {
+        coordEach(geojson, function (coord) {
             coords.push(coord);
         });
 
@@ -38,10 +38,12 @@ function centerOfMass(geojson, properties) {
         var sArea = 0;
         var i, pi, pj, xi, xj, yi, yj, a;
 
-        var neutralizedPoints = coords.map(point => [
-            point[0] - translation[0],
-            point[1] - translation[1]
-        ]);
+        var neutralizedPoints = coords.map(function (point) {
+            return [
+                point[0] - translation[0],
+                point[1] - translation[1]
+            ];
+        });
 
         for (i = 0; i < coords.length - 1; i++) {
             // pi is the current point

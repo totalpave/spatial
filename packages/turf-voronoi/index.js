@@ -48,8 +48,8 @@ function voronoi(points, options) {
     // Main
     return featureCollection(
         d3voronoi.voronoi()
-            .x(feature => feature.geometry.coordinates[0])
-            .y(feature => feature.geometry.coordinates[1])
+            .x(function (feature) { return feature.geometry.coordinates[0]; })
+            .y(function (feature) { return feature.geometry.coordinates[1]; })
             .extent([[bbox[0], bbox[1]], [bbox[2], bbox[3]]])
             .polygons(points.features)
             .map(coordsToPolygon)

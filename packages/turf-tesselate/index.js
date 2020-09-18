@@ -25,7 +25,7 @@ function tesselate(poly) {
     if (poly.geometry.type === 'Polygon') {
         fc.features = processPolygon(poly.geometry.coordinates);
     } else {
-        poly.geometry.coordinates.forEach((coordinates) => {
+        poly.geometry.coordinates.forEach(function (coordinates) {
             fc.features = fc.features.concat(processPolygon(coordinates));
         });
     }
@@ -41,7 +41,7 @@ function processPolygon(coordinates) {
     const features = [];
     const vertices = [];
 
-    result.forEach((vert, i) => {
+    result.forEach(function (vert, i) {
         const index = result[i];
         vertices.push([data.vertices[index * dim], data.vertices[index * dim + 1]]);
     });

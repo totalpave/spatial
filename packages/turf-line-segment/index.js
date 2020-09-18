@@ -19,7 +19,7 @@ function lineSegment(geojson) {
     if (!geojson) throw new Error('geojson is required');
 
     const results = [];
-    flattenEach(geojson, (feature) => {
+    flattenEach(geojson, function (feature) {
         lineSegmentFeature(feature, results);
     });
     return featureCollection(results);
@@ -43,9 +43,9 @@ function lineSegmentFeature(geojson, results) {
     case 'LineString':
         coords = [getCoords(geometry)];
     }
-    coords.forEach((coord) => {
+    coords.forEach(function (coord) {
         const segments = createSegments(coord, geojson.properties);
-        segments.forEach((segment) => {
+        segments.forEach(function (segment) {
             segment.id = results.length;
             results.push(segment);
         });
@@ -62,7 +62,7 @@ function lineSegmentFeature(geojson, results) {
  */
 function createSegments(coords, properties) {
     const segments = [];
-    coords.reduce((previousCoords, currentCoords) => {
+    coords.reduce(function (previousCoords, currentCoords) {
         const segment = lineString([previousCoords, currentCoords], properties);
         segment.bbox = bbox(previousCoords, currentCoords);
         segments.push(segment);

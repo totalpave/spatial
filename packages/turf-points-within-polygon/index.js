@@ -39,8 +39,8 @@ import { geomEach, featureEach } from '@spatial/meta';
  */
 function pointsWithinPolygon(points, polygons) {
     const results = [];
-    geomEach(polygons, (polygon) => {
-        featureEach(points, (point) => {
+    geomEach(polygons, function (polygon) {
+        featureEach(points, function (point) {
             if (pointInPolygon(point, polygon)) results.push(point);
         });
     });

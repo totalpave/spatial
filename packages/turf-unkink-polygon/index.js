@@ -19,9 +19,9 @@ import simplepolygon from './lib/simplepolygon';
  */
 function unkinkPolygon(geojson) {
     const features = [];
-    flattenEach(geojson, (feature) => {
+    flattenEach(geojson, function (feature) {
         if (feature.geometry.type !== 'Polygon') return;
-        featureEach(simplepolygon(feature), (poly) => {
+        featureEach(simplepolygon(feature), function (poly) {
             features.push(polygon(poly.geometry.coordinates, feature.properties));
         });
     });

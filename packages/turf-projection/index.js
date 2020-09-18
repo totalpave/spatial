@@ -68,7 +68,7 @@ function convert(geojson, projection, options) {
         // Handle possible data mutation
         if (mutate !== true) geojson = clone(geojson);
 
-        coordEach(geojson, (coord) => {
+        coordEach(geojson, function (coord) {
             const newCoord = (projection === 'mercator') ? convertToMercator(coord) : convertToWgs84(coord);
             coord[0] = newCoord[0];
             coord[1] = newCoord[1];

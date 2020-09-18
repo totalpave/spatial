@@ -41,8 +41,8 @@ function lineIntersect(line1, line2) {
     // Handles complex GeoJSON Geometries
     const tree = rbush();
     tree.load(lineSegment(line2));
-    featureEach(lineSegment(line1), (segment) => {
-        featureEach(tree.search(segment), (match) => {
+    featureEach(lineSegment(line1), function (segment) {
+        featureEach(tree.search(segment), function (match) {
             const intersect = intersects(segment, match);
             if (intersect) {
                 // prevent duplicate points https://github.com/Turfjs/turf/issues/688

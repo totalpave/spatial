@@ -201,7 +201,7 @@ export function points(coordinates, properties, options) {
     if (!coordinates) throw new Error('coordinates is required');
     if (!Array.isArray(coordinates)) throw new Error('coordinates must be an Array');
 
-    return featureCollection(coordinates.map(coords => point(coords, properties)), options);
+    return featureCollection(coordinates.map(function (coords) { return point(coords, properties); }), options);
 }
 
 /**
@@ -264,7 +264,7 @@ export function polygons(coordinates, properties, options) {
     if (!coordinates) throw new Error('coordinates is required');
     if (!Array.isArray(coordinates)) throw new Error('coordinates must be an Array');
 
-    return featureCollection(coordinates.map(coords => polygon(coords, properties)), options);
+    return featureCollection(coordinates.map(function (coords) { return polygon(coords, properties); }), options);
 }
 
 /**
@@ -318,7 +318,7 @@ export function lineStrings(coordinates, properties, options) {
     if (!coordinates) throw new Error('coordinates is required');
     if (!Array.isArray(coordinates)) throw new Error('coordinates must be an Array');
 
-    return featureCollection(coordinates.map(coords => lineString(coords, properties)), options);
+    return featureCollection(coordinates.map(function (coords) { return lineString(coords, properties); }), options);
 }
 
 /**
@@ -682,7 +682,7 @@ export function validateBBox(bbox) {
     if (!bbox) throw new Error('bbox is required');
     if (!Array.isArray(bbox)) throw new Error('bbox must be an Array');
     if (bbox.length !== 4 && bbox.length !== 6) throw new Error('bbox must be an Array of 4 or 6 numbers');
-    bbox.forEach((num) => {
+    bbox.forEach(function (num) {
         if (!isNumber(num)) throw new Error('bbox must only contain numbers');
     });
 }

@@ -70,7 +70,7 @@ function standardDeviationalEllipse(points, options) {
     let yDeviationSquaredSum = 0;
     let xyDeviationSum = 0;
 
-    featureEach(points, (point) => {
+    featureEach(points, function (point) {
         const weight = point.properties[weightTerm] || 1;
         const deviation = getDeviations(getCoords(point), getCoords(meanCenter));
         xDeviationSquaredSum += Math.pow(deviation.x, 2) * weight;
@@ -90,7 +90,7 @@ function standardDeviationalEllipse(points, options) {
     let sigmaXsum = 0;
     let sigmaYsum = 0;
     let weightsum = 0;
-    featureEach(points, (point) => {
+    featureEach(points, function (point) {
         const weight = point.properties[weightTerm] || 1;
         const deviation = getDeviations(getCoords(point), getCoords(meanCenter));
         sigmaXsum += Math.pow((deviation.x * Math.cos(theta)) - (deviation.y * Math.sin(theta)), 2) * weight;

@@ -44,7 +44,7 @@ function dissolve(featureCollection, options) {
 
     const originalIndexOfItemsRemoved = [];
 
-    features.forEach((f, i) => {
+    features.forEach(function (f, i) {
         f.properties.origIndexPosition = i;
     });
     const tree = rbush();
@@ -55,7 +55,7 @@ function dissolve(featureCollection, options) {
 
         var featureChanged = false;
 
-        tree.search(polygon).features.forEach((potentialMatchingFeature) => {
+        tree.search(polygon).features.forEach(function (potentialMatchingFeature) {
             polygon = features[i];
 
             let matchFeaturePosition = potentialMatchingFeature.properties.origIndexPosition;
@@ -84,12 +84,12 @@ function dissolve(featureCollection, options) {
             features[i] = turfUnion(polygon, matchFeature);
 
             originalIndexOfItemsRemoved.push(potentialMatchingFeature.properties.origIndexPosition);
-            originalIndexOfItemsRemoved.sort((a, b) => a - b);
+            originalIndexOfItemsRemoved.sort(function (a, b) { return a - b; });
 
             tree.remove(potentialMatchingFeature);
             features.splice(matchFeaturePosition, 1);
             polygon.properties.origIndexPosition = i;
-            tree.remove(polygon, (a, b) => a.properties.origIndexPosition === b.properties.origIndexPosition);
+            tree.remove(polygon, function (a, b) { return a.properties.origIndexPosition === b.properties.origIndexPosition; });
             featureChanged = true;
         });
 
@@ -101,7 +101,7 @@ function dissolve(featureCollection, options) {
         }
     }
 
-    features.forEach((f) => {
+    features.forEach(function (f) {
         delete f.properties.origIndexPosition;
         delete f.bbox;
     });

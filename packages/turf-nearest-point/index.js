@@ -33,7 +33,7 @@ function nearestPoint(targetPoint, points) {
 
     let nearest;
     let minDist = Infinity;
-    featureEach(points, (pt, featureIndex) => {
+    featureEach(points, function (pt, featureIndex) {
         const distanceToPoint = distance(targetPoint, pt);
         if (distanceToPoint < minDist) {
             nearest = clone(pt);

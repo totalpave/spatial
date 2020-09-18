@@ -51,16 +51,16 @@ function buffer(geojson, radius, options) {
     const results = [];
     switch (geojson.type) {
     case 'GeometryCollection':
-        geomEach(geojson, (geometry) => {
+        geomEach(geojson, function (geometry) {
             const buffered = bufferFeature(geometry, radius, units, steps);
             if (buffered) results.push(buffered);
         });
         return featureCollection(results);
     case 'FeatureCollection':
-        featureEach(geojson, (feature) => {
+        featureEach(geojson, function (feature) {
             const multiBuffered = bufferFeature(feature, radius, units, steps);
             if (multiBuffered) {
-                featureEach(multiBuffered, (buffered) => {
+                featureEach(multiBuffered, function (buffered) {
                     if (buffered) results.push(buffered);
                 });
             }
@@ -87,7 +87,7 @@ function bufferFeature(geojson, radius, units, steps) {
     // Geometry Types faster than jsts
     if (geometry.type === 'GeometryCollection') {
         const results = [];
-        geomEach(geojson, (geometry) => {
+        geomEach(geojson, function (geometry) {
             const buffered = bufferFeature(geometry, radius, units, steps);
             if (buffered) results.push(buffered);
         });
@@ -155,7 +155,7 @@ function coordsIsNaN(coords) {
  */
 function projectCoords(coords, proj) {
     if (typeof coords[0] !== 'object') return proj(coords);
-    return coords.map(coord => projectCoords(coord, proj));
+    return coords.map(function (coord) { return projectCoords(coord, proj); });
 }
 
 /**
@@ -168,7 +168,7 @@ function projectCoords(coords, proj) {
  */
 function unprojectCoords(coords, proj) {
     if (typeof coords[0] !== 'object') return proj.invert(coords);
-    return coords.map(coord => unprojectCoords(coord, proj));
+    return coords.map(function (coord) { return unprojectCoords(coord, proj); });
 }
 
 /**
@@ -180,7 +180,7 @@ function unprojectCoords(coords, proj) {
  */
 function defineProjection(geojson) {
     const coords = center(geojson).geometry.coordinates.reverse();
-    const rotate = coords.map(coord => -coord);
+    const rotate = coords.map(function (coord) { return -coord; });
     return geoTransverseMercator()
         .center(coords)
         .rotate(rotate)

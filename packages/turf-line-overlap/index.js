@@ -42,11 +42,11 @@ function lineOverlap(line1, line2, options) {
     // Line Intersection
 
     // Iterate over line segments
-    segmentEach(line2, (segment) => {
+    segmentEach(line2, function (segment) {
         let doesOverlaps = false;
 
         // Iterate over each segments which falls within the same bounds
-        featureEach(tree.search(segment), (match) => {
+        featureEach(tree.search(segment), function (match) {
             if (doesOverlaps === false) {
                 const coordsSegment = getCoords(segment).sort();
                 const coordsMatch = getCoords(match).sort();

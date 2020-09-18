@@ -75,7 +75,7 @@ function removeEmptyPolygon(geom) {
         return null;
     case 'MultiPolygon':
         var coordinates = [];
-        flattenEach(geom, (feature) => {
+        flattenEach(geom, function (feature) {
             if (area(feature) > 1) coordinates.push(feature.geometry.coordinates);
         });
         if (coordinates.length) return {type: 'MultiPolygon', coordinates};

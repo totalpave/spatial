@@ -42,7 +42,7 @@ function nearestPointToLine(points, line, options) {
     let dist = Infinity;
     let pt = null;
 
-    featureEach(points, (point) => {
+    featureEach(points, function (point) {
         const d = pointToLineDistance(point, line, { units });
         if (d < dist) {
             dist = d;
@@ -71,12 +71,12 @@ function normalize(points) {
     const type = points.geometry ? points.geometry.type : points.type;
     switch (type) {
     case 'GeometryCollection':
-        geomEach(points, (geom) => {
+        geomEach(points, function (geom) {
             if (geom.type === 'Point') features.push({type: 'Feature', properties: {}, geometry: geom});
         });
         return {type: 'FeatureCollection', features};
     case 'FeatureCollection':
-        points.features = points.features.filter(feature => feature.geometry.type === 'Point');
+        points.features = points.features.filter(function (feature) { return feature.geometry.type === 'Point'; });
         return points;
     default:
         throw new Error('points must be a Point Collection');

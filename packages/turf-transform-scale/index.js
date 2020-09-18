@@ -45,7 +45,7 @@ function transformScale(geojson, factor, options) {
 
     // Scale each Feature separately
     if (geojson.type === 'FeatureCollection' && !originIsPoint) {
-        featureEach(geojson, (feature, index) => {
+        featureEach(geojson, function (feature, index) {
             geojson.features[index] = scale(feature, factor, origin);
         });
         return geojson;
@@ -72,7 +72,7 @@ function scale(feature, factor, origin) {
     if (factor === 1 || isPoint) return feature;
 
     // Scale each coordinate
-    coordEach(feature, (coord) => {
+    coordEach(feature, function (coord) {
         const originalDistance = rhumbDistance(origin, coord);
         const bearing = rhumbBearing(origin, coord);
         const newDistance = originalDistance * factor;

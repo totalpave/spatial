@@ -46,7 +46,7 @@ function sector(center, radius, bearing1, bearing2, options) {
     const coords = getCoords(center);
     const arc = lineArc(center, radius, bearing1, bearing2, options);
     const sliceCoords = [[coords]];
-    coordEach(arc, (currentCoords) => {
+    coordEach(arc, function (currentCoords) {
         sliceCoords[0].push(currentCoords);
     });
     sliceCoords[0].push(coords);

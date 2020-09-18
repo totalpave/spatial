@@ -54,7 +54,7 @@ function transformTranslate(geojson, distance, direction, options) {
     if (mutate === false || mutate === undefined) geojson = clone(geojson);
 
     // Translate each coordinate
-    coordEach(geojson, (pointCoords) => {
+    coordEach(geojson, function (pointCoords) {
         const newCoords = getCoords(rhumbDestination(pointCoords, distance, direction, {units}));
         pointCoords[0] = newCoords[0];
         pointCoords[1] = newCoords[1];

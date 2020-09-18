@@ -41,7 +41,7 @@ function clone(geojson) {
 function cloneFeature(geojson) {
     const cloned = {type: 'Feature'};
     // Preserve Foreign Members
-    Object.keys(geojson).forEach((key) => {
+    Object.keys(geojson).forEach(function (key) {
         switch (key) {
         case 'type':
         case 'properties':
@@ -67,7 +67,7 @@ function cloneFeature(geojson) {
 function cloneProperties(properties) {
     const cloned = {};
     if (!properties) return cloned;
-    Object.keys(properties).forEach((key) => {
+    Object.keys(properties).forEach(function (key) {
         const value = properties[key];
         if (typeof value === 'object') {
             if (value === null) {
@@ -75,7 +75,7 @@ function cloneProperties(properties) {
                 cloned[key] = null;
             } else if (value.length) {
                 // handle Array
-                cloned[key] = value.map(item => item);
+                cloned[key] = value.map(function (item) { return item; });
             } else {
                 // handle generic Object
                 cloned[key] = cloneProperties(value);
@@ -96,7 +96,7 @@ function cloneFeatureCollection(geojson) {
     const cloned = {type: 'FeatureCollection'};
 
     // Preserve Foreign Members
-    Object.keys(geojson).forEach((key) => {
+    Object.keys(geojson).forEach(function (key) {
         switch (key) {
         case 'type':
         case 'features':
@@ -106,7 +106,7 @@ function cloneFeatureCollection(geojson) {
         }
     });
     // Add features
-    cloned.features = geojson.features.map(feature => cloneFeature(feature));
+    cloned.features = geojson.features.map(function (feature) { return cloneFeature(feature); });
     return cloned;
 }
 
@@ -122,7 +122,7 @@ function cloneGeometry(geometry) {
     if (geometry.bbox) geom.bbox = geometry.bbox;
 
     if (geometry.type === 'GeometryCollection') {
-        geom.geometries = geometry.geometries.map(geom => cloneGeometry(geom));
+        geom.geometries = geometry.geometries.map(function (geom) { return cloneGeometry(geom); });
         return geom;
     }
     geom.coordinates = deepSlice(geometry.coordinates);
@@ -138,7 +138,7 @@ function cloneGeometry(geometry) {
  */
 function deepSlice(coords) {
     if (typeof coords[0] !== 'object') { return coords.slice(); }
-    return coords.map(coord => deepSlice(coord));
+    return coords.map(function (coord) { return deepSlice(coord); });
 }
 
 export default clone;

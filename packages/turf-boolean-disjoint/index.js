@@ -19,8 +19,8 @@ import polygonToLine from '@spatial/polygon-to-line';
  */
 function booleanDisjoint(feature1, feature2) {
     let boolean;
-    flattenEach(feature1, (flatten1) => {
-        flattenEach(feature2, (flatten2) => {
+    flattenEach(feature1, function (flatten1) {
+        flattenEach(feature2, function (flatten2) {
             if (boolean === false) return false;
             boolean = disjoint(flatten1.geometry, flatten2.geometry);
         });

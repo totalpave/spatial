@@ -38,7 +38,7 @@ function tin(points, z) {
     if (points.type !== 'FeatureCollection') throw new Error('points must be a FeatureCollection');
     //break down points
     let isPointZ = false;
-    return featureCollection(triangulate(points.features.map((p) => {
+    return featureCollection(triangulate(points.features.map(function (p) {
         const point = {
             x: p.geometry.coordinates[0],
             y: p.geometry.coordinates[1]
@@ -50,7 +50,7 @@ function tin(points, z) {
             point.z = p.geometry.coordinates[2];
         }
         return point;
-    })).map((triangle) => {
+    })).map(function (triangle) {
 
         const a = [triangle.a.x, triangle.a.y];
         const b = [triangle.b.x, triangle.b.y];

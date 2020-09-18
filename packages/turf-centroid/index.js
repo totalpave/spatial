@@ -21,7 +21,7 @@ function centroid(geojson, properties) {
     let xSum = 0;
     let ySum = 0;
     let len = 0;
-    coordEach(geojson, (coord) => {
+    coordEach(geojson, function (coord) {
         xSum += coord[0];
         ySum += coord[1];
         len++;

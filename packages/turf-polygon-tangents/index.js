@@ -40,7 +40,7 @@ function polygonTangents(pt, polygon) {
         rtan = polyCoords[0][0][0];
         ltan = polyCoords[0][0][0];
         eprev = isLeft(polyCoords[0][0][0], polyCoords[0][0][polyCoords[0][0].length - 1], pointCoords);
-        polyCoords.forEach((ring) => {
+        polyCoords.forEach(function (ring) {
             const out = processPolygon(ring[0], pointCoords, eprev, enext, rtan, ltan);
             rtan = out[0];
             ltan = out[1];

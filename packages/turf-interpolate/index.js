@@ -77,11 +77,11 @@ function interpolate(points, cellSize, options) {
         throw new Error('invalid gridType');
     }
     const results = [];
-    featureEach(grid, (gridFeature) => {
+    featureEach(grid, function (gridFeature) {
         let zw = 0;
         let sw = 0;
         // calculate the distance from each input point to the grid points
-        featureEach(points, (point) => {
+        featureEach(points, function (point) {
             const gridPoint = (gridType === 'point') ? gridFeature : centroid(gridFeature);
             const d = distance(gridPoint, point, options);
             let zValue;

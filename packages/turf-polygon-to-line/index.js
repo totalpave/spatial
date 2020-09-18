@@ -35,7 +35,7 @@ function polygonToLine(polygon, options) {
         return coordsToLine(coords, properties);
     case 'MultiPolygon':
         var lines = [];
-        coords.forEach((coord) => {
+        coords.forEach(function (coord) {
             lines.push(coordsToLine(coord, properties));
         });
         return featureCollection(lines);

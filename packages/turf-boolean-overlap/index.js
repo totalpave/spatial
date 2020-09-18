@@ -42,8 +42,8 @@ function booleanOverlap(feature1, feature2) {
     case 'MultiPoint':
         var coords1 = coordAll(feature1);
         var coords2 = coordAll(feature2);
-        coords1.forEach((coord1) => {
-            coords2.forEach((coord2) => {
+        coords1.forEach(function (coord1) {
+            coords2.forEach(function (coord2) {
                 if (coord1[0] === coord2[0] && coord1[1] === coord2[1]) overlap++;
             });
         });
@@ -51,8 +51,8 @@ function booleanOverlap(feature1, feature2) {
 
     case 'LineString':
     case 'MultiLineString':
-        segmentEach(feature1, (segment1) => {
-            segmentEach(feature2, (segment2) => {
+        segmentEach(feature1, function (segment1) {
+            segmentEach(feature2, function (segment2) {
                 if (lineOverlap(segment1, segment2).features.length) overlap++;
             });
         });
@@ -60,8 +60,8 @@ function booleanOverlap(feature1, feature2) {
 
     case 'Polygon':
     case 'MultiPolygon':
-        segmentEach(feature1, (segment1) => {
-            segmentEach(feature2, (segment2) => {
+        segmentEach(feature1, function (segment1) {
+            segmentEach(feature2, function (segment2) {
                 if (lineIntersect(segment1, segment2).features.length) overlap++;
             });
         });

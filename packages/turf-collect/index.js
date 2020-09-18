@@ -35,16 +35,18 @@ import rbush from 'rbush';
 function collect(polygons, points, inProperty, outProperty) {
     const rtree = rbush(6);
 
-    const treeItems = points.features.map(item => ({
-        minX: item.geometry.coordinates[0],
-        minY: item.geometry.coordinates[1],
-        maxX: item.geometry.coordinates[0],
-        maxY: item.geometry.coordinates[1],
-        property: item.properties[inProperty]
-    }));
+    const treeItems = points.features.map(function (item) {
+        return {
+            minX: item.geometry.coordinates[0],
+            minY: item.geometry.coordinates[1],
+            maxX: item.geometry.coordinates[0],
+            maxY: item.geometry.coordinates[1],
+            property: item.properties[inProperty]
+        };
+    });
 
     rtree.load(treeItems);
-    polygons.features.forEach((poly) => {
+    polygons.features.forEach(function (poly) {
 
         if (!poly.properties) {
             poly.properties = {};
@@ -52,7 +54,7 @@ function collect(polygons, points, inProperty, outProperty) {
         const bbox = turfbbox(poly);
         const potentialPoints = rtree.search({minX: bbox[0], minY: bbox[1], maxX: bbox[2], maxY: bbox[3]});
         const values = [];
-        potentialPoints.forEach((pt) => {
+        potentialPoints.forEach(function (pt) {
             if (booleanPointInPolygon([pt.minX, pt.minY], poly)) {
                 values.push(pt.property);
             }

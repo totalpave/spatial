@@ -38,7 +38,7 @@ export function getCluster(geojson, filter) {
 
     // Filter Features
     const features = [];
-    featureEach(geojson, (feature) => {
+    featureEach(geojson, function (feature) {
         if (applyFilter(feature.properties, filter)) features.push(feature);
     });
     return featureCollection(features);
@@ -179,7 +179,7 @@ export function clusterEach(geojson, property, callback) {
  */
 export function clusterReduce(geojson, property, callback, initialValue) {
     let previousValue = initialValue;
-    clusterEach(geojson, property, (cluster, clusterValue, currentIndex) => {
+    clusterEach(geojson, property, function (cluster, clusterValue, currentIndex) {
         if (currentIndex === 0 && initialValue === undefined) previousValue = cluster;
         else previousValue = callback(previousValue, cluster, clusterValue, currentIndex);
     });
@@ -206,7 +206,7 @@ export function clusterReduce(geojson, property, callback, initialValue) {
 export function createBins(geojson, property) {
     const bins = {};
 
-    featureEach(geojson, (feature, i) => {
+    featureEach(geojson, function (feature, i) {
         const properties = feature.properties || {};
         if (properties.hasOwnProperty(property)) {
             const value = properties[property];

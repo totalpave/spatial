@@ -16,7 +16,7 @@ import { geomReduce } from '@spatial/meta';
  * polygon.properties.area = area
  */
 function area(geojson) {
-    return geomReduce(geojson, (value, geom) => value + calculateArea(geom), 0);
+    return geomReduce(geojson, function (value, geom) { return value + calculateArea(geom); }, 0);
 }
 
 const RADIUS = 6378137;

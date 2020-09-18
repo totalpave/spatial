@@ -37,11 +37,11 @@ function lineChunk(geojson, segmentLength, options) {
     const results = [];
 
     // Flatten each feature to simple LineString
-    flattenEach(geojson, (feature) => {
+    flattenEach(geojson, function (feature) {
         // reverses coordinates to start the first chunked segment at the end
         if (reverse) feature.geometry.coordinates = feature.geometry.coordinates.reverse();
 
-        sliceLineSegments(feature, segmentLength, units, (segment) => {
+        sliceLineSegments(feature, segmentLength, units, function (segment) {
             results.push(segment);
         });
     });

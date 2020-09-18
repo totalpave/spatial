@@ -124,7 +124,7 @@ function rescaleIsolines(createdIsoLines, matrix, points) {
     };
 
     // resize and shift each point/line of the createdIsoLines
-    createdIsoLines.forEach((isoline) => {
+    createdIsoLines.forEach(function (isoline) {
         coordEach(isoline, resize);
     });
     return createdIsoLines;

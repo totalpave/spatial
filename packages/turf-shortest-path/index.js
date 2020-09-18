@@ -151,7 +151,7 @@ function shortestPath(start, end, options) {
     const result = astar.search(graph, startOnMatrix, endOnMatrix);
 
     const path = [startCoord];
-    result.forEach((coord) => {
+    result.forEach(function (coord) {
         const coords = pointMatrix[coord.x][coord.y].split('|');
         path.push([+coords[0], +coords[1]]); // make sure coords are numbers
     });

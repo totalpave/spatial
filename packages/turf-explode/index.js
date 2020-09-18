@@ -19,13 +19,13 @@ import { point, featureCollection } from '@spatial/helpers';
 function explode(geojson) {
     const points = [];
     if (geojson.type === 'FeatureCollection') {
-        featureEach(geojson, (feature) => {
-            coordEach(feature, (coord) => {
+        featureEach(geojson, function (feature) {
+            coordEach(feature, function (coord) {
                 points.push(point(coord, feature.properties));
             });
         });
     } else {
-        coordEach(geojson, (coord) => {
+        coordEach(geojson, function (coord) {
             points.push(point(coord, geojson.properties));
         });
     }

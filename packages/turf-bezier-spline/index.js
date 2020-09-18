@@ -45,7 +45,7 @@ function bezier(line, options) {
 
     const coords = [];
     const spline = new Spline({
-        points: getGeom(line).coordinates.map(pt => ({x: pt[0], y: pt[1]})),
+        points: getGeom(line).coordinates.map(function (pt) { return {x: pt[0], y: pt[1]}; }),
         duration: resolution,
         sharpness
     });

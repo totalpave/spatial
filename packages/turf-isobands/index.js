@@ -40,7 +40,7 @@ function isobands(pointGrid, breaks, options) {
     let contours = createContourLines(matrix, breaks, zProperty);
     contours = rescaleContours(contours, matrix, pointGrid);
 
-    const multipolygons = contours.map((contour, index) => {
+    const multipolygons = contours.map(function (contour, index) {
         if (breaksProperties[index] && !isObject(breaksProperties[index])) {
             throw new Error('Each mappedProperty is required to be an Object');
         }
@@ -125,9 +125,9 @@ function rescaleContours(contours, matrix, points) {
     };
 
     // resize and shift each point/line of the isobands
-    contours.forEach((contour) => {
-        contour.groupedRings.forEach((lineRingSet) => {
-            lineRingSet.forEach((lineRing) => {
+    contours.forEach(function (contour) {
+        contour.groupedRings.forEach(function (lineRingSet) {
+            lineRingSet.forEach(function (lineRing) {
                 lineRing.forEach(resize);
             });
         });
@@ -149,7 +149,7 @@ function rescaleContours(contours, matrix, points) {
 function orderByArea(ringsCoords) {
     const ringsWithArea = [];
     const areas = [];
-    ringsCoords.forEach((coords) => {
+    ringsCoords.forEach(function (coords) {
         // var poly = polygon([points]);
         const ringArea = area(polygon([coords]));
         // create an array of areas value
@@ -157,10 +157,10 @@ function orderByArea(ringsCoords) {
         // associate each lineRing with its area
         ringsWithArea.push({ring: coords, area: ringArea});
     });
-    areas.sort((a, b) => b - a);
+    areas.sort(function (a, b) { return b - a; });
     // create a new array of linearRings coordinates ordered by their area
     const orderedByArea = [];
-    areas.forEach((area) => {
+    areas.forEach(function (area) {
         for (let lr = 0; lr < ringsWithArea.length; lr++) {
             if (ringsWithArea[lr].area === area) {
                 orderedByArea.push(ringsWithArea[lr].ring);
@@ -183,7 +183,7 @@ function orderByArea(ringsCoords) {
  */
 function groupNestedRings(orderedLinearRings) {
     // create a list of the (coordinates of) LinearRings
-    const lrList = orderedLinearRings.map(lr => ({lrCoordinates: lr, grouped: false}));
+    const lrList = orderedLinearRings.map(function (lr) { return {lrCoordinates: lr, grouped: false}; });
     const groupedLinearRingsCoords = [];
     while (!allGrouped(lrList)) {
         for (let i = 0; i < lrList.length; i++) {

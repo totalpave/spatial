@@ -26,7 +26,7 @@ function combine(fc) {
         MultiPolygon: {coordinates: [], properties: []}
     };
 
-    const multiMapping = Object.keys(groups).reduce((memo, item) => {
+    const multiMapping = Object.keys(groups).reduce(function (memo, item) {
         memo[item.replace('Multi', '')] = item;
         return memo;
     }, {});
@@ -40,7 +40,7 @@ function combine(fc) {
         groups[key].properties.push(feature.properties);
     }
 
-    featureEach(fc, (feature) => {
+    featureEach(fc, function (feature) {
         if (!feature.geometry) return;
         if (groups[feature.geometry.type]) {
             addToGroup(feature, feature.geometry.type, true);
@@ -50,9 +50,9 @@ function combine(fc) {
     });
 
     return featureCollection(Object.keys(groups)
-        .filter(key => groups[key].coordinates.length)
+        .filter(function (key) { return groups[key].coordinates.length; })
         .sort()
-        .map((key) => {
+        .map(function (key) {
             const geometry = { type: key, coordinates: groups[key].coordinates };
             const properties = { collectedProperties: groups[key].properties };
             return feature(geometry, properties);

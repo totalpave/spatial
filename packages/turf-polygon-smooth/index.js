@@ -25,7 +25,7 @@ function polygonSmooth(inputPolys, options) {
     var iterations = options.iterations || 1;
     if (!inputPolys) throw new Error('inputPolys is required');
 
-    geomEach(inputPolys, (geom, geomIndex, properties) => {
+    geomEach(inputPolys, function (geom, geomIndex, properties) {
         var outCoords;
         var poly;
         var tempOutput;
@@ -69,7 +69,7 @@ function processPolygon(poly, tempOutput) {
     var prevGeomIndex = 0;
     var subtractCoordIndex = 0;
 
-    coordEach(poly, (currentCoord, coordIndex, featureIndex, multiFeatureIndex, geometryIndex) => {
+    coordEach(poly, function (currentCoord, coordIndex, featureIndex, multiFeatureIndex, geometryIndex) {
         if (geometryIndex > prevGeomIndex) {
             prevGeomIndex = geometryIndex;
             subtractCoordIndex = coordIndex;
@@ -84,7 +84,7 @@ function processPolygon(poly, tempOutput) {
         tempOutput[geometryIndex].push([0.75 * p0x + 0.25 * p1x, 0.75 * p0y + 0.25 * p1y]);
         tempOutput[geometryIndex].push([0.25 * p0x + 0.75 * p1x, 0.25 * p0y + 0.75 * p1y]);
     }, true);
-    tempOutput.forEach((ring) => {
+    tempOutput.forEach(function (ring) {
         ring.push(ring[0]);
     });
 }
@@ -99,7 +99,7 @@ function processMultiPolygon(poly, tempOutput) {
     var subtractCoordIndex = 0;
     var prevMultiIndex = 0;
 
-    coordEach(poly, (currentCoord, coordIndex, featureIndex, multiFeatureIndex, geometryIndex) => {
+    coordEach(poly, function (currentCoord, coordIndex, featureIndex, multiFeatureIndex, geometryIndex) {
         if (multiFeatureIndex > prevMultiIndex) {
             prevMultiIndex = multiFeatureIndex;
             subtractCoordIndex = coordIndex;
@@ -120,8 +120,8 @@ function processMultiPolygon(poly, tempOutput) {
         tempOutput[multiFeatureIndex][geometryIndex].push([0.25 * p0x + 0.75 * p1x, 0.25 * p0y + 0.75 * p1y]);
     }, true);
 
-    tempOutput.forEach((poly) => {
-        poly.forEach((ring) => {
+    tempOutput.forEach(function (poly) {
+        poly.forEach(function (ring) {
             ring.push(ring[0]);
         });
     });

@@ -34,14 +34,14 @@ function cleanCoords(geojson, options) {
         break;
     case 'MultiLineString':
     case 'Polygon':
-        getCoords(geojson).forEach((line) => {
+        getCoords(geojson).forEach(function (line) {
             newCoords.push(cleanLine(line));
         });
         break;
     case 'MultiPolygon':
-        getCoords(geojson).forEach((polygons) => {
+        getCoords(geojson).forEach(function (polygons) {
             const polyPoints = [];
-            polygons.forEach((ring) => {
+            polygons.forEach(function (ring) {
                 polyPoints.push(cleanLine(ring));
             });
             newCoords.push(polyPoints);
@@ -51,7 +51,7 @@ function cleanCoords(geojson, options) {
         return geojson;
     case 'MultiPoint':
         var existing = {};
-        getCoords(geojson).forEach((coord) => {
+        getCoords(geojson).forEach(function (coord) {
             const key = coord.join('-');
             if (!existing.hasOwnProperty(key)) {
                 newCoords.push(coord);

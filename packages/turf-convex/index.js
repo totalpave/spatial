@@ -37,7 +37,7 @@ function convex(geojson, options) {
     const points = [];
 
     // Convert all points to flat 2D coordinate Array
-    coordEach(geojson, (coord) => {
+    coordEach(geojson, function (coord) {
         points.push([coord[0], coord[1]]);
     });
     if (!points.length) return null;
