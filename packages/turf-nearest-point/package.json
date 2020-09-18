@@ -1,6 +1,6 @@
 {
   "name": "@spatial/nearest-point",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "turf nearest-point module",
   "main": "main.js",
   "module": "main.es.js",
@@ -40,10 +40,10 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/clone": "^1.0.5",
-    "@spatial/distance": "^1.0.5",
-    "@spatial/helpers": "^1.0.5",
-    "@spatial/meta": "^1.0.5"
+    "@spatial/clone": "^2.0.0",
+    "@spatial/distance": "^2.0.0",
+    "@spatial/helpers": "^2.0.0",
+    "@spatial/meta": "^2.0.0"
   },
   "esm": {
     "cjs": true

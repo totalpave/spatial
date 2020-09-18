@@ -1,6 +1,6 @@
 {
   "name": "@spatial/line-to-polygon",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "turf line-to-polygon module",
   "main": "main.js",
   "module": "main.es.js",
@@ -42,9 +42,9 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bbox": "^1.0.5",
-    "@spatial/helpers": "^1.0.5",
-    "@spatial/invariant": "^1.0.5"
+    "@spatial/bbox": "^2.0.0",
+    "@spatial/helpers": "^2.0.0",
+    "@spatial/invariant": "^2.0.0"
   },
   "esm": {
     "cjs": true

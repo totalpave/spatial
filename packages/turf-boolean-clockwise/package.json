@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-clockwise",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "turf boolean-clockwise module",
   "main": "main.js",
   "module": "main.es.js",
@@ -43,8 +43,8 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/helpers": "^1.0.5",
-    "@spatial/invariant": "^1.0.5"
+    "@spatial/helpers": "^2.0.0",
+    "@spatial/invariant": "^2.0.0"
   },
   "esm": {
     "cjs": true

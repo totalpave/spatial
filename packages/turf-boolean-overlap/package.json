@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-overlap",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "turf boolean-overlap module",
   "main": "main.js",
   "module": "main.es.js",
@@ -44,11 +44,11 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/helpers": "^1.0.5",
-    "@spatial/invariant": "^1.0.5",
-    "@spatial/line-intersect": "^1.0.5",
-    "@spatial/line-overlap": "^1.0.5",
-    "@spatial/meta": "^1.0.5",
+    "@spatial/helpers": "^2.0.0",
+    "@spatial/invariant": "^2.0.0",
+    "@spatial/line-intersect": "^2.0.0",
+    "@spatial/line-overlap": "^2.0.0",
+    "@spatial/meta": "^2.0.0",
     "geojson-equality": "0.1.6"
   },
   "esm": {

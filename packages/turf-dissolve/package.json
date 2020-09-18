@@ -1,6 +1,6 @@
 {
   "name": "@spatial/dissolve",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "turf dissolve module",
   "main": "main.js",
   "module": "main.es.js",
@@ -40,13 +40,13 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/boolean-overlap": "^1.0.5",
-    "@spatial/clone": "^1.0.5",
-    "@spatial/helpers": "^1.0.5",
-    "@spatial/invariant": "^1.0.5",
-    "@spatial/line-intersect": "^1.0.5",
-    "@spatial/meta": "^1.0.5",
-    "@spatial/union": "^1.0.5",
+    "@spatial/boolean-overlap": "^2.0.0",
+    "@spatial/clone": "^2.0.0",
+    "@spatial/helpers": "^2.0.0",
+    "@spatial/invariant": "^2.0.0",
+    "@spatial/line-intersect": "^2.0.0",
+    "@spatial/meta": "^2.0.0",
+    "@spatial/union": "^2.0.0",
     "geojson-rbush": "3.1.2",
     "get-closest": "*"
   },

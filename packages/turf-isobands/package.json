@@ -1,6 +1,6 @@
 {
   "name": "@spatial/isobands",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "turf isobands module",
   "main": "main.js",
   "module": "main.es.js",
@@ -45,24 +45,24 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/envelope": "^1.0.5",
-    "@spatial/point-grid": "^1.0.5",
-    "@spatial/random": "^1.0.5",
-    "@spatial/rhumb-destination": "^1.0.5",
-    "@spatial/truncate": "^1.0.5",
+    "@spatial/envelope": "^2.0.0",
+    "@spatial/point-grid": "^2.0.0",
+    "@spatial/random": "^2.0.0",
+    "@spatial/rhumb-destination": "^2.0.0",
+    "@spatial/truncate": "^2.0.0",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/area": "^1.0.5",
-    "@spatial/bbox": "^1.0.5",
-    "@spatial/boolean-point-in-polygon": "^1.0.5",
-    "@spatial/explode": "^1.0.5",
-    "@spatial/helpers": "^1.0.5",
-    "@spatial/invariant": "^1.0.5",
-    "@spatial/meta": "^1.0.5"
+    "@spatial/area": "^2.0.0",
+    "@spatial/bbox": "^2.0.0",
+    "@spatial/boolean-point-in-polygon": "^2.0.0",
+    "@spatial/explode": "^2.0.0",
+    "@spatial/helpers": "^2.0.0",
+    "@spatial/invariant": "^2.0.0",
+    "@spatial/meta": "^2.0.0"
   },
   "esm": {
     "cjs": true

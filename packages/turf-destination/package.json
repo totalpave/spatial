@@ -1,6 +1,6 @@
 {
   "name": "@spatial/destination",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "turf destination module",
   "main": "main.js",
   "module": "main.es.js",
@@ -40,15 +40,15 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/truncate": "^1.0.5",
+    "@spatial/truncate": "^2.0.0",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/helpers": "^1.0.5",
-    "@spatial/invariant": "^1.0.5"
+    "@spatial/helpers": "^2.0.0",
+    "@spatial/invariant": "^2.0.0"
   },
   "esm": {
     "cjs": true

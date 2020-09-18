@@ -1,6 +1,6 @@
 {
   "name": "@spatial/mask",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "turf mask module",
   "main": "main.js",
   "module": "main.es.js",
@@ -37,10 +37,10 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bbox": "^1.0.5",
-    "@spatial/helpers": "^1.0.5",
-    "@spatial/meta": "^1.0.5",
-    "@spatial/union": "^1.0.5",
+    "@spatial/bbox": "^2.0.0",
+    "@spatial/helpers": "^2.0.0",
+    "@spatial/meta": "^2.0.0",
+    "@spatial/union": "^2.0.0",
     "rbush": "^2.0.1"
   },
   "esm": {
