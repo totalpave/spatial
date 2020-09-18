@@ -71,7 +71,7 @@
     "esm": "^3.2.25",
     "fs-extra": "8.1.0",
     "geojson-fixtures": "1.0.0",
-    "glob": "7.1.4",
+    "glob": "^7.1.6",
     "jscodeshift": "0.6.4",
     "lerna": "^3.22.1",
     "load-json-file": "6.1.0",
