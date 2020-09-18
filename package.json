@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/turfjs/turf.git"
+    "url": "https://github.com/totalpave/spatial.git"
   },
   "keywords": [
     "gis",
@@ -46,7 +46,7 @@
   "author": "morganherlocker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Turfjs/turf/issues"
+    "url": "https://github.com/totalpave/spatial/issues"
   },
   "devDependencies": {
     "5to6-codemod": "1.8.0",
