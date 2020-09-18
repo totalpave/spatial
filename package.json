@@ -74,7 +74,7 @@
     "glob": "^7.1.6",
     "jscodeshift": "0.6.4",
     "lerna": "^3.22.1",
-    "load-json-file": "6.1.0",
+    "load-json-file": "^6.2.0",
     "matrix-to-grid": "4.0.0",
     "meow": "5.0.0",
     "mkdirp": "0.5.1",
