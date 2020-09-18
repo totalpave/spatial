@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "a node.js library for performing geospatial operations with geojson",
   "scripts": {
-    "clean": "find -type f -name 'yarn.lock' -delete && lerna clean --yes && yarn cache clean",
+    "clean": "find -type f -name 'package-lock.lock' -delete && lerna clean --yes",
     "prelint": "tsc",
     "lint": "eslint packages/turf-*/index.js",
     "postlint": "documentation lint packages/turf-*/index.js",
