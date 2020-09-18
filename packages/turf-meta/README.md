@@ -43,6 +43,36 @@ turf.coordEach(features, function (currentCoord, coordIndex, featureIndex, multi
 });
 ```
 
+## coordReduceCallback
+
+Callback for coordReduce
+
+The first time the callback function is called, the values provided as arguments depend
+on whether the reduce method has an initialValue argument.
+
+If an initialValue is provided to the reduce method:
+
+-   The previousValue argument is initialValue.
+-   The currentValue argument is the value of the first element present in the array.
+
+If an initialValue is not provided:
+
+-   The previousValue argument is the value of the first element present in the array.
+-   The currentValue argument is the value of the second element present in the array.
+
+Type: [Function][1]
+
+### Parameters
+
+-   `previousValue` **any** The accumulated value previously returned in the last invocation
+    of the callback, or initialValue, if supplied.
+-   `currentCoord` **[Array][2]&lt;[number][3]>** The current coordinate being processed.
+-   `coordIndex` **[number][3]** The current index of the coordinate being processed.
+    Starts at index 0, if an initialValue is provided, and at index 1 otherwise.
+-   `featureIndex` **[number][3]** The current index of the Feature being processed.
+-   `multiFeatureIndex` **[number][3]** The current index of the Multi-Feature being processed.
+-   `geometryIndex` **[number][3]** The current index of the Geometry being processed.
+
 ## coordReduce
 
 Reduce coordinates in any GeoJSON object, similar to Array.reduce()
@@ -75,35 +105,16 @@ turf.coordReduce(features, function (previousValue, currentCoord, coordIndex, fe
 
 Returns **any** The value that results from the reduction.
 
-## coordReduceCallback
+## propEachCallback
 
-Callback for coordReduce
-
-The first time the callback function is called, the values provided as arguments depend
-on whether the reduce method has an initialValue argument.
-
-If an initialValue is provided to the reduce method:
-
--   The previousValue argument is initialValue.
--   The currentValue argument is the value of the first element present in the array.
-
-If an initialValue is not provided:
-
--   The previousValue argument is the value of the first element present in the array.
--   The currentValue argument is the value of the second element present in the array.
+Callback for propEach
 
 Type: [Function][1]
 
 ### Parameters
 
--   `previousValue` **any** The accumulated value previously returned in the last invocation
-    of the callback, or initialValue, if supplied.
--   `currentCoord` **[Array][2]&lt;[number][3]>** The current coordinate being processed.
--   `coordIndex` **[number][3]** The current index of the coordinate being processed.
-    Starts at index 0, if an initialValue is provided, and at index 1 otherwise.
+-   `currentProperties` **[Object][8]** The current Properties being processed.
 -   `featureIndex` **[number][3]** The current index of the Feature being processed.
--   `multiFeatureIndex` **[number][3]** The current index of the Multi-Feature being processed.
--   `geometryIndex` **[number][3]** The current index of the Geometry being processed.
 
 ## propEach
 
@@ -128,15 +139,30 @@ turf.propEach(features, function (currentProperties, featureIndex) {
 });
 ```
 
-## propEachCallback
+## propReduceCallback
 
-Callback for propEach
+Callback for propReduce
+
+The first time the callback function is called, the values provided as arguments depend
+on whether the reduce method has an initialValue argument.
+
+If an initialValue is provided to the reduce method:
+
+-   The previousValue argument is initialValue.
+-   The currentValue argument is the value of the first element present in the array.
+
+If an initialValue is not provided:
+
+-   The previousValue argument is the value of the first element present in the array.
+-   The currentValue argument is the value of the second element present in the array.
 
 Type: [Function][1]
 
 ### Parameters
 
--   `currentProperties` **[Object][8]** The current Properties being processed.
+-   `previousValue` **any** The accumulated value previously returned in the last invocation
+    of the callback, or initialValue, if supplied.
+-   `currentProperties` **any** The current Properties being processed.
 -   `featureIndex` **[number][3]** The current index of the Feature being processed.
 
 ## propReduce
@@ -169,30 +195,15 @@ turf.propReduce(features, function (previousValue, currentProperties, featureInd
 
 Returns **any** The value that results from the reduction.
 
-## propReduceCallback
+## featureEachCallback
 
-Callback for propReduce
-
-The first time the callback function is called, the values provided as arguments depend
-on whether the reduce method has an initialValue argument.
-
-If an initialValue is provided to the reduce method:
-
--   The previousValue argument is initialValue.
--   The currentValue argument is the value of the first element present in the array.
-
-If an initialValue is not provided:
-
--   The previousValue argument is the value of the first element present in the array.
--   The currentValue argument is the value of the second element present in the array.
+Callback for featureEach
 
 Type: [Function][1]
 
 ### Parameters
 
--   `previousValue` **any** The accumulated value previously returned in the last invocation
-    of the callback, or initialValue, if supplied.
--   `currentProperties` **any** The current Properties being processed.
+-   `currentFeature` **[Feature][5]&lt;any>** The current Feature being processed.
 -   `featureIndex` **[number][3]** The current index of the Feature being processed.
 
 ## featureEach
@@ -218,17 +229,6 @@ turf.featureEach(features, function (currentFeature, featureIndex) {
   //=featureIndex
 });
 ```
-
-## featureEachCallback
-
-Callback for featureEach
-
-Type: [Function][1]
-
-### Parameters
-
--   `currentFeature` **[Feature][5]&lt;any>** The current Feature being processed.
--   `featureIndex` **[number][3]** The current index of the Feature being processed.
 
 ## featureReduceCallback
 
