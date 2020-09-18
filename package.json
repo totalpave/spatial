@@ -73,7 +73,7 @@
     "geojson-fixtures": "1.0.0",
     "glob": "7.1.4",
     "jscodeshift": "0.6.4",
-    "lerna": "^3.15.0",
+    "lerna": "^3.22.1",
     "load-json-file": "6.1.0",
     "matrix-to-grid": "4.0.0",
     "meow": "5.0.0",
