@@ -1,4 +1,5 @@
 import typescript from './rollup-plugins/typescript-export';
+import babel from '@rollup/plugin-babel';
 
 export default {
     input: 'index.js',
@@ -6,5 +7,16 @@ export default {
         {file: 'main.js', format: 'cjs'},
         {file: 'main.es.js', format: 'es'}
     ],
-    plugins: [typescript()]
+    plugins: [
+        babel({
+            babelHelpers: 'bundled',
+            presets: [
+                '@babel/preset-env'
+            ],
+            plugins: [
+                '@babel/plugin-transform-template-literals'
+            ]
+        }),
+        typescript()
+    ]
 }
