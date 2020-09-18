@@ -79,7 +79,7 @@
     "meow": "5.0.0",
     "mkdirp": "0.5.1",
     "progress": "2.0.3",
-    "proj4": "2.5.0",
+    "proj4": "^2.6.2",
     "rollup": "1.16.4",
     "rollup-plugin-buble": "0.19.8",
     "rollup-plugin-commonjs": "10.0.1",
