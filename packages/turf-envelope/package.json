@@ -1,6 +1,6 @@
 {
   "name": "@spatial/envelope",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "turf envelope module",
   "main": "main.js",
   "module": "main.es.js",
@@ -39,9 +39,9 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bbox": "^2.0.1",
-    "@spatial/bbox-polygon": "^2.0.1",
-    "@spatial/helpers": "^2.0.1"
+    "@spatial/bbox": "^2.0.4",
+    "@spatial/bbox-polygon": "^2.0.4",
+    "@spatial/helpers": "^2.0.4"
   },
   "esm": {
     "cjs": true

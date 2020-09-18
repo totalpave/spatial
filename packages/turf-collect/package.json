@@ -1,6 +1,6 @@
 {
   "name": "@spatial/collect",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "turf collect module",
   "main": "main.js",
   "module": "main.es.js",
@@ -43,9 +43,9 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bbox": "^2.0.1",
-    "@spatial/boolean-point-in-polygon": "^2.0.1",
-    "@spatial/helpers": "^2.0.1",
+    "@spatial/bbox": "^2.0.4",
+    "@spatial/boolean-point-in-polygon": "^2.0.4",
+    "@spatial/helpers": "^2.0.4",
     "rbush": "^2.0.1"
   },
   "esm": {

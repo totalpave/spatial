@@ -1,6 +1,6 @@
 {
   "name": "@spatial/intersect",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "turf intersect module",
   "main": "main.js",
   "module": "main.es.js",
@@ -37,10 +37,10 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/clean-coords": "^2.0.1",
-    "@spatial/helpers": "^2.0.1",
-    "@spatial/invariant": "^2.0.1",
-    "@spatial/truncate": "^2.0.1",
+    "@spatial/clean-coords": "^2.0.4",
+    "@spatial/helpers": "^2.0.4",
+    "@spatial/invariant": "^2.0.4",
+    "@spatial/truncate": "^2.0.4",
     "turf-jsts": "*"
   },
   "esm": {

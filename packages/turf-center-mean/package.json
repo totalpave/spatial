@@ -1,6 +1,6 @@
 {
   "name": "@spatial/center-mean",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "turf center-mean module",
   "main": "main.js",
   "module": "main.es.js",
@@ -44,17 +44,17 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/center": "^2.0.1",
-    "@spatial/truncate": "^2.0.1",
+    "@spatial/center": "^2.0.4",
+    "@spatial/truncate": "^2.0.4",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/bbox": "^2.0.1",
-    "@spatial/helpers": "^2.0.1",
-    "@spatial/meta": "^2.0.1"
+    "@spatial/bbox": "^2.0.4",
+    "@spatial/helpers": "^2.0.4",
+    "@spatial/meta": "^2.0.4"
   },
   "esm": {
     "cjs": true

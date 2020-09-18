@@ -1,6 +1,6 @@
 {
   "name": "@spatial/clusters-kmeans",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "turf clusters-kmeans module",
   "main": "main.js",
   "module": "main.es.js",
@@ -45,19 +45,19 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "devDependencies": {
-    "@spatial/centroid": "^2.0.1",
-    "@spatial/clusters": "^2.0.1",
-    "@spatial/random": "^2.0.1",
+    "@spatial/centroid": "^2.0.4",
+    "@spatial/clusters": "^2.0.4",
+    "@spatial/random": "^2.0.4",
     "benchmark": "*",
     "esm": "*",
     "rollup": "*",
     "tape": "*"
   },
   "dependencies": {
-    "@spatial/clone": "^2.0.1",
-    "@spatial/helpers": "^2.0.1",
-    "@spatial/invariant": "^2.0.1",
-    "@spatial/meta": "^2.0.1",
+    "@spatial/clone": "^2.0.4",
+    "@spatial/helpers": "^2.0.4",
+    "@spatial/invariant": "^2.0.4",
+    "@spatial/meta": "^2.0.4",
     "skmeans": "0.9.7"
   },
   "esm": {

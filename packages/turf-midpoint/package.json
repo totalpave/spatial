@@ -1,6 +1,6 @@
 {
   "name": "@spatial/midpoint",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "turf midpoint module",
   "main": "main.js",
   "module": "main.es.js",
@@ -39,10 +39,10 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/bearing": "^2.0.1",
-    "@spatial/destination": "^2.0.1",
-    "@spatial/distance": "^2.0.1",
-    "@spatial/helpers": "^2.0.1"
+    "@spatial/bearing": "^2.0.4",
+    "@spatial/destination": "^2.0.4",
+    "@spatial/distance": "^2.0.4",
+    "@spatial/helpers": "^2.0.4"
   },
   "esm": {
     "cjs": true

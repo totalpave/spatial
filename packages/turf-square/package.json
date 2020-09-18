@@ -1,6 +1,6 @@
 {
   "name": "@spatial/square",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "turf square module",
   "main": "main.js",
   "module": "main.es.js",
@@ -38,8 +38,8 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/distance": "^2.0.1",
-    "@spatial/helpers": "^2.0.1"
+    "@spatial/distance": "^2.0.4",
+    "@spatial/helpers": "^2.0.4"
   },
   "esm": {
     "cjs": true

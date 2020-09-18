@@ -1,6 +1,6 @@
 {
   "name": "@spatial/boolean-point-on-line",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "turf boolean-point-on-line module",
   "main": "main.js",
   "module": "main.es.js",
@@ -39,8 +39,8 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/helpers": "^2.0.1",
-    "@spatial/invariant": "^2.0.1"
+    "@spatial/helpers": "^2.0.4",
+    "@spatial/invariant": "^2.0.4"
   },
   "esm": {
     "cjs": true

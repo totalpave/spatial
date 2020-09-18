@@ -1,6 +1,6 @@
 {
   "name": "@spatial/center-of-mass",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "turf center-of-mass module",
   "main": "main.js",
   "module": "main.es.js",
@@ -36,11 +36,11 @@
   },
   "homepage": "https://github.com/Turfjs/turf",
   "dependencies": {
-    "@spatial/centroid": "^2.0.1",
-    "@spatial/convex": "^2.0.1",
-    "@spatial/helpers": "^2.0.1",
-    "@spatial/invariant": "^2.0.1",
-    "@spatial/meta": "^2.0.1"
+    "@spatial/centroid": "^2.0.4",
+    "@spatial/convex": "^2.0.4",
+    "@spatial/helpers": "^2.0.4",
+    "@spatial/invariant": "^2.0.4",
+    "@spatial/meta": "^2.0.4"
   },
   "esm": {
     "cjs": true
