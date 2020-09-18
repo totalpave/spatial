@@ -87,7 +87,7 @@
     "rollup-plugin-terser": "^4.0.4",
     "tape": "4.11.0",
     "typescript": "3.6.2",
-    "write-json-file": "4.1.1",
+    "write-json-file": "^4.3.0",
     "yamljs": "0.3.0"
   },
   "esm": {
