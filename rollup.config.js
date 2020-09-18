@@ -14,7 +14,8 @@ export default {
                 '@babel/preset-env'
             ],
             plugins: [
-                '@babel/plugin-transform-template-literals'
+                '@babel/plugin-transform-template-literals',
+                '@babel/plugin-transform-object-assign'
             ]
         }),
         typescript()

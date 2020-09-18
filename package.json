@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "5to6-codemod": "1.8.0",
+    "@babel/plugin-transform-object-assign": "7.10.4",
     "@babel/plugin-transform-template-literals": "7.10.5",
     "@babel/preset-env": "7.11.5",
     "@mapbox/geojsonhint": "3.0.0",
