@@ -60,7 +60,7 @@
     "boolean-jsts": "0.0.1",
     "boolean-shapely": "0.1.2",
     "camelcase": "5.3.1",
-    "chroma-js": "2.0.4",
+    "chroma-js": "^2.1.0",
     "chromatism": "3.0.0",
     "concaveman": "^1.2.0",
     "d3-queue": "3.0.7",
