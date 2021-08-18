@@ -1,0 +1,4000 @@
+{
+  "program": {
+    "fileInfos": {
+      "../packages/buffer/node_modules/typescript/lib/lib.d.ts": {
+        "version": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "signature": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "signature": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "signature": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "signature": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
+        "signature": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "signature": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "affectsGlobalScope": true
+      },
+      "../packages/buffer/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "affectsGlobalScope": true
+      },
+      "../oldPackages/turf-helpers/lib/geojson.d.ts": {
+        "version": "9a5e8540baa19706d3a40c60158ebd77c9e56ddd95537658bfb6357e807e9bce",
+        "signature": "9a5e8540baa19706d3a40c60158ebd77c9e56ddd95537658bfb6357e807e9bce",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-helpers/index.d.ts": {
+        "version": "4bdd7be5d83bef7d0460305f264b1e8e1ba6003015055c210f464b151f73ea11",
+        "signature": "4bdd7be5d83bef7d0460305f264b1e8e1ba6003015055c210f464b151f73ea11",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-isolines/index.d.ts": {
+        "version": "597704a12457c3ab966129baed267e90d0c0019c28b70d5ce08abe8002165fbc",
+        "signature": "597704a12457c3ab966129baed267e90d0c0019c28b70d5ce08abe8002165fbc",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-convex/index.d.ts": {
+        "version": "8a2b4e512e21294a213d27876163724c5d28d1e1bd35185d29af8d264d896aaa",
+        "signature": "8a2b4e512e21294a213d27876163724c5d28d1e1bd35185d29af8d264d896aaa",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-points-within-polygon/index.d.ts": {
+        "version": "5d211c83f0cbe065f4de8f31016d936e5dab8c46fff76b950ff67053450247ff",
+        "signature": "5d211c83f0cbe065f4de8f31016d936e5dab8c46fff76b950ff67053450247ff",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-concave/index.d.ts": {
+        "version": "9a047a37e1b4a582f0613f4abaa2fd1cba47df8404d3aa3bc70ce8a82d9b9b01",
+        "signature": "9a047a37e1b4a582f0613f4abaa2fd1cba47df8404d3aa3bc70ce8a82d9b9b01",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-collect/index.d.ts": {
+        "version": "efc4ba6b976dac5460e70589e6abc3fab2cb644e3108633f8ee63bbc8eadae25",
+        "signature": "efc4ba6b976dac5460e70589e6abc3fab2cb644e3108633f8ee63bbc8eadae25",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-flip/index.d.ts": {
+        "version": "b44ab4c17a4624a697c8135cb9d09f181e593f59f8bd6d04664cd66d7381c0e9",
+        "signature": "b44ab4c17a4624a697c8135cb9d09f181e593f59f8bd6d04664cd66d7381c0e9",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-simplify/index.d.ts": {
+        "version": "32b304bdf98faf1f264b4f76e283b3e50d7b4e9c4aeadfeb53a5acb0a8f6b25e",
+        "signature": "32b304bdf98faf1f264b4f76e283b3e50d7b4e9c4aeadfeb53a5acb0a8f6b25e",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-bezier-spline/index.d.ts": {
+        "version": "37c3fd8bfabfa3eadbea53c839976c4941ec3efb71cb459c42c0a4de4f6d14a6",
+        "signature": "37c3fd8bfabfa3eadbea53c839976c4941ec3efb71cb459c42c0a4de4f6d14a6",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-tag/index.d.ts": {
+        "version": "12f72396c2e92b69371b9e07112e7a2e3b5f085e4904762c5ee35d7d39f8523d",
+        "signature": "12f72396c2e92b69371b9e07112e7a2e3b5f085e4904762c5ee35d7d39f8523d",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-sample/index.d.ts": {
+        "version": "35551fdeb3fdad171c631a86fa0ef2cd02be05057dce1a159c310b107eaa6382",
+        "signature": "35551fdeb3fdad171c631a86fa0ef2cd02be05057dce1a159c310b107eaa6382",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-envelope/index.d.ts": {
+        "version": "4c1a3ced8ecdf1c5fd02b6b43d0752c4c846656a993976d5cb537883e53127b4",
+        "signature": "4c1a3ced8ecdf1c5fd02b6b43d0752c4c846656a993976d5cb537883e53127b4",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-square/index.d.ts": {
+        "version": "838575ec5b05b2126a11dd806a1b4ba43600c4920e6c827642411c65e580ddf1",
+        "signature": "838575ec5b05b2126a11dd806a1b4ba43600c4920e6c827642411c65e580ddf1",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-circle/index.d.ts": {
+        "version": "ac6cfac2f93bbec59201bf8617f8a709e0c996669b4b79d17c265afd112fd037",
+        "signature": "ac6cfac2f93bbec59201bf8617f8a709e0c996669b4b79d17c265afd112fd037",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-midpoint/index.d.ts": {
+        "version": "2c6c064c0147e20d5d75d1ca0275cb82a56b9fa1996b9c3d0acf8e1832e5e917",
+        "signature": "2c6c064c0147e20d5d75d1ca0275cb82a56b9fa1996b9c3d0acf8e1832e5e917",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-center/index.d.ts": {
+        "version": "b529758740c05ba1e707df2a4e7b11359ff56b0c6a072f67a5e6a4fbba378ebb",
+        "signature": "b529758740c05ba1e707df2a4e7b11359ff56b0c6a072f67a5e6a4fbba378ebb",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-center-of-mass/index.d.ts": {
+        "version": "aca51bca976791fa47a4ad8bd5058f83ab0e8bc56c5ef87c381f0bf9770e4258",
+        "signature": "aca51bca976791fa47a4ad8bd5058f83ab0e8bc56c5ef87c381f0bf9770e4258",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-centroid/index.d.ts": {
+        "version": "11d05b967785eb86c7cb232a87c46b95f2e393463ba2a49a4eaf19d835423bf3",
+        "signature": "11d05b967785eb86c7cb232a87c46b95f2e393463ba2a49a4eaf19d835423bf3",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-combine/index.d.ts": {
+        "version": "ee534481dba25a3f53e5de548355e88c13315bfd49737a60ecdd13f49824e033",
+        "signature": "ee534481dba25a3f53e5de548355e88c13315bfd49737a60ecdd13f49824e033",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-distance/index.d.ts": {
+        "version": "59e45f839ca2077a6958ce9aa48b9621138e4be6709736c58c43b63c692ec86d",
+        "signature": "59e45f839ca2077a6958ce9aa48b9621138e4be6709736c58c43b63c692ec86d",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-explode/index.d.ts": {
+        "version": "c3cb4d7b686432f5edf6af92c87e25ffe431e9885e9fb16ad33e4517a7a210ab",
+        "signature": "c3cb4d7b686432f5edf6af92c87e25ffe431e9885e9fb16ad33e4517a7a210ab",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-bbox/index.d.ts": {
+        "version": "dac606bd9d4233fbed0fcfc73527a55bab0d22f9e01f5d5b14224e266946890b",
+        "signature": "dac606bd9d4233fbed0fcfc73527a55bab0d22f9e01f5d5b14224e266946890b",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-tesselate/index.d.ts": {
+        "version": "ba7415783edb3675ab80702dd1c274ca8bf0795dad50a7cff4091ee325d008f7",
+        "signature": "ba7415783edb3675ab80702dd1c274ca8bf0795dad50a7cff4091ee325d008f7",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-bbox-polygon/index.d.ts": {
+        "version": "8db4870bf1df2fc1147ad191ad938af5685727683ca768e1d5540d117f76d6f3",
+        "signature": "8db4870bf1df2fc1147ad191ad938af5685727683ca768e1d5540d117f76d6f3",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-point-in-polygon/index.d.ts": {
+        "version": "4ee7d8ee36253c18ac386eb41284e69b10988c5a7852aff831c15875640c4733",
+        "signature": "4ee7d8ee36253c18ac386eb41284e69b10988c5a7852aff831c15875640c4733",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-nearest-point/index.d.ts": {
+        "version": "1c545f1209867ca5c72080ec065405a0b9b31b19c00a38b9b8b9467b43763abf",
+        "signature": "1c545f1209867ca5c72080ec065405a0b9b31b19c00a38b9b8b9467b43763abf",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-nearest-point-on-line/index.d.ts": {
+        "version": "0add24e9d6a5379de46c45d3f697740d61d803b0bb58e3073151e6ffc28504ee",
+        "signature": "0add24e9d6a5379de46c45d3f697740d61d803b0bb58e3073151e6ffc28504ee",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-nearest-point-to-line/index.d.ts": {
+        "version": "2f364aec8e41fff0881287cc7034b0cf698ef1d455dd368d29ef96674615fc9e",
+        "signature": "2f364aec8e41fff0881287cc7034b0cf698ef1d455dd368d29ef96674615fc9e",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-planepoint/index.d.ts": {
+        "version": "73d99f5c31c70db3d74729acb1b62613963c31d6882736d0dbb85f56d49826f6",
+        "signature": "73d99f5c31c70db3d74729acb1b62613963c31d6882736d0dbb85f56d49826f6",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-tin/index.d.ts": {
+        "version": "3a817ebfd468d6ee2791e836d37f346670583f6dd4213e93430cb08efae6bc13",
+        "signature": "3a817ebfd468d6ee2791e836d37f346670583f6dd4213e93430cb08efae6bc13",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-bearing/index.d.ts": {
+        "version": "cd514c6dda4a109070b0cacc3dd23e638722195ef742a93a6b7861e909d05bdc",
+        "signature": "cd514c6dda4a109070b0cacc3dd23e638722195ef742a93a6b7861e909d05bdc",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-destination/index.d.ts": {
+        "version": "2b28359d6cd1d761325f981cb0b240e81cedc68d97bacf0177302122b349acc8",
+        "signature": "2b28359d6cd1d761325f981cb0b240e81cedc68d97bacf0177302122b349acc8",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-kinks/index.d.ts": {
+        "version": "4af71785ab41271c9320768e12a670a808ac59e1462b4b61ea989849d3cdfad2",
+        "signature": "4af71785ab41271c9320768e12a670a808ac59e1462b4b61ea989849d3cdfad2",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-point-on-feature/index.d.ts": {
+        "version": "3ff958ba6a8d88993fd8e836a5b117a2e5ff78f2044fa30a2604b478b453360c",
+        "signature": "3ff958ba6a8d88993fd8e836a5b117a2e5ff78f2044fa30a2604b478b453360c",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-area/index.d.ts": {
+        "version": "1f07f935a6bd6fd7f462edeef11ddcb94c19f8a9f64c168bb1686342e3c07616",
+        "signature": "1f07f935a6bd6fd7f462edeef11ddcb94c19f8a9f64c168bb1686342e3c07616",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-along/index.d.ts": {
+        "version": "6156df724a8431016237c1f820676a0229a8cbab31bd1a78a1a8b44dfba969b7",
+        "signature": "6156df724a8431016237c1f820676a0229a8cbab31bd1a78a1a8b44dfba969b7",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-length/index.d.ts": {
+        "version": "4b5b620fc3ff46734dcf9ac4c23cd39c6ef58b8a482a0af703999d2595473ca4",
+        "signature": "4b5b620fc3ff46734dcf9ac4c23cd39c6ef58b8a482a0af703999d2595473ca4",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-slice/index.d.ts": {
+        "version": "faebee945b4b2615373ae5eaf19c710bffaebe8ac7b6b36dda88d5e0f9a6f99c",
+        "signature": "faebee945b4b2615373ae5eaf19c710bffaebe8ac7b6b36dda88d5e0f9a6f99c",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-slice-along/index.d.ts": {
+        "version": "3efc892eba052a1e46986375c08c7fb48d9af1babf277188de33e550579f6571",
+        "signature": "3efc892eba052a1e46986375c08c7fb48d9af1babf277188de33e550579f6571",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-point-grid/index.d.ts": {
+        "version": "ebafa99d571c3f25eace7dec7afbb3ed3b9dad4d888cf0ec35e7fefeb9dfbb81",
+        "signature": "ebafa99d571c3f25eace7dec7afbb3ed3b9dad4d888cf0ec35e7fefeb9dfbb81",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-truncate/index.d.ts": {
+        "version": "3538ea3614f87e3216999cf024a4e57e025f83142d6a27d8adf516edf25a75a6",
+        "signature": "3538ea3614f87e3216999cf024a4e57e025f83142d6a27d8adf516edf25a75a6",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-flatten/index.d.ts": {
+        "version": "1521b539056f3a7c390cf6b24810d5c3891b6291cad15de5bcad3b70a2290664",
+        "signature": "1521b539056f3a7c390cf6b24810d5c3891b6291cad15de5bcad3b70a2290664",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-intersect/index.d.ts": {
+        "version": "c1bd95c6701273b0dfb97fbb1d8c7c60d442775a1fa7b23d51b8c0252efc41c5",
+        "signature": "c1bd95c6701273b0dfb97fbb1d8c7c60d442775a1fa7b23d51b8c0252efc41c5",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-chunk/index.d.ts": {
+        "version": "dcaf61474a7e454ca2e0dfe92cda2797e63e33c1194ae9b44542befd29ad6255",
+        "signature": "dcaf61474a7e454ca2e0dfe92cda2797e63e33c1194ae9b44542befd29ad6255",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-unkink-polygon/index.d.ts": {
+        "version": "7b87be1657d1c31c0ea0437957ff6046b4ab86daaa576f0c7c78c5d71cc199a3",
+        "signature": "7b87be1657d1c31c0ea0437957ff6046b4ab86daaa576f0c7c78c5d71cc199a3",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-great-circle/index.d.ts": {
+        "version": "64ac50c0753e6066fa9ac7bc882a8fcc54a44a520f61686b2a14480c3b081954",
+        "signature": "64ac50c0753e6066fa9ac7bc882a8fcc54a44a520f61686b2a14480c3b081954",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-segment/index.d.ts": {
+        "version": "de7be975368b9745d4db19b653c5ceb01bab76e671305b33c1d804144c152084",
+        "signature": "de7be975368b9745d4db19b653c5ceb01bab76e671305b33c1d804144c152084",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-split/index.d.ts": {
+        "version": "7ba2089f78513253bc2e9f091c7812a8ba680c980305a3c65601fea13973f7fc",
+        "signature": "7ba2089f78513253bc2e9f091c7812a8ba680c980305a3c65601fea13973f7fc",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-arc/index.d.ts": {
+        "version": "aa39e7897e044f62e47a2ec5be075597affe129fdfcbafccebd471c1f33cd478",
+        "signature": "aa39e7897e044f62e47a2ec5be075597affe129fdfcbafccebd471c1f33cd478",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-polygon-to-line/index.d.ts": {
+        "version": "f20249fc43d2307726817583dfd4a11ea090b3defc226b5c0d42e997ee436ec5",
+        "signature": "f20249fc43d2307726817583dfd4a11ea090b3defc226b5c0d42e997ee436ec5",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-to-polygon/index.d.ts": {
+        "version": "238ea3a8cd0ab354e6fa9b16dce8a2493f8350fdea79340da0521cc43f71d7c8",
+        "signature": "238ea3a8cd0ab354e6fa9b16dce8a2493f8350fdea79340da0521cc43f71d7c8",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-bbox-clip/index.d.ts": {
+        "version": "4d284a335558b1b2007c83037006826825e44efacbaaab6f30bd6d537e7a7bcd",
+        "signature": "4d284a335558b1b2007c83037006826825e44efacbaaab6f30bd6d537e7a7bcd",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-overlap/index.d.ts": {
+        "version": "b2181f783a205782f65d995a2f9072214ae78a15b0c3113d7a10bba0bb71d7c8",
+        "signature": "b2181f783a205782f65d995a2f9072214ae78a15b0c3113d7a10bba0bb71d7c8",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-sector/index.d.ts": {
+        "version": "befc9b4d6a2111397d5c75b0a3bbe2afefd0f432260450a32f120a2825ee795f",
+        "signature": "befc9b4d6a2111397d5c75b0a3bbe2afefd0f432260450a32f120a2825ee795f",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-rhumb-bearing/index.d.ts": {
+        "version": "75e7119091bcc33f3fe9522cc11287c77a2f3352da0be12cc359f594c1740072",
+        "signature": "75e7119091bcc33f3fe9522cc11287c77a2f3352da0be12cc359f594c1740072",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-rhumb-distance/index.d.ts": {
+        "version": "cce69df545378a12589eb64812a1525c26223efeefba917e61ecc4ab6c8e7e98",
+        "signature": "cce69df545378a12589eb64812a1525c26223efeefba917e61ecc4ab6c8e7e98",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-rhumb-destination/index.d.ts": {
+        "version": "9e96410517eda552a0d6bed14569a2fd74805a94b3896bfdaa1092d5af0a8e3d",
+        "signature": "9e96410517eda552a0d6bed14569a2fd74805a94b3896bfdaa1092d5af0a8e3d",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-polygon-tangents/index.d.ts": {
+        "version": "c3774cba72330ff2759e9fea6b87aab4584a0a8217128f7142b97fa77e1e3c58",
+        "signature": "c3774cba72330ff2759e9fea6b87aab4584a0a8217128f7142b97fa77e1e3c58",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-rewind/index.d.ts": {
+        "version": "125eb8d0da68e04b482fa2ab6600f839622141bb5a5618a61bc524802e955521",
+        "signature": "125eb8d0da68e04b482fa2ab6600f839622141bb5a5618a61bc524802e955521",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-isobands/index.d.ts": {
+        "version": "f1a15c247bd28dee2d90ef221d279bdb29d6f570d5f659c731923318d8d3de80",
+        "signature": "f1a15c247bd28dee2d90ef221d279bdb29d6f570d5f659c731923318d8d3de80",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-transform-rotate/index.d.ts": {
+        "version": "a09fd84fb4ac04364730f75d81bc2e8a4872ab764f616a1215b3ce539c1fdaa8",
+        "signature": "a09fd84fb4ac04364730f75d81bc2e8a4872ab764f616a1215b3ce539c1fdaa8",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-transform-scale/index.d.ts": {
+        "version": "9ec137c234e6b8bb84b2e13009f131110d6cc6767bb56a50ec2bf327f2fc8a71",
+        "signature": "9ec137c234e6b8bb84b2e13009f131110d6cc6767bb56a50ec2bf327f2fc8a71",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-transform-translate/index.d.ts": {
+        "version": "71bdc9586f1e5b167bdbb9b34b903054b3eb6cd7291d10055629919f92714627",
+        "signature": "71bdc9586f1e5b167bdbb9b34b903054b3eb6cd7291d10055629919f92714627",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-offset/index.d.ts": {
+        "version": "da4f54cf255cb11fae2e1db2e2c79e0ee378c8c7d3fd9a87a0106629711a5802",
+        "signature": "da4f54cf255cb11fae2e1db2e2c79e0ee378c8c7d3fd9a87a0106629711a5802",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-polygonize/index.d.ts": {
+        "version": "0fa1bf64b5160f753b0dbb63ca9cc43bd7938c7898565a5191d39968054591f6",
+        "signature": "0fa1bf64b5160f753b0dbb63ca9cc43bd7938c7898565a5191d39968054591f6",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-disjoint/index.d.ts": {
+        "version": "49000fdc54a4b773f5f7062152bfadf1dfb5122ec4fd99f8c8a910a31fbce908",
+        "signature": "49000fdc54a4b773f5f7062152bfadf1dfb5122ec4fd99f8c8a910a31fbce908",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-contains/index.d.ts": {
+        "version": "3530da27b7c625e866d6633823b0b9a0ec563f16c707f076a9909396e9350c84",
+        "signature": "3530da27b7c625e866d6633823b0b9a0ec563f16c707f076a9909396e9350c84",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-crosses/index.d.ts": {
+        "version": "604ac9818bfdc6f6aca8daba58e90eb3097a2951b7670c8ec09ec8536422de7c",
+        "signature": "604ac9818bfdc6f6aca8daba58e90eb3097a2951b7670c8ec09ec8536422de7c",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-clockwise/index.d.ts": {
+        "version": "06c3a7060969dffed78493d40465899a61e229cca595f8eb7898763385ae1ec8",
+        "signature": "06c3a7060969dffed78493d40465899a61e229cca595f8eb7898763385ae1ec8",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-overlap/index.d.ts": {
+        "version": "d1f3ff7c2d6dd78a1a62f59263f920a8f9139c39c33580fa767249742460aa07",
+        "signature": "d1f3ff7c2d6dd78a1a62f59263f920a8f9139c39c33580fa767249742460aa07",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-point-on-line/index.d.ts": {
+        "version": "b4953e6c6b5194c0b9d5ab90b6749caa9bf5aaa5e686312e6b11ad2368502e00",
+        "signature": "b4953e6c6b5194c0b9d5ab90b6749caa9bf5aaa5e686312e6b11ad2368502e00",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-equal/index.d.ts": {
+        "version": "76ee79ca03ee7d0056a085f60b6851d9c568d6e6badb01a52baac93e2e4170a8",
+        "signature": "76ee79ca03ee7d0056a085f60b6851d9c568d6e6badb01a52baac93e2e4170a8",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-within/index.d.ts": {
+        "version": "1671c9b283e8d752d109d8f21c7b252769ecd8bc5b5b1d4c59f1a095cdaa1586",
+        "signature": "1671c9b283e8d752d109d8f21c7b252769ecd8bc5b5b1d4c59f1a095cdaa1586",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-clone/index.d.ts": {
+        "version": "e5ce07928c663b50f4122f897485c0cbf533a8d2a585ee95243a7319a3477fbd",
+        "signature": "e5ce07928c663b50f4122f897485c0cbf533a8d2a585ee95243a7319a3477fbd",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-clean-coords/index.d.ts": {
+        "version": "197f7584347d2e0b0e9964b57c52f61cb9c4f63066e492cfbccb768206fd5686",
+        "signature": "197f7584347d2e0b0e9964b57c52f61cb9c4f63066e492cfbccb768206fd5686",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-clusters-dbscan/index.d.ts": {
+        "version": "5d5b9ac87e40ccae1b81e289e44fd118ef367dee92a1418aaee1ecf5726d4901",
+        "signature": "5d5b9ac87e40ccae1b81e289e44fd118ef367dee92a1418aaee1ecf5726d4901",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-clusters-kmeans/index.d.ts": {
+        "version": "9c6fd680112206d048f0600900cb3497cfa9834a4cabb20d8e428a0bb3cfb041",
+        "signature": "9c6fd680112206d048f0600900cb3497cfa9834a4cabb20d8e428a0bb3cfb041",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-point-to-line-distance/index.d.ts": {
+        "version": "ce27619b7ad17db3b0433aea1f285a05336e4dce53698984ae8a1e532a504d87",
+        "signature": "ce27619b7ad17db3b0433aea1f285a05336e4dce53698984ae8a1e532a504d87",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-parallel/index.d.ts": {
+        "version": "d1f1fd8f53d306deb0652623728e20b19f64e30c16fd6df5bc4cd0d1e8f631c6",
+        "signature": "d1f1fd8f53d306deb0652623728e20b19f64e30c16fd6df5bc4cd0d1e8f631c6",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-shortest-path/index.d.ts": {
+        "version": "853c6146e5986c024ade7fd7cce5ba1b5dbf8b9305f776817cb7f69f3d89ddb0",
+        "signature": "853c6146e5986c024ade7fd7cce5ba1b5dbf8b9305f776817cb7f69f3d89ddb0",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-voronoi/index.d.ts": {
+        "version": "85ac518f2d386f0bc1422902fc869edfa25ca03961ccd081f25d9b8502b0e72f",
+        "signature": "85ac518f2d386f0bc1422902fc869edfa25ca03961ccd081f25d9b8502b0e72f",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-ellipse/index.d.ts": {
+        "version": "00a6f58fbe8dca5175b7c99985a8361b0a7498439f2fb37b9223a03c7f72d323",
+        "signature": "00a6f58fbe8dca5175b7c99985a8361b0a7498439f2fb37b9223a03c7f72d323",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-center-mean/index.d.ts": {
+        "version": "709762506723a94a661b47d31431360f2752a2c79b0301e2ca683cedb90b6a5f",
+        "signature": "709762506723a94a661b47d31431360f2752a2c79b0301e2ca683cedb90b6a5f",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-center-median/index.d.ts": {
+        "version": "882ff8dd9a4620bfe3b4a2421ddbf983e6c3474ded0293a7868f9df2cb86adac",
+        "signature": "882ff8dd9a4620bfe3b4a2421ddbf983e6c3474ded0293a7868f9df2cb86adac",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-standard-deviational-ellipse/index.d.ts": {
+        "version": "64258fab58869161893ab67c7a38df2078046a795b19cf91ef441f01b5775262",
+        "signature": "64258fab58869161893ab67c7a38df2078046a795b19cf91ef441f01b5775262",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-projection/index.d.ts": {
+        "version": "73465bb740a91fc2cc38c3b6941f09620fb12de03f78991339bb72e106cc7a0a",
+        "signature": "73465bb740a91fc2cc38c3b6941f09620fb12de03f78991339bb72e106cc7a0a",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-random/index.d.ts": {
+        "version": "778b7767b46b63a28b7b7ec856da259030affff8575ae566970abd94b8831cb7",
+        "signature": "778b7767b46b63a28b7b7ec856da259030affff8575ae566970abd94b8831cb7",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-clusters/index.d.ts": {
+        "version": "fc34a0a4a292634052f8729d5d6fa3e13ca526ac3e0308f5f7694c531f4c371f",
+        "signature": "fc34a0a4a292634052f8729d5d6fa3e13ca526ac3e0308f5f7694c531f4c371f",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-invariant/index.d.ts": {
+        "version": "97dff45f7885f6a4bd5cd826032cbe412a38915b54df19338aff9677d90b2792",
+        "signature": "97dff45f7885f6a4bd5cd826032cbe412a38915b54df19338aff9677d90b2792",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-meta/index.d.ts": {
+        "version": "bcdb09d221a5317f79d104994c12669725a1f5c778b7a2f94937c6a940c7d941",
+        "signature": "bcdb09d221a5317f79d104994c12669725a1f5c778b7a2f94937c6a940c7d941",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-difference/index.d.ts": {
+        "version": "4fcf3f0bdf3ecb1b8adc0b48cbb3487f78bc79185355388225948b1786e72077",
+        "signature": "4fcf3f0bdf3ecb1b8adc0b48cbb3487f78bc79185355388225948b1786e72077",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-buffer/index.d.ts": {
+        "version": "a08c30f1fcba64ae7d112e3e1fd85c5afe7da64e1f1076c4cad09e1d06f639ec",
+        "signature": "a08c30f1fcba64ae7d112e3e1fd85c5afe7da64e1f1076c4cad09e1d06f639ec",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-union/index.d.ts": {
+        "version": "8018a27b6dbb593b9304c276b3dec02da6003a41438f0e65785f6c9e2f5ce20c",
+        "signature": "8018a27b6dbb593b9304c276b3dec02da6003a41438f0e65785f6c9e2f5ce20c",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-intersect/index.d.ts": {
+        "version": "8ff444978060ef209002533799bc493d9e5526c24d2724193020073cf4f1ff09",
+        "signature": "8ff444978060ef209002533799bc493d9e5526c24d2724193020073cf4f1ff09",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-dissolve/index.d.ts": {
+        "version": "11cfd7ca8723f89a140632d4dd0ca66e7182a5a7716275a6c1b4d88dffae25f7",
+        "signature": "11cfd7ca8723f89a140632d4dd0ca66e7182a5a7716275a6c1b4d88dffae25f7",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-hex-grid/index.d.ts": {
+        "version": "ba05527153d8d779e60d6510e6a03aa8117f949665c94e8611059234046a8255",
+        "signature": "ba05527153d8d779e60d6510e6a03aa8117f949665c94e8611059234046a8255",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-mask/index.d.ts": {
+        "version": "978ba861c6ab1341fcd3e78f98de3255dcf334ddc79d5ae1604d5d2638656d03",
+        "signature": "978ba861c6ab1341fcd3e78f98de3255dcf334ddc79d5ae1604d5d2638656d03",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-square-grid/index.d.ts": {
+        "version": "465c4c15cc2e1d3b3106816590873a5892928c3d6b12b85733f389fd94ffa6de",
+        "signature": "465c4c15cc2e1d3b3106816590873a5892928c3d6b12b85733f389fd94ffa6de",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-triangle-grid/index.d.ts": {
+        "version": "d988f66cf7a94ff40dd3ad7968297c44a4c03a42b543ac1bc9841141263ed6a8",
+        "signature": "d988f66cf7a94ff40dd3ad7968297c44a4c03a42b543ac1bc9841141263ed6a8",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-interpolate/index.d.ts": {
+        "version": "41391216105a37cbef57f3362cf55f752743de5ceca355c32b3de2cd9ba07fe7",
+        "signature": "41391216105a37cbef57f3362cf55f752743de5ceca355c32b3de2cd9ba07fe7",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf/index.d.ts": {
+        "version": "d21b8cce02443674048e637b9776890cd86c4b9bbec918a17a46f6ba302f35df",
+        "signature": "d21b8cce02443674048e637b9776890cd86c4b9bbec918a17a46f6ba302f35df",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/tslib/tslib.d.ts": {
+        "version": "4576b4e61049f5ffd7c9e935cf88832e089265bdb15ffc35077310042cbbbeea",
+        "signature": "4576b4e61049f5ffd7c9e935cf88832e089265bdb15ffc35077310042cbbbeea",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf/types.ts": {
+        "version": "0a47889b899006ac35bd6d0316bf9120013349e26719dec8674ce8c2a20e10ab",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-along/types.ts": {
+        "version": "a74f79f22302e4f36b19aa7f5753630b7e05d20920840e687fb00a1f316d371e",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-bbox-clip/types.ts": {
+        "version": "4cbf05c82e3b8b4ef3d555e2ab8d4df541dd7306d9b6a5c138bcaa66f5036718",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-clockwise/types.ts": {
+        "version": "9f176ee2812ded9ab6e20d4b5adeab86d37df2c6abddeff5c8f032a5599a1bf9",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-point-in-polygon/types.ts": {
+        "version": "373d55352bdbdbddbd77fc55b4b126ecbe12284f876daf9e97f527c1deb34882",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-boolean-within/types.ts": {
+        "version": "83070d6cbf046a45ae504ce7561f1d27b93b91295b5eb1de2b410341e8621aa7",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-buffer/types.ts": {
+        "version": "2df35fcc06d53955fef2424c3000ebe19c3679cf8172213b9e0b5a97245c24ec",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-center/types.ts": {
+        "version": "1c859726cd3006b2c928b48ed3b336738dd41f6817c9f0afbf7ee63820754d40",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-center-mean/types.ts": {
+        "version": "b6f7b9a015610851bf6dc74c0feb87a7c39e9c91e4bd7fe33d3479094baf8274",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-center-of-mass/types.ts": {
+        "version": "de6566d2327fad90e122f91a8500529365f413b47e73bf6dcf03c662bfbee149",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-centroid/types.ts": {
+        "version": "2c567ee5a4370e5c30c815209920ba490d5ba59e3450e7fb59b9f24f5919358e",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-circle/types.ts": {
+        "version": "ad2c22570958cff08392414818894173b6bdfe9a9569017c4f48413c880fc6cf",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-clean-coords/types.ts": {
+        "version": "cca233294d70eb155b270584042cb0ba332566d484458a3c7ec953a7242f6355",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-clone/types.ts": {
+        "version": "5954d12526508d314ca52859dd66a158f1f3830b4654cc66445e2dcfef541907",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-clusters/types.ts": {
+        "version": "9205d53145afc568781516a90d15390460c5868ce9ba39c81930625ae53b22d9",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-clusters-dbscan/types.ts": {
+        "version": "2411d7b1135a9d47475db0a3ee4f69fb36ac9e4a417a1d80bae357f261c62d18",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-clusters-kmeans/types.ts": {
+        "version": "fa92e656b4d3c65b75f190ce042dc07d55fc8c11d6c12f7c0946548eaee1040a",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-flatten/types.ts": {
+        "version": "69c99f9f0e98591016635e23da9fdfa99a248a07d55a55ac2818dbe92e235327",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-flip/types.ts": {
+        "version": "c5c792f6f6134352029eb4f56b83f17a43ef17f1b4e50b95d08faee0371f9144",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-great-circle/types.ts": {
+        "version": "c47e32459cc1b0236ad5d384d8295282323a56b77424309d0f99d0584011a7ef",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-helpers/types.ts": {
+        "version": "54519acf5cf951648cfd5161c66efe6b4a7138d29b881510c15bcc3c59e5b461",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-hex-grid/types.ts": {
+        "version": "339f828c9b72c6fc433664850b27bf231216c03981905275821c78aefbfe949a",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-interpolate/types.ts": {
+        "version": "65caa700061a05af76f370329b19a202bcb680285b2905c3f8d38958f593c80f",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-intersect/types.ts": {
+        "version": "b50e5e98674c6c5635a9ff5d935ae11609b54311e96c2ba6727583f74254755d",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-invariant/types.ts": {
+        "version": "4e3197fe417ee49f56f05a91a4f7bda136fc757226767dd22e557316ccba2094",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-isolines/types.ts": {
+        "version": "42817633ae5130317c9bc85e0429c16a03cf7fd8a955abacb247e42d87217a45",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-kinks/types.ts": {
+        "version": "e41da1f95b8f5eae2421da385d445a1fbed13b0afb5975950263cc7a9798c505",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-length/types.ts": {
+        "version": "2a54b2ea9b17d12777b556882693868dafc3bc2a53ae2c1013a20c15e9852df3",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-arc/types.ts": {
+        "version": "7e8a9ad4a96114092075bfa35205d164ed5dbaa325ff3f39c5ab65f742df7584",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-chunk/types.ts": {
+        "version": "1699e9123453101297bbee414b1018a3e907af77e519e92827b0ba4fb8164b9c",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-intersect/types.ts": {
+        "version": "18f143405b866edb38e6bab406b8b3708349ae207540ae35bdaca20d09be6d82",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-offset/types.ts": {
+        "version": "fec81b5149cc18903a0b73cf014fb6ec541939345c76f9b0ec7d51fd33e3bb2b",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-overlap/types.ts": {
+        "version": "09813f2063193ef91b5ab6b67a5ae4269f95b6f3a51fe938e141f2568c15197c",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-segment/types.ts": {
+        "version": "5148f832e33f9e6575131ddd72eafb88670f3a42cb515a2678ecebf08bd54482",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-line-to-polygon/types.ts": {
+        "version": "2c43054993bed7bc5f8df5dff28f55e4856d1d88f1fd4d451faee42a35bef1c1",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-mask/types.ts": {
+        "version": "c26c8d1879048796b20fb96ef9ff2476dfafa4c2d5aff00b4fba90e1273ad5b7",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-meta/types.ts": {
+        "version": "77bb00059c7a7aceb0894709cbb9f68a820f85d27735dfd2e4e3a8bcf758cc89",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-nearest-point/types.ts": {
+        "version": "45a2d0c59f63cc6d60160e0a7e2ca398e73a903ca7d7d72324a4287cbea51b2f",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-nearest-point-on-line/types.ts": {
+        "version": "be0308a6247a77eb4e2d1e97f4ab997aec687c85ef4cf928d54d374b7397086e",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-nearest-point-to-line/types.ts": {
+        "version": "84c1375ad70b91505dea9b0dd7aac4b20cba7797df373e2a868c3d3c2f004402",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-planepoint/types.ts": {
+        "version": "1f8312949ebc1676889fce92db0295c9f59f3a49ce3d19569b06e9d2f6188732",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-point-grid/types.ts": {
+        "version": "9f0acb1673a97be59fa6a326c368b42adeb7bd25fade0fcca65e03b384c30468",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-point-to-line-distance/types.ts": {
+        "version": "93625c603e8302e625320363730f416f9a690400a9cee087ebef784fe490cdd4",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-points-within-polygon/types.ts": {
+        "version": "8348faab71cc711daa2fce2903989e471ea46f8805f6ed59c75d001feb4b989f",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@turf/helpers/lib/geojson.d.ts": {
+        "version": "9a5e8540baa19706d3a40c60158ebd77c9e56ddd95537658bfb6357e807e9bce",
+        "signature": "9a5e8540baa19706d3a40c60158ebd77c9e56ddd95537658bfb6357e807e9bce",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@turf/helpers/index.d.ts": {
+        "version": "4bdd7be5d83bef7d0460305f264b1e8e1ba6003015055c210f464b151f73ea11",
+        "signature": "4bdd7be5d83bef7d0460305f264b1e8e1ba6003015055c210f464b151f73ea11",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-polygon-smooth/index.d.ts": {
+        "version": "08197ac9883f46688229863dd6394efe43383776468821cb9a1726c3beaf083f",
+        "signature": "08197ac9883f46688229863dd6394efe43383776468821cb9a1726c3beaf083f",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-polygon-smooth/types.ts": {
+        "version": "c7510c0f16cbbd14219e020ac16b8ced041f98ddc8dc0bd8b42f0faf759d17ba",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-polygon-tangents/types.ts": {
+        "version": "ecd529077af4a7a12c8a6ceed9b128e3685eca2e01e84ae5b1bd8ec1a9c06630",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-polygon-to-line/types.ts": {
+        "version": "a4a2d9b4b5764dc53193da395cfa6e602fcfc67cd02f586636aa843bf7d2a328",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-polygonize/types.ts": {
+        "version": "1a3cf8397ed94ac2af41ea0f6c03299a8f4f31ad63ae6483df33baed391e4ffd",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-projection/types.ts": {
+        "version": "967eec91ed7f49bb46f9c29fdd2e055a6e1d35e16bc53402659274404482e62b",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-random/types.ts": {
+        "version": "b96de789806bc53229f16f4d21fe8b6043d33af9eb0e80989b73bc8413a3d13b",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-rewind/types.ts": {
+        "version": "a224a61528a3ba7e3e437d121f83e3187edc73ee61670320cdd508569775cba4",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-rhumb-bearing/types.ts": {
+        "version": "9ce2f9a1fd4c271244acccae63ce1451d60a0dce11a65e10e3c876505a37b2cc",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-rhumb-destination/types.ts": {
+        "version": "c8f5a7dc6d62906d6f620eb037281c3bf131a03f61e0b873095e9533ea94bbc1",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-sector/types.ts": {
+        "version": "e0bba3b2a06415bc512f87147ccba5f7b738b998db03bddf3ab22cc7ff485d2c",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-shortest-path/types.ts": {
+        "version": "a6689377ce6db70943a7416b21b955b52c010623e33b821789f6d6302a2dff58",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-simplify/types.ts": {
+        "version": "8ea07fa2be67593973554aebc10332661597763df16b3fe4e3201748bf3a96d6",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-square-grid/types.ts": {
+        "version": "44483c4cf3e5396829a4c14ba8081dc0e645acc6153f716fd0285c6a40f8de06",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-standard-deviational-ellipse/types.ts": {
+        "version": "6a38e4d41fc159b81f02ed3324506584e39107bd20cd9999a75e6ab034750903",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-tin/types.ts": {
+        "version": "e411fcf21c640ce9b86eb254a1ee6328f5dc0b6f9c969f031dd3baf51a560245",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-transform-rotate/types.ts": {
+        "version": "18b8a3b275ba71b0e7ee9590f74804ba045e26821a1cd05f480ae0fd65ff4089",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-transform-scale/types.ts": {
+        "version": "16aae1aa0c909b805743d212a9c6acb6693fc0305db7bb05ab5cb7f57dfe77ba",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-transform-translate/types.ts": {
+        "version": "eebd081968d61379f1a771f1f5221b5fa10b8284ebc5ad9c8a483a2d35b83f95",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-triangle-grid/types.ts": {
+        "version": "234c24013789cd68df4f4bc16ae35feaca7d346a4c66f4d6bd4a9b40c0391240",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-truncate/types.ts": {
+        "version": "be148d3fd1d70539d090f99c08390306c8df47e521a8505177670e0e37f3f0a1",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-union/types.ts": {
+        "version": "0b547575cc8fdb7ef7292d77759343dccf060f687adc3381d06746ee9226fd87",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../oldPackages/turf-unkink-polygon/types.ts": {
+        "version": "036f80872c7379cc5f019d0e6a6a9be81ca503894720d229fee1025fc6f4c3f3",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/tslib/tslib.d.ts": {
+        "version": "9eb0ae9fa333acfc2dcbe6a7eaa2ab8be46b97ca259982c797c39167823235d5",
+        "signature": "9eb0ae9fa333acfc2dcbe6a7eaa2ab8be46b97ca259982c797c39167823235d5",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@totalpave/math/lib/Math.d.ts": {
+        "version": "dd5dc9361f1480cdfe102bbf140db872848215e8897999cd95894e8f1d83d027",
+        "signature": "dd5dc9361f1480cdfe102bbf140db872848215e8897999cd95894e8f1d83d027",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@totalpave/math/lib/UnitMode.d.ts": {
+        "version": "8bac7069587fffccddf7a056ad1f6295fd2738c92e8fe5937068cfa1cf420e68",
+        "signature": "8bac7069587fffccddf7a056ad1f6295fd2738c92e8fe5937068cfa1cf420e68",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@totalpave/math/lib/Unit.d.ts": {
+        "version": "8b8537b70d9b5df7a4426ac69c7a2818ea7944547dc595cda5096a51760fd5e6",
+        "signature": "8b8537b70d9b5df7a4426ac69c7a2818ea7944547dc595cda5096a51760fd5e6",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@totalpave/math/lib/UnitType.d.ts": {
+        "version": "81109d4d7358656dc6c206dd9d9e5e023d3911c776d78ceb4f6a9d3aba6ef790",
+        "signature": "81109d4d7358656dc6c206dd9d9e5e023d3911c776d78ceb4f6a9d3aba6ef790",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@totalpave/math/lib/UnitUtils.d.ts": {
+        "version": "5a0666cf8221ec79d18bd52a427d3bf19b8320c46cd16bab4be57a9649145df7",
+        "signature": "5a0666cf8221ec79d18bd52a427d3bf19b8320c46cd16bab4be57a9649145df7",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts": {
+        "version": "24b206f467d436c2ed42c5d0af2cae8e824134e0f9482e6223241fd8869ed6c6",
+        "signature": "24b206f467d436c2ed42c5d0af2cae8e824134e0f9482e6223241fd8869ed6c6",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@spatial/center/index.d.ts": {
+        "version": "b529758740c05ba1e707df2a4e7b11359ff56b0c6a072f67a5e6a4fbba378ebb",
+        "signature": "b529758740c05ba1e707df2a4e7b11359ff56b0c6a072f67a5e6a4fbba378ebb",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@spatial/bbox/index.d.ts": {
+        "version": "dac606bd9d4233fbed0fcfc73527a55bab0d22f9e01f5d5b14224e266946890b",
+        "signature": "dac606bd9d4233fbed0fcfc73527a55bab0d22f9e01f5d5b14224e266946890b",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@spatial/projection/index.d.ts": {
+        "version": "73465bb740a91fc2cc38c3b6941f09620fb12de03f78991339bb72e106cc7a0a",
+        "signature": "73465bb740a91fc2cc38c3b6941f09620fb12de03f78991339bb72e106cc7a0a",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@spatial/meta/index.d.ts": {
+        "version": "bcdb09d221a5317f79d104994c12669725a1f5c778b7a2f94937c6a940c7d941",
+        "signature": "bcdb09d221a5317f79d104994c12669725a1f5c778b7a2f94937c6a940c7d941",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/node_modules/@spatial/helpers/index.d.ts": {
+        "version": "4bdd7be5d83bef7d0460305f264b1e8e1ba6003015055c210f464b151f73ea11",
+        "signature": "4bdd7be5d83bef7d0460305f264b1e8e1ba6003015055c210f464b151f73ea11",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/src/buffer.ts": {
+        "version": "b2cc0eda8b257fd2f0cce329dd89c0cbc2999e0f0a774bcf2ff2de5fce970001",
+        "signature": "dfed31f094722ea988b4ccc0230a018f227d12d0d5838003d8c60520d68218aa",
+        "affectsGlobalScope": false
+      },
+      "../packages/buffer/src/api.ts": {
+        "version": "cb66c07a0fe382ae9d51088e6fcdff03f3408884f976e843271d3d980505c01e",
+        "signature": "87e02235857cb886a6ef4568eabcbad9d1cd27d41006fc775b06e0c2e3ad05f9",
+        "affectsGlobalScope": false
+      },
+      "../packages/constants/src/Constants.ts": {
+        "version": "fc4bfb43b03cd5e07d12d318a8a105b080d509427fa9f683e6efd2c321c69049",
+        "signature": "a7c9e0e729e8cfc3f3aabb8caee22e0342572e2dba2be6ce8e82cdf893b58ee0",
+        "affectsGlobalScope": false
+      },
+      "../packages/constants/src/api.ts": {
+        "version": "80ab57fe236fbbebc491b9310557b30630277133035d1b9ca782db61649bb087",
+        "signature": "ad1ac306d712da8b819afd91c6c5251ce8216e002168ee44ccc7494964cf5bc8",
+        "affectsGlobalScope": false
+      },
+      "../packages/feature/src/feature.ts": {
+        "version": "4c068345c2012a37859534bc81489433d2079843d5cb1a3a8bf6395bbc90e93c",
+        "signature": "d2b385ff3805e9880d9cf5b5c557a2db4dcf1f8764ac04917c2ca58ab6d3764b",
+        "affectsGlobalScope": false
+      },
+      "../packages/geometry/node_modules/tslib/tslib.d.ts": {
+        "version": "9eb0ae9fa333acfc2dcbe6a7eaa2ab8be46b97ca259982c797c39167823235d5",
+        "signature": "9eb0ae9fa333acfc2dcbe6a7eaa2ab8be46b97ca259982c797c39167823235d5",
+        "affectsGlobalScope": false
+      },
+      "../packages/geometry/src/ICoordinate.ts": {
+        "version": "a4db29743a631c87904ba865fb8bdcc6756fd1e0e9e73a441be1dba0c09be31e",
+        "signature": "3cf5fbf61f4c095f585eefdfcac2cc5d8551f93668e3b9e0ef1ef654a4345945",
+        "affectsGlobalScope": false
+      },
+      "../packages/geometry/src/ICoordinates.ts": {
+        "version": "2e17f00e429fdf54e7673e79a6b1ef194272c07048f7e976aa6b79b952478b96",
+        "signature": "36640dad82902dd728f771b7872dfcea3140eb99ed0a9961f08aa2019f49bcd6",
+        "affectsGlobalScope": false
+      },
+      "../packages/geometry/src/IGeometryOptions.ts": {
+        "version": "05e029ed66011c3be181e8a0cc4dea150573efaf94ff201e17a290ccb7173884",
+        "signature": "e05db9366338ad65d3d2f3921d1691f0bf29e8141d282dc9c2763a9b2c96e5b0",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/validateId.d.ts": {
+        "version": "1087e4a773ce0b46aa2e7be96bc2a3b42ccbe4eb604581914e7acbf9ebdc256c",
+        "signature": "1087e4a773ce0b46aa2e7be96bc2a3b42ccbe4eb604581914e7acbf9ebdc256c",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/round.d.ts": {
+        "version": "f394dca4e86d6d06f1583cbf51e4bc84a86360ab53a7ba014a43d23fd27200c3",
+        "signature": "f394dca4e86d6d06f1583cbf51e4bc84a86360ab53a7ba014a43d23fd27200c3",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/node_modules/@totalpave/math/lib/api.d.ts": {
+        "version": "24b206f467d436c2ed42c5d0af2cae8e824134e0f9482e6223241fd8869ed6c6",
+        "signature": "24b206f467d436c2ed42c5d0af2cae8e824134e0f9482e6223241fd8869ed6c6",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/radiansToLength.d.ts": {
+        "version": "6433698b91e7e7a04baf46beb732b833e6a4c42ba615ab3f6f6909efa2b8135a",
+        "signature": "6433698b91e7e7a04baf46beb732b833e6a4c42ba615ab3f6f6909efa2b8135a",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/lengthToRadians.d.ts": {
+        "version": "3729871e2c5888036d2a249ff2618ae32ffc676d12d00aafb99d523d4913208e",
+        "signature": "3729871e2c5888036d2a249ff2618ae32ffc676d12d00aafb99d523d4913208e",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/lengthToDegrees.d.ts": {
+        "version": "db405ad0b0cd15db69b1a65528938ca5f5a1b315ecfde5fe117b78f09301389c",
+        "signature": "db405ad0b0cd15db69b1a65528938ca5f5a1b315ecfde5fe117b78f09301389c",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/radiansToDegrees.d.ts": {
+        "version": "42eeec4ce7025d258ae4d069f7eb4de69f3e25c2e65540185eaa70dbe81e4162",
+        "signature": "42eeec4ce7025d258ae4d069f7eb4de69f3e25c2e65540185eaa70dbe81e4162",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/bearingToAzimuth.d.ts": {
+        "version": "78c5936b8be63b677f2b46c2d77addaa66cc84edf4abfc7a9ce8a3a6c4546bb9",
+        "signature": "78c5936b8be63b677f2b46c2d77addaa66cc84edf4abfc7a9ce8a3a6c4546bb9",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/degreesToRadians.d.ts": {
+        "version": "9c90f5b125a6b963cb6522bb7e096c7978f8d2ec378fd7510a3cf9e638df5461",
+        "signature": "9c90f5b125a6b963cb6522bb7e096c7978f8d2ec378fd7510a3cf9e638df5461",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/convertLength.d.ts": {
+        "version": "8786381408d85af53a9908f26ce893c47418dfc0e32c0bbce1d949c916cdcb92",
+        "signature": "8786381408d85af53a9908f26ce893c47418dfc0e32c0bbce1d949c916cdcb92",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/convertArea.d.ts": {
+        "version": "90ee8c0bea7ce99fab46c8ca5fbb608da494ca0f066b1ca9ad4a528bf5739fca",
+        "signature": "90ee8c0bea7ce99fab46c8ca5fbb608da494ca0f066b1ca9ad4a528bf5739fca",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/isNumber.d.ts": {
+        "version": "fc019da52a64eb9cd7b88d6fed23d343ed867e13491bced00092816334b13a25",
+        "signature": "fc019da52a64eb9cd7b88d6fed23d343ed867e13491bced00092816334b13a25",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/isObject.d.ts": {
+        "version": "f15639d1ec188e24e79cce2a63a2c0d28d16069a50bd9b421dba5f4456098a93",
+        "signature": "f15639d1ec188e24e79cce2a63a2c0d28d16069a50bd9b421dba5f4456098a93",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/lib/api.d.ts": {
+        "version": "a2e31bccad2e34e841362fda00b714ba513296f9cff70d363b03cfaa9c317b8c",
+        "signature": "a2e31bccad2e34e841362fda00b714ba513296f9cff70d363b03cfaa9c317b8c",
+        "affectsGlobalScope": false
+      },
+      "../packages/geometry/src/geometry.ts": {
+        "version": "9ba42f1e60022908802f6d6c65ceae25db856a76eceac41f2163268583a017a2",
+        "signature": "265411d48f2cf515c05b211dd6d7b2059a0511eb37360766c6397df3de34b30d",
+        "affectsGlobalScope": false
+      },
+      "../packages/geometry/src/api.ts": {
+        "version": "cfa9fbac5fa6b2b99d88ca11b44e95cf5b621ef56a739088684b4f4934f107ac",
+        "signature": "18e9f85168f32f7fa2113b4b773b32cbbd8193ddb7eeade2522d260fcb8404a4",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/node_modules/tslib/tslib.d.ts": {
+        "version": "9eb0ae9fa333acfc2dcbe6a7eaa2ab8be46b97ca259982c797c39167823235d5",
+        "signature": "9eb0ae9fa333acfc2dcbe6a7eaa2ab8be46b97ca259982c797c39167823235d5",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/validateId.ts": {
+        "version": "90d0d79ffb2d927b7c3d5daa00682df638cd62e4a588c498826918f613e22caa",
+        "signature": "1087e4a773ce0b46aa2e7be96bc2a3b42ccbe4eb604581914e7acbf9ebdc256c",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/round.ts": {
+        "version": "0a6596de5171e3a95376a99b26667aad0ac5d0e1d83a6415198922bbe39def05",
+        "signature": "f394dca4e86d6d06f1583cbf51e4bc84a86360ab53a7ba014a43d23fd27200c3",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/radiansToLength.ts": {
+        "version": "f8b5a108b44a4291e80e8ceeed5fcc999e22fdd1843d67e2d0e1c8523ef50884",
+        "signature": "6433698b91e7e7a04baf46beb732b833e6a4c42ba615ab3f6f6909efa2b8135a",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/lengthToRadians.ts": {
+        "version": "93418a976ac435145286e3ef3237423a640f956e6fc66fc5c84d3612f0850ee4",
+        "signature": "3729871e2c5888036d2a249ff2618ae32ffc676d12d00aafb99d523d4913208e",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/radiansToDegrees.ts": {
+        "version": "aa50bb8703cca1c857d8fcd46622ad7d4103d35e148ab26e9a49e405d86edbed",
+        "signature": "42eeec4ce7025d258ae4d069f7eb4de69f3e25c2e65540185eaa70dbe81e4162",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/lengthToDegrees.ts": {
+        "version": "70dc26f6b23a0f753b6c7006104616c82ef29a54688e9baed68dff48ef078197",
+        "signature": "db405ad0b0cd15db69b1a65528938ca5f5a1b315ecfde5fe117b78f09301389c",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/bearingToAzimuth.ts": {
+        "version": "feff90a9a3b721735750dc7155fd85e61a07a73f2dc6aab7981487df991410ec",
+        "signature": "78c5936b8be63b677f2b46c2d77addaa66cc84edf4abfc7a9ce8a3a6c4546bb9",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/degreesToRadians.ts": {
+        "version": "cfb07b79eb2354302eca59ef20eef76f6083982941e09578da3304c21f2133a7",
+        "signature": "9c90f5b125a6b963cb6522bb7e096c7978f8d2ec378fd7510a3cf9e638df5461",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/convertLength.ts": {
+        "version": "58368027adb02eef115025c23467a093dfc0f5e8761dae1fd68cd00a0a2c598c",
+        "signature": "8786381408d85af53a9908f26ce893c47418dfc0e32c0bbce1d949c916cdcb92",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/convertArea.ts": {
+        "version": "854e36db6b307c5ed8d5d198a0cc8dbac10ed8996940b811149afb79189fa74a",
+        "signature": "90ee8c0bea7ce99fab46c8ca5fbb608da494ca0f066b1ca9ad4a528bf5739fca",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/isNumber.ts": {
+        "version": "c8785504e952afc5a0f79999873c2b73d3282cd9772cd718b50a57c84c6ebea9",
+        "signature": "fc019da52a64eb9cd7b88d6fed23d343ed867e13491bced00092816334b13a25",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/isObject.ts": {
+        "version": "715c6f5e8d4784a4cef72cf0107721b3cac546be415551713b79937c98566f94",
+        "signature": "f15639d1ec188e24e79cce2a63a2c0d28d16069a50bd9b421dba5f4456098a93",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/validateBBox.ts": {
+        "version": "0af0de73a8832c7513defcac9e07e2657a359a2cf5f4e050437ec2b8d34b0f47",
+        "signature": "355f01410a8e7d01335899b2f1721d719d6c022eb3570204bf18a74b3ff32dfd",
+        "affectsGlobalScope": false
+      },
+      "../packages/utils/src/api.ts": {
+        "version": "05270579be5f7b6af6ab6d9bd7c5eed12a41841183ee87052f04a474c9dcf51b",
+        "signature": "b59acb21c3557e8fd63581e4aaf3110a25142ad9650eac10d749ac5a4b0f396d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/eslint-visitor-keys/index.d.ts": {
+        "version": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
+        "signature": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/geojson/index.d.ts": {
+        "version": "3a68b9e1129584f9e42f615b56926b0d2c1d22746e9c4689faf48d0e9749536a",
+        "signature": "3a68b9e1129584f9e42f615b56926b0d2c1d22746e9c4689faf48d0e9749536a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/globals.d.ts": {
+        "version": "b1fe692a02276378c2daa7294fe95840c15467a4a32864e9d72b83e14de50e07",
+        "signature": "b1fe692a02276378c2daa7294fe95840c15467a4a32864e9d72b83e14de50e07",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/async_hooks.d.ts": {
+        "version": "950e73fe3bcda768b5f593cec3f7137bb7cab709a82be89dd08c2a20568a28e2",
+        "signature": "950e73fe3bcda768b5f593cec3f7137bb7cab709a82be89dd08c2a20568a28e2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/buffer.d.ts": {
+        "version": "61215c1a376bbe8f51cab4cc4ddbf3746387015113c37a84d981d4738c21b878",
+        "signature": "61215c1a376bbe8f51cab4cc4ddbf3746387015113c37a84d981d4738c21b878",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/child_process.d.ts": {
+        "version": "5eca801fb67009c5728b88793670f0137b5e31a8f7d1576d5110a1276feaba8c",
+        "signature": "5eca801fb67009c5728b88793670f0137b5e31a8f7d1576d5110a1276feaba8c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/cluster.d.ts": {
+        "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "signature": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/constants.d.ts": {
+        "version": "0279383034fae92db8097d0a41350293553599cc9c3c917b60e2542d0dfcbd44",
+        "signature": "0279383034fae92db8097d0a41350293553599cc9c3c917b60e2542d0dfcbd44",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/crypto.d.ts": {
+        "version": "4b2d1c77584f3d33e46f4d985d7372ac5b55ca86f7231ea7dd5960f67dae8df4",
+        "signature": "4b2d1c77584f3d33e46f4d985d7372ac5b55ca86f7231ea7dd5960f67dae8df4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/dgram.d.ts": {
+        "version": "37c4598a5f2025c97492e18bed8909ccd10bf26bb5f54d5f6009f9153291af91",
+        "signature": "37c4598a5f2025c97492e18bed8909ccd10bf26bb5f54d5f6009f9153291af91",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/dns.d.ts": {
+        "version": "ef226a42de7022eacdfa0f15aabf73b46c47af93044c8ebfab8aa8e3cf6c330c",
+        "signature": "ef226a42de7022eacdfa0f15aabf73b46c47af93044c8ebfab8aa8e3cf6c330c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/domain.d.ts": {
+        "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "signature": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/events.d.ts": {
+        "version": "76048f3c7325a6c1fa6306d40eb0c8570fa0209d09472d46f9b1221f66edae6f",
+        "signature": "76048f3c7325a6c1fa6306d40eb0c8570fa0209d09472d46f9b1221f66edae6f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/fs.d.ts": {
+        "version": "03be37150cc8fe48fd243169653f15149e0ed4a34eea0cae027b708d39eb01f8",
+        "signature": "03be37150cc8fe48fd243169653f15149e0ed4a34eea0cae027b708d39eb01f8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/http.d.ts": {
+        "version": "c251814f295f02b6b31e7e1983443457bdf37999fbec1101103950be6c483d5a",
+        "signature": "c251814f295f02b6b31e7e1983443457bdf37999fbec1101103950be6c483d5a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/http2.d.ts": {
+        "version": "48b53111cc4ce136803fbf857cd8de2d5df33895b1af714a87caf87562182e46",
+        "signature": "48b53111cc4ce136803fbf857cd8de2d5df33895b1af714a87caf87562182e46",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/https.d.ts": {
+        "version": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "signature": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/inspector.d.ts": {
+        "version": "4218ced3933a31eed1278d350dd63c5900df0f0904f57d61c054d7a4b83dbe4c",
+        "signature": "4218ced3933a31eed1278d350dd63c5900df0f0904f57d61c054d7a4b83dbe4c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/net.d.ts": {
+        "version": "358398fe4034395d85c87c319cca7a04001434b13dc68d067481ecb374385bfc",
+        "signature": "358398fe4034395d85c87c319cca7a04001434b13dc68d067481ecb374385bfc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/os.d.ts": {
+        "version": "d9bc6f1917c24d862a68d2633e4a32fd586bfe3e412e5d11fd07d8266b94ced5",
+        "signature": "d9bc6f1917c24d862a68d2633e4a32fd586bfe3e412e5d11fd07d8266b94ced5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/path.d.ts": {
+        "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "signature": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "93a8a589862b5ac8fd8bb46426f7b081ba825a5171337dd45de9bf141624d55e",
+        "signature": "93a8a589862b5ac8fd8bb46426f7b081ba825a5171337dd45de9bf141624d55e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/process.d.ts": {
+        "version": "0e0d58f5e90c0a270dac052b9c5ad8ccdfc8271118c2105b361063218d528d6e",
+        "signature": "0e0d58f5e90c0a270dac052b9c5ad8ccdfc8271118c2105b361063218d528d6e",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/punycode.d.ts": {
+        "version": "3f6a1fd73c9dc3bd7f4b79bc075297ca6527904df69b0f2c2c94e4c4c7d9a32c",
+        "signature": "3f6a1fd73c9dc3bd7f4b79bc075297ca6527904df69b0f2c2c94e4c4c7d9a32c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/querystring.d.ts": {
+        "version": "758948c06a0d02623c7d4ed357ffa79bdc170de6e004046678774a1bfa9a29bb",
+        "signature": "758948c06a0d02623c7d4ed357ffa79bdc170de6e004046678774a1bfa9a29bb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/readline.d.ts": {
+        "version": "2ca26a43dec700c4b0bdc04b123094f4becffda70e3960f3e10b025f7a15ba8f",
+        "signature": "2ca26a43dec700c4b0bdc04b123094f4becffda70e3960f3e10b025f7a15ba8f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/repl.d.ts": {
+        "version": "27c3f3f672a6ce267f7cc34643231032016fa4b6d195c0725db570de0a7a9f91",
+        "signature": "27c3f3f672a6ce267f7cc34643231032016fa4b6d195c0725db570de0a7a9f91",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/stream.d.ts": {
+        "version": "9c581919a8c483f5080487ae8ec1dd398d94027aedf8e77436085e7fab23951a",
+        "signature": "9c581919a8c483f5080487ae8ec1dd398d94027aedf8e77436085e7fab23951a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/string_decoder.d.ts": {
+        "version": "7e62aac2cc9c0710d772047ad89e8d7117f52592c791eb995ce1f865fedab432",
+        "signature": "7e62aac2cc9c0710d772047ad89e8d7117f52592c791eb995ce1f865fedab432",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/tls.d.ts": {
+        "version": "48064f81a8354d04808e7b5bddf570aaf19f894cf1d8a2aa1f56c81decd33508",
+        "signature": "48064f81a8354d04808e7b5bddf570aaf19f894cf1d8a2aa1f56c81decd33508",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/trace_events.d.ts": {
+        "version": "a77fdb357c78b70142b2fdbbfb72958d69e8f765fd2a3c69946c1018e89d4638",
+        "signature": "a77fdb357c78b70142b2fdbbfb72958d69e8f765fd2a3c69946c1018e89d4638",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/tty.d.ts": {
+        "version": "3c2ac350c3baa61fd2b1925844109e098f4376d0768a4643abc82754fd752748",
+        "signature": "3c2ac350c3baa61fd2b1925844109e098f4376d0768a4643abc82754fd752748",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/url.d.ts": {
+        "version": "834545a7726e414890371aec1a89b7915963e08e790e093259e8bed429ef15c6",
+        "signature": "834545a7726e414890371aec1a89b7915963e08e790e093259e8bed429ef15c6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/util.d.ts": {
+        "version": "0f494abfd66846410cbdf3ee93bdfe5f980e2d03cf2a3f139bb3c91c50a58373",
+        "signature": "0f494abfd66846410cbdf3ee93bdfe5f980e2d03cf2a3f139bb3c91c50a58373",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/v8.d.ts": {
+        "version": "4407bd5f1d6f748590ba125195eb1d7a003c2de2f3b057456d3ac76a742d2561",
+        "signature": "4407bd5f1d6f748590ba125195eb1d7a003c2de2f3b057456d3ac76a742d2561",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/vm.d.ts": {
+        "version": "2b57b7d7191c6e2efc2ed4f87cf1e25c383278ac5d019670406508df42dc34f3",
+        "signature": "2b57b7d7191c6e2efc2ed4f87cf1e25c383278ac5d019670406508df42dc34f3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/worker_threads.d.ts": {
+        "version": "46f0413ecc0d83b047d46dbe03a37c7c760f59f0bb9a8633150e2d9335870675",
+        "signature": "46f0413ecc0d83b047d46dbe03a37c7c760f59f0bb9a8633150e2d9335870675",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/zlib.d.ts": {
+        "version": "2ea98f43cfae8dfbefc45d8bd1ec4907bbad33d18203ea8ef8b50d36b97afa35",
+        "signature": "2ea98f43cfae8dfbefc45d8bd1ec4907bbad33d18203ea8ef8b50d36b97afa35",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/ts3.3/base.d.ts": {
+        "version": "067b1964df87a4fc98ebffbd2bada6d7ed14a5b032f9071ea39478d82e701a99",
+        "signature": "067b1964df87a4fc98ebffbd2bada6d7ed14a5b032f9071ea39478d82e701a99",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/globals.global.d.ts": {
+        "version": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "signature": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/wasi.d.ts": {
+        "version": "14a6a3cee450438254c004a6b4f1191ec9977186bdeda07764f2a8d90ef71117",
+        "signature": "14a6a3cee450438254c004a6b4f1191ec9977186bdeda07764f2a8d90ef71117",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/ts3.6/base.d.ts": {
+        "version": "d170ea32762c00c660740f2cc0ca9526290ab9d9fb9c72282c1fa53cd1a7728e",
+        "signature": "d170ea32762c00c660740f2cc0ca9526290ab9d9fb9c72282c1fa53cd1a7728e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/assert.d.ts": {
+        "version": "a553db7cf984342a9037ff859cccef94570d6e29a309af36f379c9c05636e761",
+        "signature": "a553db7cf984342a9037ff859cccef94570d6e29a309af36f379c9c05636e761",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/base.d.ts": {
+        "version": "e61a21e9418f279bc480394a94d1581b2dee73747adcbdef999b6737e34d721b",
+        "signature": "e61a21e9418f279bc480394a94d1581b2dee73747adcbdef999b6737e34d721b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/index.d.ts": {
+        "version": "6fa68653382bd571bc63831e9f9c1307cc52f7310c1470463fe429d84147667d",
+        "signature": "6fa68653382bd571bc63831e9f9c1307cc52f7310c1470463fe429d84147667d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/minimatch/index.d.ts": {
+        "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/glob/index.d.ts": {
+        "version": "393137c76bd922ba70a2f8bf1ade4f59a16171a02fb25918c168d48875b0cfb0",
+        "signature": "393137c76bd922ba70a2f8bf1ade4f59a16171a02fb25918c168d48875b0cfb0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/json-schema/index.d.ts": {
+        "version": "b2be568d8ce95fcb26eebd04c035d94825655fdf689bf67d799f5ff8cbbb1024",
+        "signature": "b2be568d8ce95fcb26eebd04c035d94825655fdf689bf67d799f5ff8cbbb1024",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/minimist/index.d.ts": {
+        "version": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
+        "signature": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/normalize-package-data/index.d.ts": {
+        "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/tape/index.d.ts": {
+        "version": "c75ed589a1969021cb36e0cd00fb52320a2b2c66b5c69d89eab51e088473b40f",
+        "signature": "c75ed589a1969021cb36e0cd00fb52320a2b2c66b5c69d89eab51e088473b40f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/unist/index.d.ts": {
+        "version": "1320ee42b30487cceb6da9f230354fc34826111f76bf12f0ad76c717c12625b0",
+        "signature": "1320ee42b30487cceb6da9f230354fc34826111f76bf12f0ad76c717c12625b0",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "target": 0,
+      "module": 1,
+      "declaration": true,
+      "sourceMap": true,
+      "outDir": "./",
+      "importHelpers": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "moduleResolution": 2,
+      "baseUrl": "..",
+      "plugins": [],
+      "incremental": true,
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../node_modules/@turf/helpers/index.d.ts": [
+        "../node_modules/@turf/helpers/lib/geojson.d.ts"
+      ],
+      "../node_modules/@types/glob/index.d.ts": [
+        "../node_modules/@types/minimatch/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@types/node/base.d.ts": [
+        "../node_modules/@types/node/assert.d.ts",
+        "../node_modules/@types/node/ts3.6/base.d.ts"
+      ],
+      "../node_modules/@types/node/child_process.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/cluster.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/crypto.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/dgram.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/domain.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/fs.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/http.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/http2.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/https.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/index.d.ts": [
+        "../node_modules/@types/node/base.d.ts"
+      ],
+      "../node_modules/@types/node/inspector.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/net.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/perf_hooks.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "../node_modules/@types/node/process.d.ts": [
+        "../node_modules/@types/node/tty.d.ts"
+      ],
+      "../node_modules/@types/node/readline.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/repl.d.ts": [
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/stream.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/tls.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.3/base.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts",
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/cluster.d.ts",
+        "../node_modules/@types/node/console.d.ts",
+        "../node_modules/@types/node/constants.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dgram.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/domain.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/http2.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/module.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/os.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/perf_hooks.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/punycode.d.ts",
+        "../node_modules/@types/node/querystring.d.ts",
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/repl.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/string_decoder.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/trace_events.d.ts",
+        "../node_modules/@types/node/tty.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/v8.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/worker_threads.d.ts",
+        "../node_modules/@types/node/zlib.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.6/base.d.ts": [
+        "../node_modules/@types/node/globals.global.d.ts",
+        "../node_modules/@types/node/ts3.3/base.d.ts",
+        "../node_modules/@types/node/wasi.d.ts"
+      ],
+      "../node_modules/@types/node/tty.d.ts": [
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/url.d.ts": [
+        "../node_modules/@types/node/querystring.d.ts"
+      ],
+      "../node_modules/@types/node/v8.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/worker_threads.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/zlib.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/tape/index.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../oldPackages/turf-along/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-along/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-along/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-area/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bbox-clip/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bbox-clip/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-bbox-clip/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bbox-polygon/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bbox/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bearing/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bezier-spline/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-clockwise/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-clockwise/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-boolean-clockwise/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-contains/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-crosses/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-disjoint/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-equal/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-overlap/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-parallel/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-point-in-polygon/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-point-in-polygon/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-boolean-point-in-polygon/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-point-on-line/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-within/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-within/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-boolean-within/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-buffer/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-buffer/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-buffer/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center-mean/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center-mean/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-center-mean/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center-median/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center-of-mass/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center-of-mass/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-center-of-mass/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-center/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-centroid/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-centroid/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-centroid/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-circle/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-circle/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-circle/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clean-coords/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clean-coords/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-clean-coords/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clone/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clone/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-clone/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clusters-dbscan/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clusters-dbscan/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-clusters-dbscan/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clusters-kmeans/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clusters-kmeans/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-clusters-kmeans/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clusters/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clusters/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-clusters/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-collect/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-combine/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-concave/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-convex/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-destination/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-difference/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-dissolve/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-distance/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-ellipse/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-envelope/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-explode/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-flatten/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-flatten/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-flatten/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-flip/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-flip/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-flip/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-great-circle/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-great-circle/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-great-circle/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-helpers/index.d.ts": [
+        "../oldPackages/turf-helpers/lib/geojson.d.ts"
+      ],
+      "../oldPackages/turf-helpers/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-hex-grid/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-hex-grid/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-hex-grid/index.d.ts"
+      ],
+      "../oldPackages/turf-interpolate/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-interpolate/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-interpolate/index.d.ts"
+      ],
+      "../oldPackages/turf-intersect/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-intersect/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-intersect/index.d.ts"
+      ],
+      "../oldPackages/turf-invariant/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-invariant/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-invariant/index.d.ts"
+      ],
+      "../oldPackages/turf-isobands/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-isolines/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-isolines/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-isolines/index.d.ts",
+        "../oldPackages/turf-random/index.d.ts"
+      ],
+      "../oldPackages/turf-kinks/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-kinks/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-kinks/index.d.ts"
+      ],
+      "../oldPackages/turf-length/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-length/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-length/index.d.ts"
+      ],
+      "../oldPackages/turf-line-arc/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-arc/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-line-arc/index.d.ts"
+      ],
+      "../oldPackages/turf-line-chunk/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-chunk/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-line-chunk/index.d.ts"
+      ],
+      "../oldPackages/turf-line-intersect/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-intersect/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-line-intersect/index.d.ts"
+      ],
+      "../oldPackages/turf-line-offset/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-offset/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-line-offset/index.d.ts"
+      ],
+      "../oldPackages/turf-line-overlap/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-overlap/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-line-overlap/index.d.ts"
+      ],
+      "../oldPackages/turf-line-segment/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-segment/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-line-segment/index.d.ts"
+      ],
+      "../oldPackages/turf-line-slice-along/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-slice/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-split/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-to-polygon/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-to-polygon/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-line-to-polygon/index.d.ts"
+      ],
+      "../oldPackages/turf-mask/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-mask/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-mask/index.d.ts"
+      ],
+      "../oldPackages/turf-meta/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-meta/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-meta/index.d.ts"
+      ],
+      "../oldPackages/turf-midpoint/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-nearest-point-on-line/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-nearest-point-on-line/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-nearest-point-on-line/index.d.ts"
+      ],
+      "../oldPackages/turf-nearest-point-to-line/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-nearest-point-to-line/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-nearest-point-to-line/index.d.ts"
+      ],
+      "../oldPackages/turf-nearest-point/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-nearest-point/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-nearest-point/index.d.ts"
+      ],
+      "../oldPackages/turf-planepoint/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-planepoint/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-planepoint/index.d.ts"
+      ],
+      "../oldPackages/turf-point-grid/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-point-grid/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-point-grid/index.d.ts"
+      ],
+      "../oldPackages/turf-point-on-feature/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-point-to-line-distance/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-point-to-line-distance/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-point-to-line-distance/index.d.ts"
+      ],
+      "../oldPackages/turf-points-within-polygon/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-points-within-polygon/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-points-within-polygon/index.d.ts"
+      ],
+      "../oldPackages/turf-polygon-smooth/index.d.ts": [
+        "../node_modules/@turf/helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-polygon-smooth/types.ts": [
+        "../node_modules/@turf/helpers/index.d.ts",
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-polygon-smooth/index.d.ts"
+      ],
+      "../oldPackages/turf-polygon-tangents/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-polygon-tangents/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-polygon-tangents/index.d.ts"
+      ],
+      "../oldPackages/turf-polygon-to-line/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-polygon-to-line/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-polygon-to-line/index.d.ts"
+      ],
+      "../oldPackages/turf-polygonize/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-polygonize/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-polygonize/index.d.ts"
+      ],
+      "../oldPackages/turf-projection/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-projection/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-projection/index.d.ts"
+      ],
+      "../oldPackages/turf-random/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-random/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-random/index.d.ts"
+      ],
+      "../oldPackages/turf-rewind/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-rewind/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-rewind/index.d.ts"
+      ],
+      "../oldPackages/turf-rhumb-bearing/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-rhumb-bearing/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-rhumb-bearing/index.d.ts"
+      ],
+      "../oldPackages/turf-rhumb-destination/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-rhumb-destination/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-rhumb-destination/index.d.ts"
+      ],
+      "../oldPackages/turf-rhumb-distance/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-sample/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-sector/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-sector/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-sector/index.d.ts"
+      ],
+      "../oldPackages/turf-shortest-path/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-shortest-path/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-shortest-path/index.d.ts"
+      ],
+      "../oldPackages/turf-simplify/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-simplify/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-simplify/index.d.ts"
+      ],
+      "../oldPackages/turf-square-grid/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-square-grid/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-square-grid/index.d.ts"
+      ],
+      "../oldPackages/turf-square/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-standard-deviational-ellipse/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-standard-deviational-ellipse/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-standard-deviational-ellipse/index.d.ts"
+      ],
+      "../oldPackages/turf-tag/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-tesselate/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-tin/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-tin/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-tin/index.d.ts"
+      ],
+      "../oldPackages/turf-transform-rotate/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-transform-rotate/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-transform-rotate/index.d.ts"
+      ],
+      "../oldPackages/turf-transform-scale/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-transform-scale/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-transform-scale/index.d.ts"
+      ],
+      "../oldPackages/turf-transform-translate/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-transform-translate/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-transform-translate/index.d.ts"
+      ],
+      "../oldPackages/turf-triangle-grid/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-triangle-grid/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-triangle-grid/index.d.ts"
+      ],
+      "../oldPackages/turf-truncate/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-truncate/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-truncate/index.d.ts"
+      ],
+      "../oldPackages/turf-union/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-union/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-union/index.d.ts"
+      ],
+      "../oldPackages/turf-unkink-polygon/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-unkink-polygon/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-unkink-polygon/index.d.ts"
+      ],
+      "../oldPackages/turf-voronoi/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf/index.d.ts": [
+        "../oldPackages/turf-along/index.d.ts",
+        "../oldPackages/turf-area/index.d.ts",
+        "../oldPackages/turf-bbox-clip/index.d.ts",
+        "../oldPackages/turf-bbox-polygon/index.d.ts",
+        "../oldPackages/turf-bbox/index.d.ts",
+        "../oldPackages/turf-bearing/index.d.ts",
+        "../oldPackages/turf-bezier-spline/index.d.ts",
+        "../oldPackages/turf-boolean-clockwise/index.d.ts",
+        "../oldPackages/turf-boolean-contains/index.d.ts",
+        "../oldPackages/turf-boolean-crosses/index.d.ts",
+        "../oldPackages/turf-boolean-disjoint/index.d.ts",
+        "../oldPackages/turf-boolean-equal/index.d.ts",
+        "../oldPackages/turf-boolean-overlap/index.d.ts",
+        "../oldPackages/turf-boolean-parallel/index.d.ts",
+        "../oldPackages/turf-boolean-point-in-polygon/index.d.ts",
+        "../oldPackages/turf-boolean-point-on-line/index.d.ts",
+        "../oldPackages/turf-boolean-within/index.d.ts",
+        "../oldPackages/turf-buffer/index.d.ts",
+        "../oldPackages/turf-center-mean/index.d.ts",
+        "../oldPackages/turf-center-median/index.d.ts",
+        "../oldPackages/turf-center-of-mass/index.d.ts",
+        "../oldPackages/turf-center/index.d.ts",
+        "../oldPackages/turf-centroid/index.d.ts",
+        "../oldPackages/turf-circle/index.d.ts",
+        "../oldPackages/turf-clean-coords/index.d.ts",
+        "../oldPackages/turf-clone/index.d.ts",
+        "../oldPackages/turf-clusters-dbscan/index.d.ts",
+        "../oldPackages/turf-clusters-kmeans/index.d.ts",
+        "../oldPackages/turf-clusters/index.d.ts",
+        "../oldPackages/turf-collect/index.d.ts",
+        "../oldPackages/turf-combine/index.d.ts",
+        "../oldPackages/turf-concave/index.d.ts",
+        "../oldPackages/turf-convex/index.d.ts",
+        "../oldPackages/turf-destination/index.d.ts",
+        "../oldPackages/turf-difference/index.d.ts",
+        "../oldPackages/turf-dissolve/index.d.ts",
+        "../oldPackages/turf-distance/index.d.ts",
+        "../oldPackages/turf-ellipse/index.d.ts",
+        "../oldPackages/turf-envelope/index.d.ts",
+        "../oldPackages/turf-explode/index.d.ts",
+        "../oldPackages/turf-flatten/index.d.ts",
+        "../oldPackages/turf-flip/index.d.ts",
+        "../oldPackages/turf-great-circle/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-hex-grid/index.d.ts",
+        "../oldPackages/turf-interpolate/index.d.ts",
+        "../oldPackages/turf-intersect/index.d.ts",
+        "../oldPackages/turf-invariant/index.d.ts",
+        "../oldPackages/turf-isobands/index.d.ts",
+        "../oldPackages/turf-isolines/index.d.ts",
+        "../oldPackages/turf-kinks/index.d.ts",
+        "../oldPackages/turf-length/index.d.ts",
+        "../oldPackages/turf-line-arc/index.d.ts",
+        "../oldPackages/turf-line-chunk/index.d.ts",
+        "../oldPackages/turf-line-intersect/index.d.ts",
+        "../oldPackages/turf-line-offset/index.d.ts",
+        "../oldPackages/turf-line-overlap/index.d.ts",
+        "../oldPackages/turf-line-segment/index.d.ts",
+        "../oldPackages/turf-line-slice-along/index.d.ts",
+        "../oldPackages/turf-line-slice/index.d.ts",
+        "../oldPackages/turf-line-split/index.d.ts",
+        "../oldPackages/turf-line-to-polygon/index.d.ts",
+        "../oldPackages/turf-mask/index.d.ts",
+        "../oldPackages/turf-meta/index.d.ts",
+        "../oldPackages/turf-midpoint/index.d.ts",
+        "../oldPackages/turf-nearest-point-on-line/index.d.ts",
+        "../oldPackages/turf-nearest-point-to-line/index.d.ts",
+        "../oldPackages/turf-nearest-point/index.d.ts",
+        "../oldPackages/turf-planepoint/index.d.ts",
+        "../oldPackages/turf-point-grid/index.d.ts",
+        "../oldPackages/turf-point-on-feature/index.d.ts",
+        "../oldPackages/turf-point-to-line-distance/index.d.ts",
+        "../oldPackages/turf-points-within-polygon/index.d.ts",
+        "../oldPackages/turf-polygon-tangents/index.d.ts",
+        "../oldPackages/turf-polygon-to-line/index.d.ts",
+        "../oldPackages/turf-polygonize/index.d.ts",
+        "../oldPackages/turf-projection/index.d.ts",
+        "../oldPackages/turf-random/index.d.ts",
+        "../oldPackages/turf-rewind/index.d.ts",
+        "../oldPackages/turf-rhumb-bearing/index.d.ts",
+        "../oldPackages/turf-rhumb-destination/index.d.ts",
+        "../oldPackages/turf-rhumb-distance/index.d.ts",
+        "../oldPackages/turf-sample/index.d.ts",
+        "../oldPackages/turf-sector/index.d.ts",
+        "../oldPackages/turf-shortest-path/index.d.ts",
+        "../oldPackages/turf-simplify/index.d.ts",
+        "../oldPackages/turf-square-grid/index.d.ts",
+        "../oldPackages/turf-square/index.d.ts",
+        "../oldPackages/turf-standard-deviational-ellipse/index.d.ts",
+        "../oldPackages/turf-tag/index.d.ts",
+        "../oldPackages/turf-tesselate/index.d.ts",
+        "../oldPackages/turf-tin/index.d.ts",
+        "../oldPackages/turf-transform-rotate/index.d.ts",
+        "../oldPackages/turf-transform-scale/index.d.ts",
+        "../oldPackages/turf-transform-translate/index.d.ts",
+        "../oldPackages/turf-triangle-grid/index.d.ts",
+        "../oldPackages/turf-truncate/index.d.ts",
+        "../oldPackages/turf-union/index.d.ts",
+        "../oldPackages/turf-unkink-polygon/index.d.ts",
+        "../oldPackages/turf-voronoi/index.d.ts"
+      ],
+      "../oldPackages/turf/types.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../oldPackages/turf/index.d.ts"
+      ],
+      "../packages/buffer/node_modules/@spatial/bbox/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../packages/buffer/node_modules/@spatial/center/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../packages/buffer/node_modules/@spatial/helpers/index.d.ts": [
+        "../oldPackages/turf-helpers/lib/geojson.d.ts"
+      ],
+      "../packages/buffer/node_modules/@spatial/meta/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../packages/buffer/node_modules/@spatial/projection/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../packages/buffer/node_modules/@totalpave/math/lib/UnitUtils.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/Unit.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitType.d.ts"
+      ],
+      "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/Math.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/Unit.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitMode.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitType.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitUtils.d.ts"
+      ],
+      "../packages/buffer/src/api.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts",
+        "../packages/buffer/src/buffer.ts"
+      ],
+      "../packages/buffer/src/buffer.ts": [
+        "../oldPackages/turf-bbox/index.d.ts",
+        "../oldPackages/turf-center/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-meta/index.d.ts",
+        "../oldPackages/turf-projection/index.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts",
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/constants/src/Constants.ts": [
+        "../node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/constants/src/api.ts": [
+        "../node_modules/tslib/tslib.d.ts",
+        "../packages/constants/src/Constants.ts"
+      ],
+      "../packages/feature/src/feature.ts": [
+        "../node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/geometry/src/ICoordinate.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/geometry/src/ICoordinates.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts",
+        "../packages/geometry/src/ICoordinate.ts"
+      ],
+      "../packages/geometry/src/IGeometryOptions.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/geometry/src/api.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts",
+        "../packages/geometry/src/IGeometryOptions.ts",
+        "../packages/geometry/src/geometry.ts"
+      ],
+      "../packages/geometry/src/geometry.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts",
+        "../packages/geometry/src/ICoordinate.ts",
+        "../packages/geometry/src/ICoordinates.ts",
+        "../packages/geometry/src/IGeometryOptions.ts",
+        "../packages/utils/lib/api.d.ts"
+      ],
+      "../packages/utils/lib/api.d.ts": [
+        "../packages/utils/lib/bearingToAzimuth.d.ts",
+        "../packages/utils/lib/convertArea.d.ts",
+        "../packages/utils/lib/convertLength.d.ts",
+        "../packages/utils/lib/degreesToRadians.d.ts",
+        "../packages/utils/lib/isNumber.d.ts",
+        "../packages/utils/lib/isObject.d.ts",
+        "../packages/utils/lib/lengthToDegrees.d.ts",
+        "../packages/utils/lib/lengthToRadians.d.ts",
+        "../packages/utils/lib/radiansToDegrees.d.ts",
+        "../packages/utils/lib/radiansToLength.d.ts",
+        "../packages/utils/lib/round.d.ts",
+        "../packages/utils/lib/validateId.d.ts"
+      ],
+      "../packages/utils/lib/convertArea.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/lib/convertLength.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/lib/lengthToDegrees.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/lib/lengthToRadians.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/lib/radiansToLength.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/node_modules/@totalpave/math/lib/api.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/Math.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/Unit.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitMode.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitType.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitUtils.d.ts"
+      ],
+      "../packages/utils/src/api.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts",
+        "../packages/utils/src/bearingToAzimuth.ts",
+        "../packages/utils/src/convertArea.ts",
+        "../packages/utils/src/convertLength.ts",
+        "../packages/utils/src/degreesToRadians.ts",
+        "../packages/utils/src/isNumber.ts",
+        "../packages/utils/src/isObject.ts",
+        "../packages/utils/src/lengthToDegrees.ts",
+        "../packages/utils/src/lengthToRadians.ts",
+        "../packages/utils/src/radiansToDegrees.ts",
+        "../packages/utils/src/radiansToLength.ts",
+        "../packages/utils/src/round.ts",
+        "../packages/utils/src/validateBBox.ts",
+        "../packages/utils/src/validateId.ts"
+      ],
+      "../packages/utils/src/bearingToAzimuth.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/utils/src/convertArea.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts",
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/utils/src/convertLength.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts",
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/utils/src/degreesToRadians.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts",
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/utils/src/isNumber.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/utils/src/isObject.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/utils/src/lengthToDegrees.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts",
+        "../packages/buffer/node_modules/tslib/tslib.d.ts",
+        "../packages/utils/src/lengthToRadians.ts",
+        "../packages/utils/src/radiansToDegrees.ts"
+      ],
+      "../packages/utils/src/lengthToRadians.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts",
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/utils/src/radiansToDegrees.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts",
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/utils/src/radiansToLength.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts",
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/utils/src/round.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts",
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ],
+      "../packages/utils/src/validateBBox.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts",
+        "../packages/utils/src/isNumber.ts"
+      ],
+      "../packages/utils/src/validateId.ts": [
+        "../packages/buffer/node_modules/tslib/tslib.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../node_modules/@turf/helpers/index.d.ts": [
+        "../node_modules/@turf/helpers/lib/geojson.d.ts"
+      ],
+      "../node_modules/@types/glob/index.d.ts": [
+        "../node_modules/@types/minimatch/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@types/node/base.d.ts": [
+        "../node_modules/@types/node/assert.d.ts",
+        "../node_modules/@types/node/ts3.6/base.d.ts"
+      ],
+      "../node_modules/@types/node/child_process.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/cluster.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/crypto.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/dgram.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/domain.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/fs.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/http.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/http2.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/https.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/index.d.ts": [
+        "../node_modules/@types/node/base.d.ts"
+      ],
+      "../node_modules/@types/node/inspector.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/net.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/perf_hooks.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "../node_modules/@types/node/process.d.ts": [
+        "../node_modules/@types/node/tty.d.ts"
+      ],
+      "../node_modules/@types/node/readline.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/repl.d.ts": [
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/stream.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/tls.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.3/base.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts",
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/cluster.d.ts",
+        "../node_modules/@types/node/console.d.ts",
+        "../node_modules/@types/node/constants.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dgram.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/domain.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/http2.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/module.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/os.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/perf_hooks.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/punycode.d.ts",
+        "../node_modules/@types/node/querystring.d.ts",
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/repl.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/string_decoder.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/trace_events.d.ts",
+        "../node_modules/@types/node/tty.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/v8.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/worker_threads.d.ts",
+        "../node_modules/@types/node/zlib.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.6/base.d.ts": [
+        "../node_modules/@types/node/globals.global.d.ts",
+        "../node_modules/@types/node/ts3.3/base.d.ts",
+        "../node_modules/@types/node/wasi.d.ts"
+      ],
+      "../node_modules/@types/node/tty.d.ts": [
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/url.d.ts": [
+        "../node_modules/@types/node/querystring.d.ts"
+      ],
+      "../node_modules/@types/node/v8.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/worker_threads.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/zlib.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/tape/index.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../oldPackages/turf-along/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-area/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bbox-clip/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bbox-polygon/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bbox/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bearing/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-bezier-spline/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-clockwise/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-contains/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-crosses/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-disjoint/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-equal/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-overlap/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-parallel/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-point-in-polygon/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-point-on-line/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-boolean-within/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-buffer/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center-mean/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center-median/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center-of-mass/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-center/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-centroid/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-circle/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clean-coords/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clone/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clusters-dbscan/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clusters-kmeans/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-clusters/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-collect/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-combine/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-concave/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-convex/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-destination/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-difference/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-dissolve/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-distance/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-ellipse/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-envelope/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-explode/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-flatten/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-flip/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-great-circle/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-helpers/index.d.ts": [
+        "../oldPackages/turf-helpers/lib/geojson.d.ts"
+      ],
+      "../oldPackages/turf-hex-grid/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-interpolate/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-intersect/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-invariant/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-isobands/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-isolines/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-kinks/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-length/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-arc/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-chunk/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-intersect/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-offset/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-overlap/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-segment/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-slice-along/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-slice/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-split/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-line-to-polygon/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-mask/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-meta/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-midpoint/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-nearest-point-on-line/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-nearest-point-to-line/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-nearest-point/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-planepoint/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-point-grid/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-point-on-feature/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-point-to-line-distance/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-points-within-polygon/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-polygon-smooth/index.d.ts": [
+        "../node_modules/@turf/helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-polygon-tangents/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-polygon-to-line/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-polygonize/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-projection/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-random/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-rewind/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-rhumb-bearing/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-rhumb-destination/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-rhumb-distance/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-sample/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-sector/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-shortest-path/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-simplify/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-square-grid/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-square/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-standard-deviational-ellipse/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-tag/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-tesselate/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-tin/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-transform-rotate/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-transform-scale/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-transform-translate/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-triangle-grid/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-truncate/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-union/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-unkink-polygon/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf-voronoi/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../oldPackages/turf/index.d.ts": [
+        "../oldPackages/turf-along/index.d.ts",
+        "../oldPackages/turf-area/index.d.ts",
+        "../oldPackages/turf-bbox-clip/index.d.ts",
+        "../oldPackages/turf-bbox-polygon/index.d.ts",
+        "../oldPackages/turf-bbox/index.d.ts",
+        "../oldPackages/turf-bearing/index.d.ts",
+        "../oldPackages/turf-bezier-spline/index.d.ts",
+        "../oldPackages/turf-boolean-clockwise/index.d.ts",
+        "../oldPackages/turf-boolean-contains/index.d.ts",
+        "../oldPackages/turf-boolean-crosses/index.d.ts",
+        "../oldPackages/turf-boolean-disjoint/index.d.ts",
+        "../oldPackages/turf-boolean-equal/index.d.ts",
+        "../oldPackages/turf-boolean-overlap/index.d.ts",
+        "../oldPackages/turf-boolean-parallel/index.d.ts",
+        "../oldPackages/turf-boolean-point-in-polygon/index.d.ts",
+        "../oldPackages/turf-boolean-point-on-line/index.d.ts",
+        "../oldPackages/turf-boolean-within/index.d.ts",
+        "../oldPackages/turf-buffer/index.d.ts",
+        "../oldPackages/turf-center-mean/index.d.ts",
+        "../oldPackages/turf-center-median/index.d.ts",
+        "../oldPackages/turf-center-of-mass/index.d.ts",
+        "../oldPackages/turf-center/index.d.ts",
+        "../oldPackages/turf-centroid/index.d.ts",
+        "../oldPackages/turf-circle/index.d.ts",
+        "../oldPackages/turf-clean-coords/index.d.ts",
+        "../oldPackages/turf-clone/index.d.ts",
+        "../oldPackages/turf-clusters-dbscan/index.d.ts",
+        "../oldPackages/turf-clusters-kmeans/index.d.ts",
+        "../oldPackages/turf-clusters/index.d.ts",
+        "../oldPackages/turf-collect/index.d.ts",
+        "../oldPackages/turf-combine/index.d.ts",
+        "../oldPackages/turf-concave/index.d.ts",
+        "../oldPackages/turf-convex/index.d.ts",
+        "../oldPackages/turf-destination/index.d.ts",
+        "../oldPackages/turf-difference/index.d.ts",
+        "../oldPackages/turf-dissolve/index.d.ts",
+        "../oldPackages/turf-distance/index.d.ts",
+        "../oldPackages/turf-ellipse/index.d.ts",
+        "../oldPackages/turf-envelope/index.d.ts",
+        "../oldPackages/turf-explode/index.d.ts",
+        "../oldPackages/turf-flatten/index.d.ts",
+        "../oldPackages/turf-flip/index.d.ts",
+        "../oldPackages/turf-great-circle/index.d.ts",
+        "../oldPackages/turf-helpers/index.d.ts",
+        "../oldPackages/turf-hex-grid/index.d.ts",
+        "../oldPackages/turf-interpolate/index.d.ts",
+        "../oldPackages/turf-intersect/index.d.ts",
+        "../oldPackages/turf-invariant/index.d.ts",
+        "../oldPackages/turf-isobands/index.d.ts",
+        "../oldPackages/turf-isolines/index.d.ts",
+        "../oldPackages/turf-kinks/index.d.ts",
+        "../oldPackages/turf-length/index.d.ts",
+        "../oldPackages/turf-line-arc/index.d.ts",
+        "../oldPackages/turf-line-chunk/index.d.ts",
+        "../oldPackages/turf-line-intersect/index.d.ts",
+        "../oldPackages/turf-line-offset/index.d.ts",
+        "../oldPackages/turf-line-overlap/index.d.ts",
+        "../oldPackages/turf-line-segment/index.d.ts",
+        "../oldPackages/turf-line-slice-along/index.d.ts",
+        "../oldPackages/turf-line-slice/index.d.ts",
+        "../oldPackages/turf-line-split/index.d.ts",
+        "../oldPackages/turf-line-to-polygon/index.d.ts",
+        "../oldPackages/turf-mask/index.d.ts",
+        "../oldPackages/turf-meta/index.d.ts",
+        "../oldPackages/turf-midpoint/index.d.ts",
+        "../oldPackages/turf-nearest-point-on-line/index.d.ts",
+        "../oldPackages/turf-nearest-point-to-line/index.d.ts",
+        "../oldPackages/turf-nearest-point/index.d.ts",
+        "../oldPackages/turf-planepoint/index.d.ts",
+        "../oldPackages/turf-point-grid/index.d.ts",
+        "../oldPackages/turf-point-on-feature/index.d.ts",
+        "../oldPackages/turf-point-to-line-distance/index.d.ts",
+        "../oldPackages/turf-points-within-polygon/index.d.ts",
+        "../oldPackages/turf-polygon-tangents/index.d.ts",
+        "../oldPackages/turf-polygon-to-line/index.d.ts",
+        "../oldPackages/turf-polygonize/index.d.ts",
+        "../oldPackages/turf-projection/index.d.ts",
+        "../oldPackages/turf-random/index.d.ts",
+        "../oldPackages/turf-rewind/index.d.ts",
+        "../oldPackages/turf-rhumb-bearing/index.d.ts",
+        "../oldPackages/turf-rhumb-destination/index.d.ts",
+        "../oldPackages/turf-rhumb-distance/index.d.ts",
+        "../oldPackages/turf-sample/index.d.ts",
+        "../oldPackages/turf-sector/index.d.ts",
+        "../oldPackages/turf-shortest-path/index.d.ts",
+        "../oldPackages/turf-simplify/index.d.ts",
+        "../oldPackages/turf-square-grid/index.d.ts",
+        "../oldPackages/turf-square/index.d.ts",
+        "../oldPackages/turf-standard-deviational-ellipse/index.d.ts",
+        "../oldPackages/turf-tag/index.d.ts",
+        "../oldPackages/turf-tesselate/index.d.ts",
+        "../oldPackages/turf-tin/index.d.ts",
+        "../oldPackages/turf-transform-rotate/index.d.ts",
+        "../oldPackages/turf-transform-scale/index.d.ts",
+        "../oldPackages/turf-transform-translate/index.d.ts",
+        "../oldPackages/turf-triangle-grid/index.d.ts",
+        "../oldPackages/turf-truncate/index.d.ts",
+        "../oldPackages/turf-union/index.d.ts",
+        "../oldPackages/turf-unkink-polygon/index.d.ts",
+        "../oldPackages/turf-voronoi/index.d.ts"
+      ],
+      "../packages/buffer/node_modules/@spatial/bbox/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../packages/buffer/node_modules/@spatial/center/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../packages/buffer/node_modules/@spatial/helpers/index.d.ts": [
+        "../oldPackages/turf-helpers/lib/geojson.d.ts"
+      ],
+      "../packages/buffer/node_modules/@spatial/meta/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../packages/buffer/node_modules/@spatial/projection/index.d.ts": [
+        "../oldPackages/turf-helpers/index.d.ts"
+      ],
+      "../packages/buffer/node_modules/@totalpave/math/lib/UnitUtils.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/Unit.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitType.d.ts"
+      ],
+      "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/Math.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/Unit.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitMode.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitType.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitUtils.d.ts"
+      ],
+      "../packages/buffer/src/api.ts": [
+        "../packages/buffer/src/buffer.ts"
+      ],
+      "../packages/buffer/src/buffer.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/constants/src/api.ts": [
+        "../packages/constants/src/Constants.ts"
+      ],
+      "../packages/geometry/src/ICoordinates.ts": [
+        "../packages/geometry/src/ICoordinate.ts"
+      ],
+      "../packages/geometry/src/api.ts": [
+        "../packages/geometry/src/IGeometryOptions.ts",
+        "../packages/geometry/src/geometry.ts"
+      ],
+      "../packages/geometry/src/geometry.ts": [
+        "../packages/geometry/src/ICoordinate.ts",
+        "../packages/geometry/src/ICoordinates.ts",
+        "../packages/geometry/src/IGeometryOptions.ts"
+      ],
+      "../packages/utils/lib/api.d.ts": [
+        "../packages/utils/lib/bearingToAzimuth.d.ts",
+        "../packages/utils/lib/convertArea.d.ts",
+        "../packages/utils/lib/convertLength.d.ts",
+        "../packages/utils/lib/degreesToRadians.d.ts",
+        "../packages/utils/lib/isNumber.d.ts",
+        "../packages/utils/lib/isObject.d.ts",
+        "../packages/utils/lib/lengthToDegrees.d.ts",
+        "../packages/utils/lib/lengthToRadians.d.ts",
+        "../packages/utils/lib/radiansToDegrees.d.ts",
+        "../packages/utils/lib/radiansToLength.d.ts",
+        "../packages/utils/lib/round.d.ts",
+        "../packages/utils/lib/validateId.d.ts"
+      ],
+      "../packages/utils/lib/convertArea.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/lib/convertLength.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/lib/lengthToDegrees.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/lib/lengthToRadians.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/lib/radiansToLength.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/node_modules/@totalpave/math/lib/api.d.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/Math.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/Unit.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitMode.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitType.d.ts",
+        "../packages/buffer/node_modules/@totalpave/math/lib/UnitUtils.d.ts"
+      ],
+      "../packages/utils/src/api.ts": [
+        "../packages/utils/src/bearingToAzimuth.ts",
+        "../packages/utils/src/convertArea.ts",
+        "../packages/utils/src/convertLength.ts",
+        "../packages/utils/src/degreesToRadians.ts",
+        "../packages/utils/src/isNumber.ts",
+        "../packages/utils/src/isObject.ts",
+        "../packages/utils/src/lengthToDegrees.ts",
+        "../packages/utils/src/lengthToRadians.ts",
+        "../packages/utils/src/radiansToDegrees.ts",
+        "../packages/utils/src/radiansToLength.ts",
+        "../packages/utils/src/round.ts",
+        "../packages/utils/src/validateBBox.ts",
+        "../packages/utils/src/validateId.ts"
+      ],
+      "../packages/utils/src/convertArea.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/src/convertLength.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/src/lengthToDegrees.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/src/lengthToRadians.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ],
+      "../packages/utils/src/radiansToLength.ts": [
+        "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../node_modules/@turf/helpers/index.d.ts",
+      "../node_modules/@turf/helpers/lib/geojson.d.ts",
+      "../node_modules/@types/eslint-visitor-keys/index.d.ts",
+      "../node_modules/@types/geojson/index.d.ts",
+      "../node_modules/@types/glob/index.d.ts",
+      "../node_modules/@types/json-schema/index.d.ts",
+      "../node_modules/@types/minimatch/index.d.ts",
+      "../node_modules/@types/minimist/index.d.ts",
+      "../node_modules/@types/node/assert.d.ts",
+      "../node_modules/@types/node/async_hooks.d.ts",
+      "../node_modules/@types/node/base.d.ts",
+      "../node_modules/@types/node/buffer.d.ts",
+      "../node_modules/@types/node/child_process.d.ts",
+      "../node_modules/@types/node/cluster.d.ts",
+      "../node_modules/@types/node/console.d.ts",
+      "../node_modules/@types/node/constants.d.ts",
+      "../node_modules/@types/node/crypto.d.ts",
+      "../node_modules/@types/node/dgram.d.ts",
+      "../node_modules/@types/node/dns.d.ts",
+      "../node_modules/@types/node/domain.d.ts",
+      "../node_modules/@types/node/events.d.ts",
+      "../node_modules/@types/node/fs.d.ts",
+      "../node_modules/@types/node/globals.d.ts",
+      "../node_modules/@types/node/globals.global.d.ts",
+      "../node_modules/@types/node/http.d.ts",
+      "../node_modules/@types/node/http2.d.ts",
+      "../node_modules/@types/node/https.d.ts",
+      "../node_modules/@types/node/index.d.ts",
+      "../node_modules/@types/node/inspector.d.ts",
+      "../node_modules/@types/node/module.d.ts",
+      "../node_modules/@types/node/net.d.ts",
+      "../node_modules/@types/node/os.d.ts",
+      "../node_modules/@types/node/path.d.ts",
+      "../node_modules/@types/node/perf_hooks.d.ts",
+      "../node_modules/@types/node/process.d.ts",
+      "../node_modules/@types/node/punycode.d.ts",
+      "../node_modules/@types/node/querystring.d.ts",
+      "../node_modules/@types/node/readline.d.ts",
+      "../node_modules/@types/node/repl.d.ts",
+      "../node_modules/@types/node/stream.d.ts",
+      "../node_modules/@types/node/string_decoder.d.ts",
+      "../node_modules/@types/node/timers.d.ts",
+      "../node_modules/@types/node/tls.d.ts",
+      "../node_modules/@types/node/trace_events.d.ts",
+      "../node_modules/@types/node/ts3.3/base.d.ts",
+      "../node_modules/@types/node/ts3.6/base.d.ts",
+      "../node_modules/@types/node/tty.d.ts",
+      "../node_modules/@types/node/url.d.ts",
+      "../node_modules/@types/node/util.d.ts",
+      "../node_modules/@types/node/v8.d.ts",
+      "../node_modules/@types/node/vm.d.ts",
+      "../node_modules/@types/node/wasi.d.ts",
+      "../node_modules/@types/node/worker_threads.d.ts",
+      "../node_modules/@types/node/zlib.d.ts",
+      "../node_modules/@types/normalize-package-data/index.d.ts",
+      "../node_modules/@types/tape/index.d.ts",
+      "../node_modules/@types/unist/index.d.ts",
+      "../node_modules/tslib/tslib.d.ts",
+      "../oldPackages/turf-along/index.d.ts",
+      "../oldPackages/turf-along/types.ts",
+      "../oldPackages/turf-area/index.d.ts",
+      "../oldPackages/turf-bbox-clip/index.d.ts",
+      "../oldPackages/turf-bbox-clip/types.ts",
+      "../oldPackages/turf-bbox-polygon/index.d.ts",
+      "../oldPackages/turf-bbox/index.d.ts",
+      "../oldPackages/turf-bearing/index.d.ts",
+      "../oldPackages/turf-bezier-spline/index.d.ts",
+      "../oldPackages/turf-boolean-clockwise/index.d.ts",
+      "../oldPackages/turf-boolean-clockwise/types.ts",
+      "../oldPackages/turf-boolean-contains/index.d.ts",
+      "../oldPackages/turf-boolean-crosses/index.d.ts",
+      "../oldPackages/turf-boolean-disjoint/index.d.ts",
+      "../oldPackages/turf-boolean-equal/index.d.ts",
+      "../oldPackages/turf-boolean-overlap/index.d.ts",
+      "../oldPackages/turf-boolean-parallel/index.d.ts",
+      "../oldPackages/turf-boolean-point-in-polygon/index.d.ts",
+      "../oldPackages/turf-boolean-point-in-polygon/types.ts",
+      "../oldPackages/turf-boolean-point-on-line/index.d.ts",
+      "../oldPackages/turf-boolean-within/index.d.ts",
+      "../oldPackages/turf-boolean-within/types.ts",
+      "../oldPackages/turf-buffer/index.d.ts",
+      "../oldPackages/turf-buffer/types.ts",
+      "../oldPackages/turf-center-mean/index.d.ts",
+      "../oldPackages/turf-center-mean/types.ts",
+      "../oldPackages/turf-center-median/index.d.ts",
+      "../oldPackages/turf-center-of-mass/index.d.ts",
+      "../oldPackages/turf-center-of-mass/types.ts",
+      "../oldPackages/turf-center/index.d.ts",
+      "../oldPackages/turf-center/types.ts",
+      "../oldPackages/turf-centroid/index.d.ts",
+      "../oldPackages/turf-centroid/types.ts",
+      "../oldPackages/turf-circle/index.d.ts",
+      "../oldPackages/turf-circle/types.ts",
+      "../oldPackages/turf-clean-coords/index.d.ts",
+      "../oldPackages/turf-clean-coords/types.ts",
+      "../oldPackages/turf-clone/index.d.ts",
+      "../oldPackages/turf-clone/types.ts",
+      "../oldPackages/turf-clusters-dbscan/index.d.ts",
+      "../oldPackages/turf-clusters-dbscan/types.ts",
+      "../oldPackages/turf-clusters-kmeans/index.d.ts",
+      "../oldPackages/turf-clusters-kmeans/types.ts",
+      "../oldPackages/turf-clusters/index.d.ts",
+      "../oldPackages/turf-clusters/types.ts",
+      "../oldPackages/turf-collect/index.d.ts",
+      "../oldPackages/turf-combine/index.d.ts",
+      "../oldPackages/turf-concave/index.d.ts",
+      "../oldPackages/turf-convex/index.d.ts",
+      "../oldPackages/turf-destination/index.d.ts",
+      "../oldPackages/turf-difference/index.d.ts",
+      "../oldPackages/turf-dissolve/index.d.ts",
+      "../oldPackages/turf-distance/index.d.ts",
+      "../oldPackages/turf-ellipse/index.d.ts",
+      "../oldPackages/turf-envelope/index.d.ts",
+      "../oldPackages/turf-explode/index.d.ts",
+      "../oldPackages/turf-flatten/index.d.ts",
+      "../oldPackages/turf-flatten/types.ts",
+      "../oldPackages/turf-flip/index.d.ts",
+      "../oldPackages/turf-flip/types.ts",
+      "../oldPackages/turf-great-circle/index.d.ts",
+      "../oldPackages/turf-great-circle/types.ts",
+      "../oldPackages/turf-helpers/index.d.ts",
+      "../oldPackages/turf-helpers/lib/geojson.d.ts",
+      "../oldPackages/turf-helpers/types.ts",
+      "../oldPackages/turf-hex-grid/index.d.ts",
+      "../oldPackages/turf-hex-grid/types.ts",
+      "../oldPackages/turf-interpolate/index.d.ts",
+      "../oldPackages/turf-interpolate/types.ts",
+      "../oldPackages/turf-intersect/index.d.ts",
+      "../oldPackages/turf-intersect/types.ts",
+      "../oldPackages/turf-invariant/index.d.ts",
+      "../oldPackages/turf-invariant/types.ts",
+      "../oldPackages/turf-isobands/index.d.ts",
+      "../oldPackages/turf-isolines/index.d.ts",
+      "../oldPackages/turf-isolines/types.ts",
+      "../oldPackages/turf-kinks/index.d.ts",
+      "../oldPackages/turf-kinks/types.ts",
+      "../oldPackages/turf-length/index.d.ts",
+      "../oldPackages/turf-length/types.ts",
+      "../oldPackages/turf-line-arc/index.d.ts",
+      "../oldPackages/turf-line-arc/types.ts",
+      "../oldPackages/turf-line-chunk/index.d.ts",
+      "../oldPackages/turf-line-chunk/types.ts",
+      "../oldPackages/turf-line-intersect/index.d.ts",
+      "../oldPackages/turf-line-intersect/types.ts",
+      "../oldPackages/turf-line-offset/index.d.ts",
+      "../oldPackages/turf-line-offset/types.ts",
+      "../oldPackages/turf-line-overlap/index.d.ts",
+      "../oldPackages/turf-line-overlap/types.ts",
+      "../oldPackages/turf-line-segment/index.d.ts",
+      "../oldPackages/turf-line-segment/types.ts",
+      "../oldPackages/turf-line-slice-along/index.d.ts",
+      "../oldPackages/turf-line-slice/index.d.ts",
+      "../oldPackages/turf-line-split/index.d.ts",
+      "../oldPackages/turf-line-to-polygon/index.d.ts",
+      "../oldPackages/turf-line-to-polygon/types.ts",
+      "../oldPackages/turf-mask/index.d.ts",
+      "../oldPackages/turf-mask/types.ts",
+      "../oldPackages/turf-meta/index.d.ts",
+      "../oldPackages/turf-meta/types.ts",
+      "../oldPackages/turf-midpoint/index.d.ts",
+      "../oldPackages/turf-nearest-point-on-line/index.d.ts",
+      "../oldPackages/turf-nearest-point-on-line/types.ts",
+      "../oldPackages/turf-nearest-point-to-line/index.d.ts",
+      "../oldPackages/turf-nearest-point-to-line/types.ts",
+      "../oldPackages/turf-nearest-point/index.d.ts",
+      "../oldPackages/turf-nearest-point/types.ts",
+      "../oldPackages/turf-planepoint/index.d.ts",
+      "../oldPackages/turf-planepoint/types.ts",
+      "../oldPackages/turf-point-grid/index.d.ts",
+      "../oldPackages/turf-point-grid/types.ts",
+      "../oldPackages/turf-point-on-feature/index.d.ts",
+      "../oldPackages/turf-point-to-line-distance/index.d.ts",
+      "../oldPackages/turf-point-to-line-distance/types.ts",
+      "../oldPackages/turf-points-within-polygon/index.d.ts",
+      "../oldPackages/turf-points-within-polygon/types.ts",
+      "../oldPackages/turf-polygon-smooth/index.d.ts",
+      "../oldPackages/turf-polygon-smooth/types.ts",
+      "../oldPackages/turf-polygon-tangents/index.d.ts",
+      "../oldPackages/turf-polygon-tangents/types.ts",
+      "../oldPackages/turf-polygon-to-line/index.d.ts",
+      "../oldPackages/turf-polygon-to-line/types.ts",
+      "../oldPackages/turf-polygonize/index.d.ts",
+      "../oldPackages/turf-polygonize/types.ts",
+      "../oldPackages/turf-projection/index.d.ts",
+      "../oldPackages/turf-projection/types.ts",
+      "../oldPackages/turf-random/index.d.ts",
+      "../oldPackages/turf-random/types.ts",
+      "../oldPackages/turf-rewind/index.d.ts",
+      "../oldPackages/turf-rewind/types.ts",
+      "../oldPackages/turf-rhumb-bearing/index.d.ts",
+      "../oldPackages/turf-rhumb-bearing/types.ts",
+      "../oldPackages/turf-rhumb-destination/index.d.ts",
+      "../oldPackages/turf-rhumb-destination/types.ts",
+      "../oldPackages/turf-rhumb-distance/index.d.ts",
+      "../oldPackages/turf-sample/index.d.ts",
+      "../oldPackages/turf-sector/index.d.ts",
+      "../oldPackages/turf-sector/types.ts",
+      "../oldPackages/turf-shortest-path/index.d.ts",
+      "../oldPackages/turf-shortest-path/types.ts",
+      "../oldPackages/turf-simplify/index.d.ts",
+      "../oldPackages/turf-simplify/types.ts",
+      "../oldPackages/turf-square-grid/index.d.ts",
+      "../oldPackages/turf-square-grid/types.ts",
+      "../oldPackages/turf-square/index.d.ts",
+      "../oldPackages/turf-standard-deviational-ellipse/index.d.ts",
+      "../oldPackages/turf-standard-deviational-ellipse/types.ts",
+      "../oldPackages/turf-tag/index.d.ts",
+      "../oldPackages/turf-tesselate/index.d.ts",
+      "../oldPackages/turf-tin/index.d.ts",
+      "../oldPackages/turf-tin/types.ts",
+      "../oldPackages/turf-transform-rotate/index.d.ts",
+      "../oldPackages/turf-transform-rotate/types.ts",
+      "../oldPackages/turf-transform-scale/index.d.ts",
+      "../oldPackages/turf-transform-scale/types.ts",
+      "../oldPackages/turf-transform-translate/index.d.ts",
+      "../oldPackages/turf-transform-translate/types.ts",
+      "../oldPackages/turf-triangle-grid/index.d.ts",
+      "../oldPackages/turf-triangle-grid/types.ts",
+      "../oldPackages/turf-truncate/index.d.ts",
+      "../oldPackages/turf-truncate/types.ts",
+      "../oldPackages/turf-union/index.d.ts",
+      "../oldPackages/turf-union/types.ts",
+      "../oldPackages/turf-unkink-polygon/index.d.ts",
+      "../oldPackages/turf-unkink-polygon/types.ts",
+      "../oldPackages/turf-voronoi/index.d.ts",
+      "../oldPackages/turf/index.d.ts",
+      "../oldPackages/turf/types.ts",
+      "../packages/buffer/node_modules/@spatial/bbox/index.d.ts",
+      "../packages/buffer/node_modules/@spatial/center/index.d.ts",
+      "../packages/buffer/node_modules/@spatial/helpers/index.d.ts",
+      "../packages/buffer/node_modules/@spatial/meta/index.d.ts",
+      "../packages/buffer/node_modules/@spatial/projection/index.d.ts",
+      "../packages/buffer/node_modules/@totalpave/math/lib/Math.d.ts",
+      "../packages/buffer/node_modules/@totalpave/math/lib/Unit.d.ts",
+      "../packages/buffer/node_modules/@totalpave/math/lib/UnitMode.d.ts",
+      "../packages/buffer/node_modules/@totalpave/math/lib/UnitType.d.ts",
+      "../packages/buffer/node_modules/@totalpave/math/lib/UnitUtils.d.ts",
+      "../packages/buffer/node_modules/@totalpave/math/lib/api.d.ts",
+      "../packages/buffer/node_modules/tslib/tslib.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.dom.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2016.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.es5.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../packages/buffer/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../packages/buffer/src/api.ts",
+      [
+        "../packages/buffer/src/buffer.ts",
+        [
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 170,
+            "length": 11,
+            "code": 7016,
+            "category": 1,
+            "messageText": {
+              "messageText": "Could not find a declaration file for module 'turf-jsts'. '/home/totalpave/spatial/packages/buffer/node_modules/turf-jsts/jsts.js' implicitly has an 'any' type.",
+              "category": 1,
+              "code": 7016,
+              "next": [
+                {
+                  "messageText": "Try `npm i --save-dev @types/turf-jsts` if it exists or add a new declaration (.d.ts) file containing `declare module 'turf-jsts';`",
+                  "category": 1,
+                  "code": 7035
+                }
+              ]
+            }
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 335,
+            "length": 8,
+            "code": 7016,
+            "category": 1,
+            "messageText": {
+              "messageText": "Could not find a declaration file for module 'd3-geo'. '/home/totalpave/spatial/packages/buffer/node_modules/d3-geo/build/d3-geo.js' implicitly has an 'any' type.",
+              "category": 1,
+              "code": 7016,
+              "next": [
+                {
+                  "messageText": "Try `npm i --save-dev @types/d3-geo` if it exists or add a new declaration (.d.ts) file containing `declare module 'd3-geo';`",
+                  "category": 1,
+                  "code": 7035
+                }
+              ]
+            }
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 1655,
+            "length": 7,
+            "messageText": "Parameter 'geojson' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 1680,
+            "length": 7,
+            "messageText": "Parameter 'options' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 2367,
+            "length": 7,
+            "messageText": "Variable 'results' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+            "category": 1,
+            "code": 7034
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 2659,
+            "length": 7,
+            "messageText": "Variable 'results' implicitly has an 'any[]' type.",
+            "category": 1,
+            "code": 7005
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 3064,
+            "length": 7,
+            "messageText": "Variable 'results' implicitly has an 'any[]' type.",
+            "category": 1,
+            "code": 7005
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 3518,
+            "length": 7,
+            "messageText": "Parameter 'geojson' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 3527,
+            "length": 6,
+            "messageText": "Parameter 'radius' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 3535,
+            "length": 5,
+            "messageText": "Parameter 'units' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 3542,
+            "length": 5,
+            "messageText": "Parameter 'steps' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 3784,
+            "length": 7,
+            "messageText": "Variable 'results' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+            "category": 1,
+            "code": 7034
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 4017,
+            "length": 7,
+            "messageText": "Variable 'results' implicitly has an 'any[]' type.",
+            "category": 1,
+            "code": 7005
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 5427,
+            "length": 11,
+            "messageText": "'coordsIsNaN' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+            "category": 1,
+            "code": 7023
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 5439,
+            "length": 6,
+            "messageText": "Parameter 'coords' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 5766,
+            "length": 6,
+            "messageText": "Parameter 'coords' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 5774,
+            "length": 4,
+            "messageText": "Parameter 'proj' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 5874,
+            "length": 5,
+            "messageText": "Parameter 'coord' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 6156,
+            "length": 6,
+            "messageText": "Parameter 'coords' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 6164,
+            "length": 4,
+            "messageText": "Parameter 'proj' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 6271,
+            "length": 5,
+            "messageText": "Parameter 'coord' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/buffer/src/buffer.ts",
+            "start": 6559,
+            "length": 7,
+            "messageText": "Parameter 'geojson' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          }
+        ]
+      ],
+      "../packages/constants/src/Constants.ts",
+      "../packages/constants/src/api.ts",
+      [
+        "../packages/feature/src/feature.ts",
+        [
+          {
+            "file": "../packages/feature/src/feature.ts",
+            "start": 687,
+            "length": 8,
+            "messageText": "Parameter 'geometry' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/feature/src/feature.ts",
+            "start": 697,
+            "length": 10,
+            "messageText": "Parameter 'properties' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/feature/src/feature.ts",
+            "start": 709,
+            "length": 7,
+            "messageText": "Parameter 'options' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "../packages/feature/src/feature.ts",
+            "start": 785,
+            "length": 8,
+            "messageText": "Cannot find name 'isObject'. Did you mean 'Object'?",
+            "category": 1,
+            "code": 2552,
+            "relatedInformation": [
+              {
+                "file": "../packages/buffer/node_modules/typescript/lib/lib.es5.d.ts",
+                "start": 9788,
+                "length": 6,
+                "messageText": "'Object' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          },
+          {
+            "file": "../packages/feature/src/feature.ts",
+            "start": 1113,
+            "length": 12,
+            "messageText": "Cannot find name 'validateBBox'.",
+            "category": 1,
+            "code": 2304
+          },
+          {
+            "file": "../packages/feature/src/feature.ts",
+            "start": 1145,
+            "length": 10,
+            "messageText": "Cannot find name 'validateId'.",
+            "category": 1,
+            "code": 2304
+          },
+          {
+            "file": "../packages/feature/src/feature.ts",
+            "start": 1227,
+            "length": 2,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'id' does not exist on type '{ type: string; }'."
+          },
+          {
+            "file": "../packages/feature/src/feature.ts",
+            "start": 1255,
+            "length": 4,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'bbox' does not exist on type '{ type: string; }'."
+          },
+          {
+            "file": "../packages/feature/src/feature.ts",
+            "start": 1277,
+            "length": 10,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'properties' does not exist on type '{ type: string; }'."
+          },
+          {
+            "file": "../packages/feature/src/feature.ts",
+            "start": 1317,
+            "length": 8,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'geometry' does not exist on type '{ type: string; }'."
+          }
+        ]
+      ],
+      "../packages/geometry/node_modules/tslib/tslib.d.ts",
+      "../packages/geometry/src/ICoordinate.ts",
+      "../packages/geometry/src/ICoordinates.ts",
+      "../packages/geometry/src/IGeometryOptions.ts",
+      "../packages/geometry/src/api.ts",
+      [
+        "../packages/geometry/src/geometry.ts",
+        [
+          {
+            "file": "../packages/geometry/src/geometry.ts",
+            "start": 173,
+            "length": 12,
+            "messageText": "Module '\"../node_modules/@spatial/utils/lib/api\"' has no exported member 'validateBBox'.",
+            "category": 1,
+            "code": 2305
+          },
+          {
+            "file": "../packages/geometry/src/geometry.ts",
+            "start": 1456,
+            "length": 5,
+            "messageText": "Cannot find name 'point'. Did you mean 'print'?",
+            "category": 1,
+            "code": 2552,
+            "relatedInformation": [
+              {
+                "file": "../packages/buffer/node_modules/typescript/lib/lib.dom.d.ts",
+                "start": 808477,
+                "length": 5,
+                "messageText": "'print' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          },
+          {
+            "file": "../packages/geometry/src/geometry.ts",
+            "start": 1522,
+            "length": 10,
+            "messageText": "Cannot find name 'lineString'.",
+            "category": 1,
+            "code": 2304
+          },
+          {
+            "file": "../packages/geometry/src/geometry.ts",
+            "start": 1590,
+            "length": 7,
+            "messageText": "Cannot find name 'polygon'.",
+            "category": 1,
+            "code": 2304
+          },
+          {
+            "file": "../packages/geometry/src/geometry.ts",
+            "start": 1658,
+            "length": 10,
+            "messageText": "Cannot find name 'multiPoint'.",
+            "category": 1,
+            "code": 2304
+          },
+          {
+            "file": "../packages/geometry/src/geometry.ts",
+            "start": 1734,
+            "length": 15,
+            "messageText": "Cannot find name 'multiLineString'.",
+            "category": 1,
+            "code": 2304
+          },
+          {
+            "file": "../packages/geometry/src/geometry.ts",
+            "start": 1812,
+            "length": 12,
+            "messageText": "Cannot find name 'multiPolygon'.",
+            "category": 1,
+            "code": 2304
+          }
+        ]
+      ],
+      "../packages/utils/lib/api.d.ts",
+      "../packages/utils/lib/bearingToAzimuth.d.ts",
+      "../packages/utils/lib/convertArea.d.ts",
+      "../packages/utils/lib/convertLength.d.ts",
+      "../packages/utils/lib/degreesToRadians.d.ts",
+      "../packages/utils/lib/isNumber.d.ts",
+      "../packages/utils/lib/isObject.d.ts",
+      "../packages/utils/lib/lengthToDegrees.d.ts",
+      "../packages/utils/lib/lengthToRadians.d.ts",
+      "../packages/utils/lib/radiansToDegrees.d.ts",
+      "../packages/utils/lib/radiansToLength.d.ts",
+      "../packages/utils/lib/round.d.ts",
+      "../packages/utils/lib/validateId.d.ts",
+      "../packages/utils/node_modules/@totalpave/math/lib/api.d.ts",
+      "../packages/utils/node_modules/tslib/tslib.d.ts",
+      "../packages/utils/src/api.ts",
+      "../packages/utils/src/bearingToAzimuth.ts",
+      "../packages/utils/src/convertArea.ts",
+      "../packages/utils/src/convertLength.ts",
+      "../packages/utils/src/degreesToRadians.ts",
+      "../packages/utils/src/isNumber.ts",
+      "../packages/utils/src/isObject.ts",
+      "../packages/utils/src/lengthToDegrees.ts",
+      "../packages/utils/src/lengthToRadians.ts",
+      "../packages/utils/src/radiansToDegrees.ts",
+      "../packages/utils/src/radiansToLength.ts",
+      "../packages/utils/src/round.ts",
+      "../packages/utils/src/validateBBox.ts",
+      "../packages/utils/src/validateId.ts"
+    ]
+  },
+  "version": "4.1.2"
+}

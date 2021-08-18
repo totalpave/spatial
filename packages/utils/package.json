@@ -1,0 +1,46 @@
+{
+  "name": "@spatial/utils",
+  "version": "2.0.4",
+  "description": "turf utils module",
+  "main": "lib/api.js",
+  "types": "lib/api.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "pretest": "rollup -c ../../rollup.config.js",
+    "test": "node -r esm test.js",
+    "posttest": "node -r esm ../../scripts/validate-es5-dependencies.js",
+    "bench": "node -r esm bench.js",
+    "docs": "node ../../scripts/generate-readmes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/totalpave/spatial.git"
+  },
+  "keywords": [
+    "buffer",
+    "offset",
+    "polygon",
+    "linestring",
+    "point",
+    "geojson",
+    "turf"
+  ],
+  "author": "norman.breau@totalpave.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/totalpave/spatial/issues"
+  },
+  "homepage": "https://totalpave.com",
+  "devDependencies": {
+    "benchmark": "*",
+    "typedoc": "0.19.2",
+    "typescript": "4.1.2"
+  },
+  "dependencies": {
+    "@spatial/constants": "^2.0.4",
+    "@totalpave/math": "1.0.1"
+  }
+}

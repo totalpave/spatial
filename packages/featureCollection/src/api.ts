@@ -1,0 +1,2 @@
+
+export {featureCollection} from './featureCollection';
